@@ -1,0 +1,544 @@
+{
+  "cases": [
+    {
+      "id": "Y01",
+      "difficulty": "complex",
+      "question": "List the normal FYP-I registration requirements and the exceptions for one or two missing courses.",
+      "expected_behavior": "answer",
+      "expected_answer": "Normal all study-plan courses and warning count0; second-last semester/ability graduate following; HoD can allow1deficiency Director2; FYP-II after successfulFYP-I.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "4.11"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                21
+              ],
+              "anchors": [
+                "zero",
+                "one course",
+                "two courses"
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex compared actualAcademic11\u201313formula/repetition and20\u201321FYP passages before execution;12newholdouts after recordedP_A04citation andP_A09completeness failures.",
+      "provenance": "Existing development regression; prior results are historical, not a new release run.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "academic PDF 20: Registration, warning restrictions, theory/lab, FYP, suspension, semester freezing and course changes",
+        "academic PDF 21: Registration, warning restrictions, theory/lab, FYP, suspension, semester freezing and course changes"
+      ],
+      "original_case_id": "A09",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "Y02",
+      "difficulty": "complex",
+      "question": "For FYP I, explain normal prerequisites including warning count and when registration happens.",
+      "expected_behavior": "answer",
+      "expected_answer": "Normal all study-plan courses and warning count0; second-last semester/ability graduate following; HoD can allow1deficiency Director2; FYP-II after successfulFYP-I.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "4.11"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                21
+              ],
+              "anchors": [
+                "zero",
+                "one course",
+                "two courses"
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex compared actualAcademic11\u201313formula/repetition and20\u201321FYP passages before execution;12newholdouts after recordedP_A04citation andP_A09completeness failures.",
+      "provenance": "Existing development regression; prior results are historical, not a new release run.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "academic PDF 20: Registration, warning restrictions, theory/lab, FYP, suspension, semester freezing and course changes",
+        "academic PDF 21: Registration, warning restrictions, theory/lab, FYP, suspension, semester freezing and course changes"
+      ],
+      "original_case_id": "A09",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "Y03",
+      "difficulty": "complex",
+      "question": "Explain FYP-I eligibility, the following-semester graduation condition, and who can allow a deficiency.",
+      "expected_behavior": "answer",
+      "expected_answer": "Normal all study-plan courses and warning count0; second-last semester/ability graduate following; HoD can allow1deficiency Director2; FYP-II after successfulFYP-I.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "4.11"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                21
+              ],
+              "anchors": [
+                "zero",
+                "one course",
+                "two courses"
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex compared actualAcademic11\u201313formula/repetition and20\u201321FYP passages before execution;12newholdouts after recordedP_A04citation andP_A09completeness failures.",
+      "provenance": "Existing development regression; prior results are historical, not a new release run.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "academic PDF 20: Registration, warning restrictions, theory/lab, FYP, suspension, semester freezing and course changes",
+        "academic PDF 21: Registration, warning restrictions, theory/lab, FYP, suspension, semester freezing and course changes"
+      ],
+      "original_case_id": "A09",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "Y04",
+      "difficulty": "complex",
+      "question": "Give all normal FYP-I requirements before the HoD or Director considers course deficiencies.",
+      "expected_behavior": "answer",
+      "expected_answer": "Normal all study-plan courses and warning count0; second-last semester/ability graduate following; HoD can allow1deficiency Director2; FYP-II after successfulFYP-I.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "4.11"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                21
+              ],
+              "anchors": [
+                "zero",
+                "one course",
+                "two courses"
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex compared actualAcademic11\u201313formula/repetition and20\u201321FYP passages before execution;12newholdouts after recordedP_A04citation andP_A09completeness failures.",
+      "provenance": "Existing development regression; prior results are historical, not a new release run.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "academic PDF 20: Registration, warning restrictions, theory/lab, FYP, suspension, semester freezing and course changes",
+        "academic PDF 21: Registration, warning restrictions, theory/lab, FYP, suspension, semester freezing and course changes"
+      ],
+      "original_case_id": "A09",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "Y05",
+      "difficulty": "complex",
+      "question": "Does normal FYP-I eligibility require completing study-plan courses and ability to graduate next semester?",
+      "expected_behavior": "answer",
+      "expected_answer": "Normal all study-plan courses and warning count0; second-last semester/ability graduate following; HoD can allow1deficiency Director2; FYP-II after successfulFYP-I.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "4.11"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                21
+              ],
+              "anchors": [
+                "zero",
+                "one course",
+                "two courses"
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex compared actualAcademic11\u201313formula/repetition and20\u201321FYP passages before execution;12newholdouts after recordedP_A04citation andP_A09completeness failures.",
+      "provenance": "Existing development regression; prior results are historical, not a new release run.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "academic PDF 20: Registration, warning restrictions, theory/lab, FYP, suspension, semester freezing and course changes",
+        "academic PDF 21: Registration, warning restrictions, theory/lab, FYP, suspension, semester freezing and course changes"
+      ],
+      "original_case_id": "A09",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "Y06",
+      "difficulty": "complex",
+      "question": "Who may allow one deficient course for FYP-I when the warning count is zero?",
+      "expected_behavior": "answer",
+      "expected_answer": "HoDcanallowone deficiency; zero-warning required; discretionary notautomatic, no officialapprovalissued.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                21
+              ],
+              "anchors": [
+                "warning count must be zero",
+                "one course"
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex compared actualAcademic11\u201313formula/repetition and20\u201321FYP passages before execution;12newholdouts after recordedP_A04citation andP_A09completeness failures.",
+      "provenance": "Existing development regression; prior results are historical, not a new release run.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "academic PDF 20: Registration, warning restrictions, theory/lab, FYP, suspension, semester freezing and course changes",
+        "academic PDF 21: Registration, warning restrictions, theory/lab, FYP, suspension, semester freezing and course changes"
+      ],
+      "original_case_id": "A09",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "Y07",
+      "difficulty": "intermediate",
+      "question": "Explain how SGPA weights credits and how repeated courses count toward CGPA.",
+      "expected_behavior": "answer",
+      "expected_answer": "Credit-weighted grade points over attempted credits; CGPA uses most recent grade even if lower, not highest.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                12
+              ],
+              "anchors": [
+                "P1*C1"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                13
+              ],
+              "anchors": [
+                "most recent"
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex compared actualAcademic11\u201313formula/repetition and20\u201321FYP passages before execution;12newholdouts after recordedP_A04citation andP_A09completeness failures.",
+      "provenance": "Existing development regression; prior results are historical, not a new release run.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "academic PDF 12: Grading and GPA calculations",
+        "academic PDF 13: Grading and GPA calculations"
+      ],
+      "original_case_id": "A04",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "Y08",
+      "difficulty": "intermediate",
+      "question": "Does CGPA use the highest repeated-course grade? Also explain the semester GPA formula.",
+      "expected_behavior": "answer",
+      "expected_answer": "Credit-weighted grade points over attempted credits; CGPA uses most recent grade even if lower, not highest.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                12
+              ],
+              "anchors": [
+                "P1*C1"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                13
+              ],
+              "anchors": [
+                "most recent"
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex compared actualAcademic11\u201313formula/repetition and20\u201321FYP passages before execution;12newholdouts after recordedP_A04citation andP_A09completeness failures.",
+      "provenance": "Existing development regression; prior results are historical, not a new release run.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "academic PDF 12: Grading and GPA calculations",
+        "academic PDF 13: Grading and GPA calculations"
+      ],
+      "original_case_id": "A04",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "Y09",
+      "difficulty": "intermediate",
+      "question": "Describe SGPA calculation and whether the newest repeated-course result counts even if lower.",
+      "expected_behavior": "answer",
+      "expected_answer": "Credit-weighted grade points over attempted credits; CGPA uses most recent grade even if lower, not highest.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                12
+              ],
+              "anchors": [
+                "P1*C1"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                13
+              ],
+              "anchors": [
+                "most recent"
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex compared actualAcademic11\u201313formula/repetition and20\u201321FYP passages before execution;12newholdouts after recordedP_A04citation andP_A09completeness failures.",
+      "provenance": "Existing development regression; prior results are historical, not a new release run.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "academic PDF 12: Grading and GPA calculations",
+        "academic PDF 13: Grading and GPA calculations"
+      ],
+      "original_case_id": "A04",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "Y10",
+      "difficulty": "intermediate",
+      "question": "State the documented SGPA formula, its variables, and the repeat-course CGPA rule.",
+      "expected_behavior": "answer",
+      "expected_answer": "Credit-weighted grade points over attempted credits; CGPA uses most recent grade even if lower, not highest.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                12
+              ],
+              "anchors": [
+                "P1*C1"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                13
+              ],
+              "anchors": [
+                "most recent"
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex compared actualAcademic11\u201313formula/repetition and20\u201321FYP passages before execution;12newholdouts after recordedP_A04citation andP_A09completeness failures.",
+      "provenance": "Existing development regression; prior results are historical, not a new release run.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "academic PDF 12: Grading and GPA calculations",
+        "academic PDF 13: Grading and GPA calculations"
+      ],
+      "original_case_id": "A04",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "Y11",
+      "difficulty": "intermediate",
+      "question": "For SGPA, do course credits weight grade points, and for CGPA do repeats use the most recent attempt?",
+      "expected_behavior": "answer",
+      "expected_answer": "Credit-weighted grade points over attempted credits; CGPA uses most recent grade even if lower, not highest.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                12
+              ],
+              "anchors": [
+                "P1*C1"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                13
+              ],
+              "anchors": [
+                "most recent"
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex compared actualAcademic11\u201313formula/repetition and20\u201321FYP passages before execution;12newholdouts after recordedP_A04citation andP_A09completeness failures.",
+      "provenance": "Existing development regression; prior results are historical, not a new release run.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "academic PDF 12: Grading and GPA calculations",
+        "academic PDF 13: Grading and GPA calculations"
+      ],
+      "original_case_id": "A04",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "Y12",
+      "difficulty": "intermediate",
+      "question": "Explain the difference between the semester weighted GPA calculation and the treatment of a repeated course in CGPA.",
+      "expected_behavior": "answer",
+      "expected_answer": "Credit-weighted grade points over attempted credits; CGPA uses most recent grade even if lower, not highest.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                12
+              ],
+              "anchors": [
+                "P1*C1"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                13
+              ],
+              "anchors": [
+                "most recent"
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex compared actualAcademic11\u201313formula/repetition and20\u201321FYP passages before execution;12newholdouts after recordedP_A04citation andP_A09completeness failures.",
+      "provenance": "Existing development regression; prior results are historical, not a new release run.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "academic PDF 12: Grading and GPA calculations",
+        "academic PDF 13: Grading and GPA calculations"
+      ],
+      "original_case_id": "A04",
+      "original_suite": "publication187"
+    }
+  ],
+  "frozen_before_execution": true,
+  "authoring_note": "Beforefirstexecution,Y06narrowpermissioncasefacetlimitedtoactual21ratherthanunrequestedbroadnormal20clause."
+}
