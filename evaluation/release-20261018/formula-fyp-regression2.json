@@ -1,0 +1,96 @@
+{
+  "cases": [
+    {
+      "id": "P_A04",
+      "difficulty": "intermediate",
+      "question": "Explain SGPA calculation and how a repeated course affects CGPA.",
+      "expected_behavior": "answer",
+      "expected_answer": "Credit-weighted grade points over attempted credits; CGPA uses most recent grade even if lower, not highest.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                12
+              ],
+              "anchors": [
+                "P1*C1"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                13
+              ],
+              "anchors": [
+                "most recent"
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Existing development regression; prior results are historical, not a new release run.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "academic PDF 12: Grading and GPA calculations",
+        "academic PDF 13: Grading and GPA calculations"
+      ],
+      "original_case_id": "A04",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "P_A09",
+      "difficulty": "complex",
+      "question": "For FYP-I, what are the normal requirements and who can allow a deficiency of one or two courses?",
+      "expected_behavior": "answer",
+      "expected_answer": "Normal all study-plan courses and warning count0; second-last semester/ability graduate following; HoD can allow1deficiency Director2; FYP-II after successfulFYP-I.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "4.11"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                21
+              ],
+              "anchors": [
+                "zero",
+                "one course",
+                "two courses"
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Existing development regression; prior results are historical, not a new release run.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "academic PDF 20: Registration, warning restrictions, theory/lab, FYP, suspension, semester freezing and course changes",
+        "academic PDF 21: Registration, warning restrictions, theory/lab, FYP, suspension, semester freezing and course changes"
+      ],
+      "original_case_id": "A09",
+      "original_suite": "publication187"
+    }
+  ]
+}
