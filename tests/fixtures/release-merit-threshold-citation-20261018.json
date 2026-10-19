@@ -1,0 +1,252 @@
+{
+  "id": "MCT04",
+  "question": "Is keeping a semester GPA of3.00 the only rule for continuing a merit scholarship?",
+  "difficulty": "complex",
+  "expected_behavior": "answer",
+  "expected_answer": "Merit semesterGPA>=3.00; standard exact-load uninterrupted4years with nofailed/repeat/withdrawn; internal sponsorship regularsemesters/max8/tuitiononly/noRepeatW; CGPAbelow2 warning threshold suspends and restoration on recovery, no personal guarantee. Match requested narrow parts; final case additionally actualFAcontact cfd.fa@nu.edu.pk/128.",
+  "answer": "Maintaining a semester GPA of 3.0 or higher is not the only rule for continuing a merit scholarship; the scholarship is also for four years of uninterrupted studies with standard courses (core and elective), labs, and final year projects offered by the department to a batch with a specified number of total credit hours, and registering for fewer or more credit hours than the total specified number makes a student ineligible [S1]. Additionally, a student must not have failed, repeated, or withdrawn from a course in that semester [S1].\n\n**Related conditions and exceptions from the retrieved sources:**\n\n> Internal sponsorships are available for studying in regular semesters (spring and Fall). Following is the maximum number of semesters for which it can be availed. \u2022 Bachelors 8 semesters It shall not be available for repeat or withdrawn course. This implies that it is available for studying a course only once. It is suspended if the student\u2019s CGPA falls below the minimum specified to avoid warning and shall be restored upon getting out of warning by improvement in CGPA. It shall be limited to tuition fee only. [S3]\n\n> Minimum CGPA required to avoid aca demic warning is 2. 00 for all undergraduate programs. [S2]",
+  "citations": [
+    {
+      "id": "S1",
+      "chunk_id": "9a174529e549b9b7847c1dc55b819791fb5b66bd2e50a98b77fe16fee7a85061",
+      "references": [
+        {
+          "id": "handbook",
+          "filename": "Student_Handbook_2026.pdf",
+          "title": "Student Handbook 2026",
+          "url": "",
+          "publication_date": "2026-06",
+          "collection_date": "",
+          "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+          "section": "Financial rules and undergraduate assistance",
+          "pdf_page": 19,
+          "pdf_page_index": 18,
+          "printed_label": "11",
+          "campus": "all",
+          "degree": "undergraduate"
+        }
+      ],
+      "excerpt": "Students\u2019 Services \nThe University may utilize the services of its senior students in \ndifferent activities of the University. Such students are paid for \nrendering their services. Preference is normally given to indigent \nstudents. \nFinancial Assistance/Scholarships \nInternal Scholarships \nMerit Scholarship for Bachelor students \nMerit scholarship is awarded to the Top Three position holders of \neach Examination Board in the year of admission. \nMerit Scholarship is also offered to Top Three position holders in \nthe merit list of NU admission merit list of each campus. \nThe University awards certificates and cash prizes to those \nundergraduate students, who are the Top Three in their \ndepartment. Students are selected fro m each of the four years \nof every degree program. \nThis scholarship is for four years of un -interrupted studies with \nstandard courses (core and elective), labs and final year projects \nof the degree offered by the department in a semester to a batch \nwith a specified number of total credit hours and is equal to the \nfull tuition fee. \nA student registering for less or more credit hours than the total \nspecified number of credit hours shall not be eligible for Merit \nScholarship. Student must not have failed, repeated or \nwithdrawn from a course in that semester \nIf there are more than one student in the same position, the next \nposition will automatically be vanished or moved down \ndepending on the number of students in one position."
+    },
+    {
+      "id": "S2",
+      "chunk_id": "e25b53dd5bac0b72c259223c2e7f2412a1415d20f6acf688ff1d8337627cfcfb",
+      "references": [
+        {
+          "id": "academic",
+          "filename": "Academic_Rules_Handbook_2026.pdf",
+          "title": "Undergraduate Academic Rules and Regulations 2026",
+          "url": "",
+          "publication_date": "2026-06",
+          "collection_date": "",
+          "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+          "section": "Academic assessment, warnings, repetition, missed exams and rechecking",
+          "pdf_page": 24,
+          "pdf_page_index": 23,
+          "printed_label": "18",
+          "campus": "all",
+          "degree": "undergraduate"
+        }
+      ],
+      "excerpt": "5. Academic Assessment \n5.1 The performance of students is assessed during the semester \nthrough midterm exams, assignments, quizzes, case studies or \nany other method conside red appropriate by the course \ninstructor and the  University and communicated to the  \nstudents at the start of a course. \n5.2 The semester work will normally contribute 50% towards the \nfinal gr ade, while the fin al e xamination will contribute the \nremaining 50% of the  total marks. A  letter grade will be \nawarded to each student based on his/her overall academic \nperformance in a course. \n5.3 Any deviation f rom Rule 5.2 above if n ecessitated by the \nnature of course will be made with the approval of Dean of the \nFaculty. \nAcademic Warning/Probation \n5.4 Minimum CGPA required to avoid aca demic warning is 2. 00 \nfor all undergraduate programs. \n5.5 If at the end of a semester (including summer semester) CGPA \ndrops b elow 2.00, w arning is issued, and warning count is \nincremented by one. \n5.6 If CGPA remains b elow 2.00 for 3 c onsecutive semesters, \nwarning count becomes three and the admission of student at \nthe University is automatically closed."
+    },
+    {
+      "id": "S3",
+      "chunk_id": "4def6caa1d1c7b6f5799c251d22609e410454da6b546ea9863ddb97c52fff9c7",
+      "references": [
+        {
+          "id": "handbook",
+          "filename": "Student_Handbook_2026.pdf",
+          "title": "Student Handbook 2026",
+          "url": "",
+          "publication_date": "2026-06",
+          "collection_date": "",
+          "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+          "section": "Financial rules and undergraduate assistance",
+          "pdf_page": 20,
+          "pdf_page_index": 19,
+          "printed_label": "12",
+          "campus": "all",
+          "degree": "undergraduate"
+        }
+      ],
+      "excerpt": "Continuation of merit scholar ship is subject to maintaining \nsemester GPA of 3.0 or higher. \nStudy Loan \nRealizing that fees may not be affordable for some of the \nstudents, FAST-NUCES arranges financial assistance in the form \nof interest-free study loans for bright indigent students. \nRules for Internal Scholarships \nInternal sponsorships are available for studying in regular \nsemesters (spring and Fall). Following is the maximum number of \nsemesters for which it can be availed. \n\u2022 Bachelors 8 semesters \nIt shall not be available for repeat or withdrawn course. This \nimplies that it is available for studying a course only once. \nIt is suspended if the student\u2019s CGPA falls below the minimum \nspecified to avoid warning and shall be restored upon getting out \nof warning by improvement in CGPA. \nIt shall be limited to tuition fee only. \n\nExternal Scholarships\n \nSindh Government Endowment Board Scholarships  \nThis is offered on need-cum-merit to rural and urban students in \nboth Undergraduate and Graduate level for all disciplines."
+    }
+  ],
+  "trace": {
+    "route": "document_rag",
+    "question": "Is keeping a semester GPA of3.00 the only rule for continuing a merit scholarship?",
+    "search_question": "Is keeping a semester GPA of3.00 the only rule for continuing a merit scholarship?",
+    "interpretation_override": null,
+    "requested_facets": [],
+    "evidence_facets": {},
+    "retrieval_queries": [
+      "Is keeping a semester GPA of3.00 the only rule for continuing a merit scholarship?",
+      "Merit scholarship eligibility: four years of uninterrupted studies with standard courses, labs and final year projects, exact prescribed credit hours, no failed repeated or withdrawn courses.",
+      "Academic Warning Probation rule 5.4 Minimum CGPA required to avoid academic warning 2.00 all undergraduate programs."
+    ],
+    "interpretation": {
+      "question": "Is keeping a semester GPA of3.00 the only rule for continuing a merit scholarship?",
+      "unresolved": false
+    },
+    "retrieval_history_context": "",
+    "transport_failures": [],
+    "history_tokens_estimated": 0,
+    "history_context": "",
+    "raw_answer": "Maintaining a semester GPA of 3.0 or higher is not the only rule for continuing a merit scholarship; the scholarship is also for four years of uninterrupted studies with standard courses (core and elective), labs, and final year projects offered by the department to a batch with a specified number of total credit hours, and registering for fewer or more credit hours than the total specified number makes a student ineligible [S1]. Additionally, a student must not have failed, repeated, or withdrawn from a course in that semester [S1].",
+    "retrieved": [
+      {
+        "chunk_id": "9a174529e549b9b7847c1dc55b819791fb5b66bd2e50a98b77fe16fee7a85061",
+        "references": [
+          {
+            "id": "handbook",
+            "filename": "Student_Handbook_2026.pdf",
+            "title": "Student Handbook 2026",
+            "url": "",
+            "publication_date": "2026-06",
+            "collection_date": "",
+            "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+            "section": "Financial rules and undergraduate assistance",
+            "pdf_page": 19,
+            "pdf_page_index": 18,
+            "printed_label": "11",
+            "campus": "all",
+            "degree": "undergraduate"
+          }
+        ],
+        "passage": "Students\u2019 Services \nThe University may utilize the services of its senior students in \ndifferent activities of the University. Such students are paid for \nrendering their services. Preference is normally given to indigent \nstudents. \nFinancial Assistance/Scholarships \nInternal Scholarships \nMerit Scholarship for Bachelor students \nMerit scholarship is awarded to the Top Three position holders of \neach Examination Board in the year of admission. \nMerit Scholarship is also offered to Top Three position holders in \nthe merit list of NU admission merit list of each campus. \nThe University awards certificates and cash prizes to those \nundergraduate students, who are the Top Three in their \ndepartment. Students are selected fro m each of the four years \nof every degree program. \nThis scholarship is for four years of un -interrupted studies with \nstandard courses (core and elective), labs and final year projects \nof the degree offered by the department in a semester to a batch \nwith a specified number of total credit hours and is equal to the \nfull tuition fee. \nA student registering for less or more credit hours than the total \nspecified number of credit hours shall not be eligible for Merit \nScholarship. Student must not have failed, repeated or \nwithdrawn from a course in that semester \nIf there are more than one student in the same position, the next \nposition will automatically be vanished or moved down \ndepending on the number of students in one position."
+      },
+      {
+        "chunk_id": "e25b53dd5bac0b72c259223c2e7f2412a1415d20f6acf688ff1d8337627cfcfb",
+        "references": [
+          {
+            "id": "academic",
+            "filename": "Academic_Rules_Handbook_2026.pdf",
+            "title": "Undergraduate Academic Rules and Regulations 2026",
+            "url": "",
+            "publication_date": "2026-06",
+            "collection_date": "",
+            "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+            "section": "Academic assessment, warnings, repetition, missed exams and rechecking",
+            "pdf_page": 24,
+            "pdf_page_index": 23,
+            "printed_label": "18",
+            "campus": "all",
+            "degree": "undergraduate"
+          }
+        ],
+        "passage": "5. Academic Assessment \n5.1 The performance of students is assessed during the semester \nthrough midterm exams, assignments, quizzes, case studies or \nany other method conside red appropriate by the course \ninstructor and the  University and communicated to the  \nstudents at the start of a course. \n5.2 The semester work will normally contribute 50% towards the \nfinal gr ade, while the fin al e xamination will contribute the \nremaining 50% of the  total marks. A  letter grade will be \nawarded to each student based on his/her overall academic \nperformance in a course. \n5.3 Any deviation f rom Rule 5.2 above if n ecessitated by the \nnature of course will be made with the approval of Dean of the \nFaculty. \nAcademic Warning/Probation \n5.4 Minimum CGPA required to avoid aca demic warning is 2. 00 \nfor all undergraduate programs. \n5.5 If at the end of a semester (including summer semester) CGPA \ndrops b elow 2.00, w arning is issued, and warning count is \nincremented by one. \n5.6 If CGPA remains b elow 2.00 for 3 c onsecutive semesters, \nwarning count becomes three and the admission of student at \nthe University is automatically closed."
+      },
+      {
+        "chunk_id": "4def6caa1d1c7b6f5799c251d22609e410454da6b546ea9863ddb97c52fff9c7",
+        "references": [
+          {
+            "id": "handbook",
+            "filename": "Student_Handbook_2026.pdf",
+            "title": "Student Handbook 2026",
+            "url": "",
+            "publication_date": "2026-06",
+            "collection_date": "",
+            "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+            "section": "Financial rules and undergraduate assistance",
+            "pdf_page": 20,
+            "pdf_page_index": 19,
+            "printed_label": "12",
+            "campus": "all",
+            "degree": "undergraduate"
+          }
+        ],
+        "passage": "Continuation of merit scholar ship is subject to maintaining \nsemester GPA of 3.0 or higher. \nStudy Loan \nRealizing that fees may not be affordable for some of the \nstudents, FAST-NUCES arranges financial assistance in the form \nof interest-free study loans for bright indigent students. \nRules for Internal Scholarships \nInternal sponsorships are available for studying in regular \nsemesters (spring and Fall). Following is the maximum number of \nsemesters for which it can be availed. \n\u2022 Bachelors 8 semesters \nIt shall not be available for repeat or withdrawn course. This \nimplies that it is available for studying a course only once. \nIt is suspended if the student\u2019s CGPA falls below the minimum \nspecified to avoid warning and shall be restored upon getting out \nof warning by improvement in CGPA. \nIt shall be limited to tuition fee only. \n\nExternal Scholarships\n \nSindh Government Endowment Board Scholarships  \nThis is offered on need-cum-merit to rural and urban students in \nboth Undergraduate and Graduate level for all disciplines."
+      },
+      {
+        "chunk_id": "4461be72f12fe659b50392b207df52ecf63b3073790c7aaeefc24c5178932b62",
+        "references": [
+          {
+            "id": "academic",
+            "filename": "Academic_Rules_Handbook_2026.pdf",
+            "title": "Undergraduate Academic Rules and Regulations 2026",
+            "url": "",
+            "publication_date": "2026-06",
+            "collection_date": "",
+            "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+            "section": "Graduation awards and honors",
+            "pdf_page": 32,
+            "pdf_page_index": 31,
+            "printed_label": "26",
+            "campus": "all",
+            "degree": "undergraduate"
+          }
+        ],
+        "passage": "a) Student must have passed the standard courses (core \nand elective), labs and final year projects of the \ndegree offered by the department in a semester to a \nbatch with a specified number of total credit hours  \nb) Student must not have failed, repeated or withdrawn \nfrom a course in that semester. \nOnly those students are included in this list who have completed the \nsemester with regular course load prescribed in the study plan  \nc) Position is d etermined by the GPA earned in that \nsemester. \nd) Student must have earned GPA of 3.00 or higher in that \nsemester. \n7.11 A student registering for less or more credit hours than the \ntotal specified number of credit hours shall not be eligible for \nthe position medal \n7.12 If there are more than one student on same position, th e next \nposition will automatically be vanished or moved down \ndepending on number of students on one position."
+      },
+      {
+        "chunk_id": "9d8859375c3408b1f0d1f1a3a8d5d7410a21015d92afdaa9df2b753d8a4e5a3b",
+        "references": [
+          {
+            "id": "scholarships",
+            "filename": "FAST_Financial_Assistance_Scholarships.pdf",
+            "title": "Financial Assistance / Scholarships (webpage snapshot)",
+            "url": "https://www.nu.edu.pk/Admissions/Scholarship",
+            "publication_date": "",
+            "collection_date": "2026-10-08",
+            "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+            "section": "Undergraduate financial assistance and scholarships",
+            "pdf_page": 1,
+            "pdf_page_index": 0,
+            "printed_label": "1",
+            "campus": "all",
+            "degree": "undergraduate"
+          }
+        ],
+        "passage": "position, the next position will automatically be vanished or moved down depending on the number of students in\none position. Continuation of merit scholarship is subject to maintaining semester GPA of 3.0 or higher.\n2. Study Loan\nRealizing that fees may not be affordable for some of the students, FAST-NU arranges financial assistance in the\nform of interest-free study loans for bright indigent students.\nDownload loan application form: https://nu.edu.pk/public/downloads/fa-form/fa-form-2026.pdf\n3. Rules for Internal Sponsorships:\n1. Internal sponsorships are available for studying in regular semesters (spring and Fall). Following is the\nmaximum number of semesters for which it can be availed. Bachelors: 8 semesters. 2. It shall not be available for repeat or withdrawn courses. This implies that it is available for\nstudying a course only once. 3. It is suspended if the student\u2019s CGPA falls below the minimum specified to avoid\nwarning and shall be restored upon getting out of warning by improvement in CGPA. 4. It shall be limited to tuition\nfee only.\nB. External Sponsorships\n1. Sindh Government Endowment Board Scholarships\nThis is offered on need-cum-merit to rural and urban students in both Undergraduate and Graduate level for all\ndisciplines. Scholarship covers full tuition fee for the entire duration of the program, renewable every year. The\nscholarship quota for rural sector is 60% and for Urban is 40%.\n2. ICT Scholarships and Balochistan Endowment Scholarships\nICT Scholarships refer to the Prime Minister's National ICT Scholarship Program, a program by Ignite (formerly\nNational ICT R&D Fund) that provides financial assistance to students pursuing ICT degrees. Balochistan"
+      },
+      {
+        "chunk_id": "f4632e4fb8c58af9d0fccf88f5c1024455fb12da15f150816eb387df77ac5751",
+        "references": [
+          {
+            "id": "scholarships",
+            "filename": "FAST_Financial_Assistance_Scholarships.pdf",
+            "title": "Financial Assistance / Scholarships (webpage snapshot)",
+            "url": "https://www.nu.edu.pk/Admissions/Scholarship",
+            "publication_date": "",
+            "collection_date": "2026-10-08",
+            "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+            "section": "Undergraduate financial assistance and scholarships",
+            "pdf_page": 1,
+            "pdf_page_index": 0,
+            "printed_label": "1",
+            "campus": "all",
+            "degree": "undergraduate"
+          }
+        ],
+        "passage": "FAST-NUCES\n Financial Assistance / Scholarships\nWebpage snapshot | Collected 8 October 2026 Source: https://www.nu.edu.pk/Admissions/Scholarship\nReformatted copy of the scholarship content for the student-helpdesk knowledge base. This is not an official\nuniversity-issued PDF. Collection date is not a policy effective date. Website navigation and footer are omitted;\nscholarship content is retained.\nA. Internal Sponsorships\n1. Merit Scholarships for Bachelor Students\nMerit scholarship is awarded to the Top Three position holders of each Examination Board in the year of\nadmission. Merit Scholarship is also offered to Top Three position holders in the merit list of NU admission merit\nlist of each campuses. The University awards certificates and cash prizes to those undergraduate students, who\nare the Top Three in their department. Students are selected from each of the four years of every degree\nprogram. This scholarship is for four years of un-interrupted studies with standard courses (core and elective),\nlabs and final year projects of the degree offered by the department in a semester to a batch with a specified\nnumber of total credit hours and is equal to the full tuition fee. A student registering for less or more credit hours\nthan the total specified number of credit hours shall not be eligible for Merit Scholarship. Student must not have\nfailed, repeated or withdrawn from a course in that semester. If there are more than one student in the same\nposition, the next position will automatically be vanished or moved down depending on the number of students in\none position. Continuation of merit scholarship is subject to maintaining semester GPA of 3.0 or higher.\n2. Study Loan"
+      }
+    ],
+    "packed_source_ids": {
+      "S1": "9a174529e549b9b7847c1dc55b819791fb5b66bd2e50a98b77fe16fee7a85061",
+      "S2": "e25b53dd5bac0b72c259223c2e7f2412a1415d20f6acf688ff1d8337627cfcfb",
+      "S3": "4def6caa1d1c7b6f5799c251d22609e410454da6b546ea9863ddb97c52fff9c7",
+      "S4": "4461be72f12fe659b50392b207df52ecf63b3073790c7aaeefc24c5178932b62",
+      "S5": "9d8859375c3408b1f0d1f1a3a8d5d7410a21015d92afdaa9df2b753d8a4e5a3b",
+      "S6": "f4632e4fb8c58af9d0fccf88f5c1024455fb12da15f150816eb387df77ac5751"
+    },
+    "validation": "targeted_policy_and_citation_checks"
+  },
+  "status": "completed",
+  "retrieval_facets_found": [
+    true,
+    true,
+    true
+  ],
+  "packed_facets_found": [
+    true,
+    true,
+    true
+  ],
+  "retrieval_complete": true,
+  "evidence_complete": true,
+  "review": null,
+  "latency_seconds": 3.094,
+  "started_utc": "2026-10-18T17:21:53.833917+00:00",
+  "completed_utc": "2026-10-18T17:21:56.926435+00:00"
+}
