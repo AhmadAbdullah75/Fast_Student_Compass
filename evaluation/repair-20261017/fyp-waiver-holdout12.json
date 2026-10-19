@@ -1,0 +1,292 @@
+{
+  "cases": [
+    {
+      "id": "AC01",
+      "question": "Does the one-course FYP-I exception explicitly authorize registration while warning count is one?",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "FYP-I warning count must be zero; deficiency permission discretionary HoD one course, CampusDirector two courses as applicable; second-last semester ability to graduate nextsemester where procedure asked; no guarantee.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                21
+              ],
+              "anchors": [
+                "warning count must be zero",
+                "deficiency"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex reviewed actual academic21 retrieved source including continued warning clause before execution."
+    },
+    {
+      "id": "AC02",
+      "question": "Can an HoD waive the FYP-I zero-warning requirement using the one-course deficiency clause?",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "FYP-I warning count must be zero; deficiency permission discretionary HoD one course, CampusDirector two courses as applicable; second-last semester ability to graduate nextsemester where procedure asked; no guarantee.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                21
+              ],
+              "anchors": [
+                "warning count must be zero",
+                "deficiency"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex reviewed actual academic21 retrieved source including continued warning clause before execution."
+    },
+    {
+      "id": "AC03",
+      "question": "Does Campus Director permission for two deficient courses itself establish a warning-count waiver?",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "FYP-I warning count must be zero; deficiency permission discretionary HoD one course, CampusDirector two courses as applicable; second-last semester ability to graduate nextsemester where procedure asked; no guarantee.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                21
+              ],
+              "anchors": [
+                "warning count must be zero",
+                "deficiency"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex reviewed actual academic21 retrieved source including continued warning clause before execution."
+    },
+    {
+      "id": "AC04",
+      "question": "I still have one academic warning and one missing course. Can the deficiency clause alone establish FYP-I eligibility?",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "FYP-I warning count must be zero; deficiency permission discretionary HoD one course, CampusDirector two courses as applicable; second-last semester ability to graduate nextsemester where procedure asked; no guarantee.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                21
+              ],
+              "anchors": [
+                "warning count must be zero",
+                "deficiency"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex reviewed actual academic21 retrieved source including continued warning clause before execution."
+    },
+    {
+      "id": "AC05",
+      "question": "If both missing-course permission and a nonzero warning apply, does the source explicitly remove the warning condition for FYP-I?",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "FYP-I warning count must be zero; deficiency permission discretionary HoD one course, CampusDirector two courses as applicable; second-last semester ability to graduate nextsemester where procedure asked; no guarantee.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                21
+              ],
+              "anchors": [
+                "warning count must be zero",
+                "deficiency"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex reviewed actual academic21 retrieved source including continued warning clause before execution."
+    },
+    {
+      "id": "AC06",
+      "question": "Is FYP-I registration automatic once one-course deficiency permission is obtained?",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "FYP-I warning count must be zero; deficiency permission discretionary HoD one course, CampusDirector two courses as applicable; second-last semester ability to graduate nextsemester where procedure asked; no guarantee.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                21
+              ],
+              "anchors": [
+                "warning count must be zero",
+                "deficiency"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex reviewed actual academic21 retrieved source including continued warning clause before execution."
+    },
+    {
+      "id": "AC07",
+      "question": "Can two missing courses be permitted for FYP-I, and does that cancel the zero-warning rule?",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "FYP-I warning count must be zero; deficiency permission discretionary HoD one course, CampusDirector two courses as applicable; second-last semester ability to graduate nextsemester where procedure asked; no guarantee.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                21
+              ],
+              "anchors": [
+                "warning count must be zero",
+                "deficiency"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex reviewed actual academic21 retrieved source including continued warning clause before execution."
+    },
+    {
+      "id": "AC08",
+      "question": "Quote the zero-warning condition alongside the one-course FYP-I permission without inventing a waiver.",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "FYP-I warning count must be zero; deficiency permission discretionary HoD one course, CampusDirector two courses as applicable; second-last semester ability to graduate nextsemester where procedure asked; no guarantee.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                21
+              ],
+              "anchors": [
+                "warning count must be zero",
+                "deficiency"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex reviewed actual academic21 retrieved source including continued warning clause before execution."
+    },
+    {
+      "id": "AC09",
+      "question": "Separate the warning-count requirement from FYP-I deficiency discretion.",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "FYP-I warning count must be zero; deficiency permission discretionary HoD one course, CampusDirector two courses as applicable; second-last semester ability to graduate nextsemester where procedure asked; no guarantee.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                21
+              ],
+              "anchors": [
+                "warning count must be zero",
+                "deficiency"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex reviewed actual academic21 retrieved source including continued warning clause before execution."
+    },
+    {
+      "id": "AC10",
+      "question": "The HoD agrees about my one missing course; I still have two warnings. Does the indexed rule authorize FYP-I?",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "FYP-I warning count must be zero; deficiency permission discretionary HoD one course, CampusDirector two courses as applicable; second-last semester ability to graduate nextsemester where procedure asked; no guarantee.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                21
+              ],
+              "anchors": [
+                "warning count must be zero",
+                "deficiency"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex reviewed actual academic21 retrieved source including continued warning clause before execution."
+    },
+    {
+      "id": "AC11",
+      "question": "The Director accepts two missing courses; my warning count is nonzero. What FYP-I limitation remains?",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "FYP-I warning count must be zero; deficiency permission discretionary HoD one course, CampusDirector two courses as applicable; second-last semester ability to graduate nextsemester where procedure asked; no guarantee.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                21
+              ],
+              "anchors": [
+                "warning count must be zero",
+                "deficiency"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex reviewed actual academic21 retrieved source including continued warning clause before execution."
+    },
+    {
+      "id": "AC12",
+      "question": "Must the FYP-I zero-warning rule be read separately from permission for deficient courses?",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "FYP-I warning count must be zero; deficiency permission discretionary HoD one course, CampusDirector two courses as applicable; second-last semester ability to graduate nextsemester where procedure asked; no guarantee.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                21
+              ],
+              "anchors": [
+                "warning count must be zero",
+                "deficiency"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex reviewed actual academic21 retrieved source including continued warning clause before execution."
+    }
+  ]
+}
