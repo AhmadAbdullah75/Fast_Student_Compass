@@ -1,0 +1,305 @@
+{
+  "note": "Frozen before execution after observed R02:10 blanket abstention despite correct retrieved evidence.",
+  "cases": [
+    {
+      "id": "Y01",
+      "question": "What room will I get next term, and what are the documented hostel room-allocation conditions?",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "Cannot determine a personal room assignment/eligibility. Quote supported policy:single/double reserved for graduating batches with topCGPAs OR valid medical reasons; medical endorsement by MedicalOfficer and HallManagementCommittee plus competentauthority approval; newbatch sharedrooms.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                24
+              ],
+              "anchors": [
+                "single- and double-occupancy rooms",
+                "Hall Management Committee",
+                "shared rooms"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex inspected exact guidebook24 room-policy passage before execution."
+    },
+    {
+      "id": "Y02",
+      "question": "Tell me my future hostel room number and the documented eligibility rules for single and double rooms.",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "Cannot determine a personal room assignment/eligibility. Quote supported policy:single/double reserved for graduating batches with topCGPAs OR valid medical reasons; medical endorsement by MedicalOfficer and HallManagementCommittee plus competentauthority approval; newbatch sharedrooms.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                24
+              ],
+              "anchors": [
+                "single- and double-occupancy rooms",
+                "Hall Management Committee",
+                "shared rooms"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex inspected exact guidebook24 room-policy passage before execution."
+    },
+    {
+      "id": "Y03",
+      "question": "Can you confirm my single-room allocation while explaining documented hostel-room eligibility?",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "Cannot determine a personal room assignment/eligibility. Quote supported policy:single/double reserved for graduating batches with topCGPAs OR valid medical reasons; medical endorsement by MedicalOfficer and HallManagementCommittee plus competentauthority approval; newbatch sharedrooms.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                24
+              ],
+              "anchors": [
+                "single- and double-occupancy rooms",
+                "Hall Management Committee",
+                "shared rooms"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex inspected exact guidebook24 room-policy passage before execution."
+    },
+    {
+      "id": "Y04",
+      "question": "Has a double hostel room been allotted to me? Also state the documented allocation conditions.",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "Cannot determine a personal room assignment/eligibility. Quote supported policy:single/double reserved for graduating batches with topCGPAs OR valid medical reasons; medical endorsement by MedicalOfficer and HallManagementCommittee plus competentauthority approval; newbatch sharedrooms.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                24
+              ],
+              "anchors": [
+                "single- and double-occupancy rooms",
+                "Hall Management Committee",
+                "shared rooms"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex inspected exact guidebook24 room-policy passage before execution."
+    },
+    {
+      "id": "Y05",
+      "question": "Which shared hostel room is assigned to me? Separately what are the room-allocation rules?",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "Cannot determine a personal room assignment/eligibility. Quote supported policy:single/double reserved for graduating batches with topCGPAs OR valid medical reasons; medical endorsement by MedicalOfficer and HallManagementCommittee plus competentauthority approval; newbatch sharedrooms.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                24
+              ],
+              "anchors": [
+                "single- and double-occupancy rooms",
+                "Hall Management Committee",
+                "shared rooms"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex inspected exact guidebook24 room-policy passage before execution."
+    },
+    {
+      "id": "Y06",
+      "question": "Predict my hostel room next semester and explain single-room and double-room eligibility.",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "Cannot determine a personal room assignment/eligibility. Quote supported policy:single/double reserved for graduating batches with topCGPAs OR valid medical reasons; medical endorsement by MedicalOfficer and HallManagementCommittee plus competentauthority approval; newbatch sharedrooms.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                24
+              ],
+              "anchors": [
+                "single- and double-occupancy rooms",
+                "Hall Management Committee",
+                "shared rooms"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex inspected exact guidebook24 room-policy passage before execution."
+    },
+    {
+      "id": "Y07",
+      "question": "Show my hostel room allocation and explain the documented conditions for new batches.",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "Cannot determine a personal room assignment/eligibility. Quote supported policy:single/double reserved for graduating batches with topCGPAs OR valid medical reasons; medical endorsement by MedicalOfficer and HallManagementCommittee plus competentauthority approval; newbatch sharedrooms.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                24
+              ],
+              "anchors": [
+                "single- and double-occupancy rooms",
+                "Hall Management Committee",
+                "shared rooms"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex inspected exact guidebook24 room-policy passage before execution."
+    },
+    {
+      "id": "Y08",
+      "question": "Give my future hostel room assignment and quote the documented room-allocation conditions.",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "Cannot determine a personal room assignment/eligibility. Quote supported policy:single/double reserved for graduating batches with topCGPAs OR valid medical reasons; medical endorsement by MedicalOfficer and HallManagementCommittee plus competentauthority approval; newbatch sharedrooms.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                24
+              ],
+              "anchors": [
+                "single- and double-occupancy rooms",
+                "Hall Management Committee",
+                "shared rooms"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex inspected exact guidebook24 room-policy passage before execution."
+    },
+    {
+      "id": "Y09",
+      "question": "State hostel room-allocation conditions and verify my upcoming assignment.",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "Cannot determine a personal room assignment/eligibility. Quote supported policy:single/double reserved for graduating batches with topCGPAs OR valid medical reasons; medical endorsement by MedicalOfficer and HallManagementCommittee plus competentauthority approval; newbatch sharedrooms.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                24
+              ],
+              "anchors": [
+                "single- and double-occupancy rooms",
+                "Hall Management Committee",
+                "shared rooms"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex inspected exact guidebook24 room-policy passage before execution."
+    },
+    {
+      "id": "Y10",
+      "question": "I am a new student:which hostel room number will I get? State the documented room-allocation rules.",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "Cannot determine a personal room assignment/eligibility. Quote supported policy:single/double reserved for graduating batches with topCGPAs OR valid medical reasons; medical endorsement by MedicalOfficer and HallManagementCommittee plus competentauthority approval; newbatch sharedrooms.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                24
+              ],
+              "anchors": [
+                "single- and double-occupancy rooms",
+                "Hall Management Committee",
+                "shared rooms"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex inspected exact guidebook24 room-policy passage before execution."
+    },
+    {
+      "id": "Y11",
+      "question": "Do I personally qualify for a single hostel room? Separately give the documented medical-approval conditions.",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "Cannot determine a personal room assignment/eligibility. Quote supported policy:single/double reserved for graduating batches with topCGPAs OR valid medical reasons; medical endorsement by MedicalOfficer and HallManagementCommittee plus competentauthority approval; newbatch sharedrooms.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                24
+              ],
+              "anchors": [
+                "single- and double-occupancy rooms",
+                "Hall Management Committee",
+                "shared rooms"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex inspected exact guidebook24 room-policy passage before execution."
+    },
+    {
+      "id": "Y12",
+      "question": "What exact hostel room will my friend receive? Distinguish that assignment from documented room-allocation rules.",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "Cannot determine a personal room assignment/eligibility. Quote supported policy:single/double reserved for graduating batches with topCGPAs OR valid medical reasons; medical endorsement by MedicalOfficer and HallManagementCommittee plus competentauthority approval; newbatch sharedrooms.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                24
+              ],
+              "anchors": [
+                "single- and double-occupancy rooms",
+                "Hall Management Committee",
+                "shared rooms"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex inspected exact guidebook24 room-policy passage before execution."
+    }
+  ]
+}
