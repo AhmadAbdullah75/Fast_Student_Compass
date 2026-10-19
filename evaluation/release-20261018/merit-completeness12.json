@@ -1,0 +1,928 @@
+{
+  "cases": [
+    {
+      "id": "MCT01",
+      "difficulty": "complex",
+      "question": "What conditions apply to continuing a merit scholarship?",
+      "expected_behavior": "answer",
+      "expected_answer": "Merit semesterGPA>=3.00; standard exact-load uninterrupted4years with nofailed/repeat/withdrawn; internal sponsorship regularsemesters/max8/tuitiononly/noRepeatW; CGPAbelow2 warning threshold suspends and restoration on recovery, no personal guarantee. Match requested narrow parts; final case additionally actualFAcontact cfd.fa@nu.edu.pk/128.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                19
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Frozen after actualW02:4 general-condition omission; before completeness fix; not executed by inclusion.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "handbook PDF 20: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships",
+        "handbook PDF 19: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships"
+      ],
+      "original_case_id": "S01",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "MCT02",
+      "difficulty": "complex",
+      "question": "List the complete undergraduate merit-scholarship continuation requirements.",
+      "expected_behavior": "answer",
+      "expected_answer": "Merit semesterGPA>=3.00; standard exact-load uninterrupted4years with nofailed/repeat/withdrawn; internal sponsorship regularsemesters/max8/tuitiononly/noRepeatW; CGPAbelow2 warning threshold suspends and restoration on recovery, no personal guarantee. Match requested narrow parts; final case additionally actualFAcontact cfd.fa@nu.edu.pk/128.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                19
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Frozen after actualW02:4 general-condition omission; before completeness fix; not executed by inclusion.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "handbook PDF 20: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships",
+        "handbook PDF 19: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships"
+      ],
+      "original_case_id": "S01",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "MCT03",
+      "difficulty": "complex",
+      "question": "Explain all the conditions to retain my merit scholarship, including warning-related rules.",
+      "expected_behavior": "answer",
+      "expected_answer": "Merit semesterGPA>=3.00; standard exact-load uninterrupted4years with nofailed/repeat/withdrawn; internal sponsorship regularsemesters/max8/tuitiononly/noRepeatW; CGPAbelow2 warning threshold suspends and restoration on recovery, no personal guarantee. Match requested narrow parts; final case additionally actualFAcontact cfd.fa@nu.edu.pk/128.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                19
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Frozen after actualW02:4 general-condition omission; before completeness fix; not executed by inclusion.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "handbook PDF 20: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships",
+        "handbook PDF 19: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships"
+      ],
+      "original_case_id": "S01",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "MCT04",
+      "difficulty": "complex",
+      "question": "Is keeping a semester GPA of3.00 the only rule for continuing a merit scholarship?",
+      "expected_behavior": "answer",
+      "expected_answer": "Merit semesterGPA>=3.00; standard exact-load uninterrupted4years with nofailed/repeat/withdrawn; internal sponsorship regularsemesters/max8/tuitiononly/noRepeatW; CGPAbelow2 warning threshold suspends and restoration on recovery, no personal guarantee. Match requested narrow parts; final case additionally actualFAcontact cfd.fa@nu.edu.pk/128.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                19
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Frozen after actualW02:4 general-condition omission; before completeness fix; not executed by inclusion.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "handbook PDF 20: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships",
+        "handbook PDF 19: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships"
+      ],
+      "original_case_id": "S01",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "MCT05",
+      "difficulty": "complex",
+      "question": "What academic performance, course-load and warning conditions govern merit-scholarship renewal?",
+      "expected_behavior": "answer",
+      "expected_answer": "Merit semesterGPA>=3.00; standard exact-load uninterrupted4years with nofailed/repeat/withdrawn; internal sponsorship regularsemesters/max8/tuitiononly/noRepeatW; CGPAbelow2 warning threshold suspends and restoration on recovery, no personal guarantee. Match requested narrow parts; final case additionally actualFAcontact cfd.fa@nu.edu.pk/128.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                19
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Frozen after actualW02:4 general-condition omission; before completeness fix; not executed by inclusion.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "handbook PDF 20: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships",
+        "handbook PDF 19: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships"
+      ],
+      "original_case_id": "S01",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "MCT06",
+      "difficulty": "complex",
+      "question": "Give the documented restrictions for retaining an undergraduate merit scholarship without omitting cumulative-GPA conditions.",
+      "expected_behavior": "answer",
+      "expected_answer": "Merit semesterGPA>=3.00; standard exact-load uninterrupted4years with nofailed/repeat/withdrawn; internal sponsorship regularsemesters/max8/tuitiononly/noRepeatW; CGPAbelow2 warning threshold suspends and restoration on recovery, no personal guarantee. Match requested narrow parts; final case additionally actualFAcontact cfd.fa@nu.edu.pk/128.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                19
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Frozen after actualW02:4 general-condition omission; before completeness fix; not executed by inclusion.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "handbook PDF 20: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships",
+        "handbook PDF 19: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships"
+      ],
+      "original_case_id": "S01",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "MCT07",
+      "difficulty": "complex",
+      "question": "If I have no failed, repeated or withdrawn courses, is my merit-scholarship continuation guaranteed?",
+      "expected_behavior": "answer",
+      "expected_answer": "Merit semesterGPA>=3.00; standard exact-load uninterrupted4years with nofailed/repeat/withdrawn; internal sponsorship regularsemesters/max8/tuitiononly/noRepeatW; CGPAbelow2 warning threshold suspends and restoration on recovery, no personal guarantee. Match requested narrow parts; final case additionally actualFAcontact cfd.fa@nu.edu.pk/128.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                19
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Frozen after actualW02:4 general-condition omission; before completeness fix; not executed by inclusion.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "handbook PDF 20: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships",
+        "handbook PDF 19: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships"
+      ],
+      "original_case_id": "S01",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "MCT08",
+      "difficulty": "complex",
+      "question": "Summarize undergraduate merit-scholarship continuation rules and the internal-sponsorship suspension and restoration condition.",
+      "expected_behavior": "answer",
+      "expected_answer": "Merit semesterGPA>=3.00; standard exact-load uninterrupted4years with nofailed/repeat/withdrawn; internal sponsorship regularsemesters/max8/tuitiononly/noRepeatW; CGPAbelow2 warning threshold suspends and restoration on recovery, no personal guarantee. Match requested narrow parts; final case additionally actualFAcontact cfd.fa@nu.edu.pk/128.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                19
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Frozen after actualW02:4 general-condition omission; before completeness fix; not executed by inclusion.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "handbook PDF 20: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships",
+        "handbook PDF 19: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships"
+      ],
+      "original_case_id": "S01",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "MCT09",
+      "difficulty": "complex",
+      "question": "For merit-scholarship renewal, distinguish the semester-GPA threshold from the CGPA warning threshold.",
+      "expected_behavior": "answer",
+      "expected_answer": "Merit semesterGPA>=3.00; standard exact-load uninterrupted4years with nofailed/repeat/withdrawn; internal sponsorship regularsemesters/max8/tuitiononly/noRepeatW; CGPAbelow2 warning threshold suspends and restoration on recovery, no personal guarantee. Match requested narrow parts; final case additionally actualFAcontact cfd.fa@nu.edu.pk/128.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                19
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Frozen after actualW02:4 general-condition omission; before completeness fix; not executed by inclusion.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "handbook PDF 20: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships",
+        "handbook PDF 19: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships"
+      ],
+      "original_case_id": "S01",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "MCT10",
+      "difficulty": "complex",
+      "question": "Which requirements besides the semester-GPA threshold apply to keeping a merit scholarship?",
+      "expected_behavior": "answer",
+      "expected_answer": "Merit semesterGPA>=3.00; standard exact-load uninterrupted4years with nofailed/repeat/withdrawn; internal sponsorship regularsemesters/max8/tuitiononly/noRepeatW; CGPAbelow2 warning threshold suspends and restoration on recovery, no personal guarantee. Match requested narrow parts; final case additionally actualFAcontact cfd.fa@nu.edu.pk/128.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                19
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Frozen after actualW02:4 general-condition omission; before completeness fix; not executed by inclusion.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "handbook PDF 20: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships",
+        "handbook PDF 19: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships"
+      ],
+      "original_case_id": "S01",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "MCT11",
+      "difficulty": "complex",
+      "question": "Give all continuing merit-scholarship rules and explain whether summer sponsorship is covered.",
+      "expected_behavior": "answer",
+      "expected_answer": "Merit semesterGPA>=3.00; standard exact-load uninterrupted4years with nofailed/repeat/withdrawn; internal sponsorship regularsemesters/max8/tuitiononly/noRepeatW; CGPAbelow2 warning threshold suspends and restoration on recovery, no personal guarantee. Match requested narrow parts; final case additionally actualFAcontact cfd.fa@nu.edu.pk/128.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                19
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Frozen after actualW02:4 general-condition omission; before completeness fix; not executed by inclusion.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "handbook PDF 20: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships",
+        "handbook PDF 19: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships"
+      ],
+      "original_case_id": "S01",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "MCT12",
+      "difficulty": "complex",
+      "question": "Explain merit-scholarship continuation conditions and give the Financial Assistance contact email.",
+      "expected_behavior": "answer",
+      "expected_answer": "Merit semesterGPA>=3.00; standard exact-load uninterrupted4years with nofailed/repeat/withdrawn; internal sponsorship regularsemesters/max8/tuitiononly/noRepeatW; CGPAbelow2 warning threshold suspends and restoration on recovery, no personal guarantee. Match requested narrow parts; final case additionally actualFAcontact cfd.fa@nu.edu.pk/128.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                19
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Frozen after actualW02:4 general-condition omission; before completeness fix; not executed by inclusion.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "handbook PDF 20: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships",
+        "handbook PDF 19: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships"
+      ],
+      "original_case_id": "S01",
+      "original_suite": "publication187"
+    }
+  ]
+}
