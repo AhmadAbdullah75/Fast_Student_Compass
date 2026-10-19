@@ -1,0 +1,101 @@
+{
+  "cases": [
+    {
+      "id": "Q01",
+      "question": "Does the FAST CFD undergraduate helpdesk policy mean that every use of AI solely for preparation always requires citation even when the assignment brief says nothing?",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "Actual referencing52 explicitly no preparation citation unless brief says otherwise; no unrelated grading supplement.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                52
+              ],
+              "anchors": [
+                "assignment brief"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex actual approved Academic49/50/52/53 source comparison before new provider execution."
+    },
+    {
+      "id": "Q02",
+      "question": "Can I use ChatGPT in an OOP lab without explicit instructor permission?",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "Generally prohibited unless explicitly allowed50; explicit is not citation intent; no unrelated prompt images.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                50
+              ],
+              "anchors": []
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex actual approved Academic49/50/52/53 source comparison before new provider execution."
+    },
+    {
+      "id": "Q03",
+      "question": "For a submitted assignment with an AI-generated embedded figure, what references and prompt evidence are required?",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "Reference within content and list52-53 and include prompt images53; preserve preparatory distinction if mentioned.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                52
+              ],
+              "anchors": []
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                53
+              ],
+              "anchors": []
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex actual approved Academic49/50/52/53 source comparison before new provider execution."
+    },
+    {
+      "id": "Q04",
+      "question": "How are AI-enabled non-lab assignments graded, and what does the policy say about the course outline?",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "Typically10-15percent submissions, majority quizzes/demonstrations; grading distribution SHOULD clearly be stated in course outline. Actual49; quiz timing followingweek if included.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                49
+              ],
+              "anchors": []
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex actual approved Academic49/50/52/53 source comparison before new provider execution."
+    }
+  ]
+}
