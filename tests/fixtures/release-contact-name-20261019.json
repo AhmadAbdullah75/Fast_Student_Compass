@@ -1,0 +1,212 @@
+{
+  "id": "fea13253420d4e7d8a80da5a3b81acfd",
+  "conversation_id": "b2b0cef9f00b4fc39c02b1d71639959f",
+  "question": "Now switch to the SE department secretary: give his email and extension.",
+  "answer": "The Software Engineering (SE) department secretary is Mr. Irran Matloob, whose contact details are cfd.sesecretary@nu.edu.pk and Ext: 666 [S1].",
+  "citations": [
+    {
+      "id": "S1",
+      "chunk_id": "ce376de70c8b62dd901caaa3f488f51bc49f5165ba54fa1837c7a85dd5d6ce34",
+      "references": [
+        {
+          "id": "guidebook",
+          "filename": "Student-Guide-Book-2026.pdf",
+          "title": "CFD Student Guide Book 2026",
+          "url": "",
+          "publication_date": "2026",
+          "collection_date": "",
+          "extraction_method": "Windows English OCR + visually corrected tables/contacts",
+          "section": "Important campus contacts",
+          "pdf_page": 30,
+          "pdf_page_index": 29,
+          "printed_label": "30",
+          "campus": "CFD",
+          "degree": "undergraduate"
+        }
+      ],
+      "excerpt": "IMPORTANT\nCONTACTS\nDEPARTMENT SECRETARY\n\u2022 Prepares Teaching Assistant (TA) lists and processes final TA payments.\n\u2022 Serves as the primary point of contact for students regarding academic and administrative\nmatters.\n\u2022 Schedules and coordinates meetings with parents, Batch Advisors, and the HOD for students\non academic warning.\n\u2022 Guides prospective and enrolled students on academic policies, departmental procedures,\nand university regulations.\n\u2022 Facilitates the resolution of student concerns by directing them to the appropriate offices or\ncoordinating with relevant units on their behalf.\nCOMPUTER SCIENCE\nMr. Asad Ali\nSecretary CS Department\ncfd.cssecretary@nu.edu.pk\nExt: 161\nSOFTWARE ENGINEERING\nMr. Irfan Matloob\nSecretary SE Department\ncfd.sesecretary@nu.edu.pk\nExt: 666\nELECTRICAL ENGINEERING\nMr. Adnan Mehboob\nSecretary EE Department\ncfd.eesecretary@nu.edu.pk\nExt: 141\nCOMPUTER ENGINEERING\nMr. Moeen Ejaz\nSecretary CE Department\ncfd.cesecretary@nu.edu.pk\nExt: 389\nSCHOOL OF MANAGEMENT\nMr. Muhammad Naeem\nSecretary FSM Department\ncfd.fsmsecretary@nu.edu.pk\nExt: 253\nSCIENCES AND HUMANITIES\nMr. Akhtar Hussain\nsecretary S&H Department\ncfd.shsecretary@nu.edu.pk\nExt: 271\nDEPARTMENT OF DS&AI\nMr. Muhammad Asad\nSecretary DS&AI Department\ncfd.dsaisecretary@nu.edu.pk\nExt: 581"
+    }
+  ],
+  "status": "completed",
+  "error": null,
+  "model": "gemini-3.5-flash-lite",
+  "dataset_version": "2026-reviewed-v1:b13c59ecc7ad",
+  "created": "2026-10-19T01:49:39.038027+00:00",
+  "completed": "2026-10-19T01:49:42.330161+00:00",
+  "latency": 3.272344400000293,
+  "diagnostics": {
+    "route": "document_rag",
+    "question": "Now switch to the SE department secretary: give his email and extension.",
+    "search_question": "What is the email address and extension for the SE department secretary?",
+    "interpretation_override": null,
+    "requested_facets": [],
+    "evidence_facets": {},
+    "retrieval_queries": [
+      "What is the email address and extension for the SE department secretary?"
+    ],
+    "interpretation": {
+      "question": "What is the email address and extension for the SE department secretary?",
+      "unresolved": false
+    },
+    "retrieval_history_context": "[\"Give the printed Financial Assistance and Accounts email addresses separately.\", \"Return to Financial Assistance: what is her printed extension?\"]",
+    "transport_failures": [],
+    "history_tokens_estimated": 345,
+    "history_context": "Student: Give the printed Financial Assistance and Accounts email addresses separately.\nAssistant (context only): FINANCIAL ASSISTANCE \u2022 Share and manage scholarship opportunities. \u2022 Manage financial assistance and financial aid applications. \u2022 Verify eligibility and supporting documents for financial assistance. \u2022 Communicate financial assistance approvals, and other related updates. \u2022 Tackle the status of financial assistance applications and maintain related records. Ms. Nooria Fatima Assistant Manager (ORIC) cfd.fa@nu.edu.pk Ext: 128 \n\nACCOUNTS OFFICE \u2022 Maintain financial records. \u2022 Handle fee refund requests \u2022 Issue income tax certificates. \u2022 Respond to fee-related queries and concerns. \u2022 Manage fee submission and payment processing. Mr. Abrar Hussain / Mr. Saqib Murtaza Officer cfd.accounts@nu.edu.pk Ext: 119 \n\nStudent: Return to Financial Assistance: what is her printed extension?\nAssistant (context only): The printed extension for Financial Assistance is Ext: 128 (email: cfd.fa@nu.edu.pk) .",
+    "raw_answer": "The Software Engineering (SE) department secretary is Mr. Irran Matloob, whose contact details are cfd.sesecretary@nu.edu.pk and Ext: 666 [S1].",
+    "retrieved": [
+      {
+        "chunk_id": "ce376de70c8b62dd901caaa3f488f51bc49f5165ba54fa1837c7a85dd5d6ce34",
+        "references": [
+          {
+            "id": "guidebook",
+            "filename": "Student-Guide-Book-2026.pdf",
+            "title": "CFD Student Guide Book 2026",
+            "url": "",
+            "publication_date": "2026",
+            "collection_date": "",
+            "extraction_method": "Windows English OCR + visually corrected tables/contacts",
+            "section": "Important campus contacts",
+            "pdf_page": 30,
+            "pdf_page_index": 29,
+            "printed_label": "30",
+            "campus": "CFD",
+            "degree": "undergraduate"
+          }
+        ],
+        "passage": "IMPORTANT\nCONTACTS\nDEPARTMENT SECRETARY\n\u2022 Prepares Teaching Assistant (TA) lists and processes final TA payments.\n\u2022 Serves as the primary point of contact for students regarding academic and administrative\nmatters.\n\u2022 Schedules and coordinates meetings with parents, Batch Advisors, and the HOD for students\non academic warning.\n\u2022 Guides prospective and enrolled students on academic policies, departmental procedures,\nand university regulations.\n\u2022 Facilitates the resolution of student concerns by directing them to the appropriate offices or\ncoordinating with relevant units on their behalf.\nCOMPUTER SCIENCE\nMr. Asad Ali\nSecretary CS Department\ncfd.cssecretary@nu.edu.pk\nExt: 161\nSOFTWARE ENGINEERING\nMr. Irfan Matloob\nSecretary SE Department\ncfd.sesecretary@nu.edu.pk\nExt: 666\nELECTRICAL ENGINEERING\nMr. Adnan Mehboob\nSecretary EE Department\ncfd.eesecretary@nu.edu.pk\nExt: 141\nCOMPUTER ENGINEERING\nMr. Moeen Ejaz\nSecretary CE Department\ncfd.cesecretary@nu.edu.pk\nExt: 389\nSCHOOL OF MANAGEMENT\nMr. Muhammad Naeem\nSecretary FSM Department\ncfd.fsmsecretary@nu.edu.pk\nExt: 253\nSCIENCES AND HUMANITIES\nMr. Akhtar Hussain\nsecretary S&H Department\ncfd.shsecretary@nu.edu.pk\nExt: 271\nDEPARTMENT OF DS&AI\nMr. Muhammad Asad\nSecretary DS&AI Department\ncfd.dsaisecretary@nu.edu.pk\nExt: 581"
+      },
+      {
+        "chunk_id": "b35f8e1a9376fd934cc72c5eae2b80ca72ffc097f0e98ca51e50a17560dd1b95",
+        "references": [
+          {
+            "id": "guidebook",
+            "filename": "Student-Guide-Book-2026.pdf",
+            "title": "CFD Student Guide Book 2026",
+            "url": "",
+            "publication_date": "2026",
+            "collection_date": "",
+            "extraction_method": "Windows English OCR + visually corrected tables/contacts",
+            "section": "Important campus contacts",
+            "pdf_page": 31,
+            "pdf_page_index": 30,
+            "printed_label": "31",
+            "campus": "CFD",
+            "degree": "undergraduate"
+          }
+        ],
+        "passage": "IMPORTANT\nCONTACTS\nDEPARTMENT ACADEMIC OFFICE\n\u2022 Manages course offerings, section creation, and student registration through the Flex Portal.\n\u2022 Processes Course Add/Drop, Course Withdrawal, Exam Retake, and Grade Change\nrequests in accordance with university academic policies and procedures,\n\u2022 prepares, publishes, and maintains conflict-free departmental timetables, implementing\nrevisions whenever required.\n\u2022 Manages student-related queries and updates academic records on the Flex Portal for all\nregistered students.\nCS ACADEMIC\nMr. Sohail Afzal/Mr. Mohsin Liaqat/\nMr. Muhammad Usman\ncfd.csacademic@nu.edu.pk\nExt: 163/164\nSE ACADEMIC\nMr. Javaid Iqbal\ncfd.seacademic@nu.edu.pk\nExt:666\nEE ACADEMIC\nMr. Saad Salman\ncfd.eeacademic@nu.edu.pk\nExt: 308\nACCOUNTS OFFICE\n\u2022 Maintain financial records.\n\u2022 Handle fee refund requests\n\u2022 Issue income tax certificates.\n\u2022 Respond to fee-related queries and concerns.\n\u2022 Manage fee submission and payment processing.\nMr. Abrar Hussain / Mr. Saqib Murtaza\nOfficer\ncfd.accounts@nu.edu.pk\nExt: 119\nFSM ACADEMIC\nMr. Muhammad Naeem\ncfd.fsmacademic@nu.edu.pk\nExt: 253\nCE ACADEMIC\nMr. Moeen Ejaz\ncfd.ceacademic@nu.edu.pk\nExt: 389\nDS & AI ACADEMICS\nMr. Muhammad Asad\nDS & AI Department\ncfd.dsaiacademic@nu.edu.pk\nExt: 581"
+      },
+      {
+        "chunk_id": "99eb227cb98707cc016c477e17b29538d52cc5d6d593cabf8ad934c266e777c0",
+        "references": [
+          {
+            "id": "guidebook",
+            "filename": "Student-Guide-Book-2026.pdf",
+            "title": "CFD Student Guide Book 2026",
+            "url": "",
+            "publication_date": "2026",
+            "collection_date": "",
+            "extraction_method": "Windows English OCR + visually corrected tables/contacts",
+            "section": "Important campus contacts",
+            "pdf_page": 34,
+            "pdf_page_index": 33,
+            "printed_label": "34",
+            "campus": "CFD",
+            "degree": "undergraduate"
+          },
+          {
+            "id": "guidebook",
+            "filename": "Student-Guide-Book-2026.pdf",
+            "title": "CFD Student Guide Book 2026",
+            "url": "",
+            "publication_date": "2026",
+            "collection_date": "",
+            "extraction_method": "Windows English OCR + visually corrected tables/contacts",
+            "section": "Important campus contacts",
+            "pdf_page": 35,
+            "pdf_page_index": 34,
+            "printed_label": "35",
+            "campus": "CFD",
+            "degree": "undergraduate"
+          }
+        ],
+        "passage": "Ms. Afshan Rani\ncfd.girlshostel@nu.edu.pk\nExt: 399\n\nIMPORTANT\nCONTACTS\nIT OFFICE\nHandle surveillance system-related queries.\n\u2022\nSupport computing lab-related issues and access.\n\u2022\n\u2022 Address all other IT-related technical support queries.\nprovide credentials for domain login and Wi-Fi access.\n\u2022\nProvide Final Year Project (FYP) related resources and support.\n\u2022\n\u2022 Ensure smooth functioning of campus IT systems and services.\nManage NU email accounts, lab PCs, and other university portals.\n\u2022\nResolve internet and network connectivity issues across the campus.\nMr. Muhammad Shahid Younas\ncfd.it@nu.edu.pk\nExt: 200\nFINANCIAL ASSISTANCE\n\u2022 Share and manage scholarship opportunities.\n\u2022 Manage financial assistance and financial aid applications.\n\u2022 Verify eligibility and supporting documents for financial assistance.\n\u2022 Communicate financial assistance approvals, and other related updates.\n\u2022 Tackle the status of financial assistance applications and maintain related records.\nMs. Nooria Fatima\nAssistant Manager (ORIC)\ncfd.fa@nu.edu.pk\nExt: 128\nFLEX TEAM\n\u2022 Assist users with FLEX system access issues.\n\u2022 Ensure smooth access to FLEX-related services.\n\u2022 Provide password reset and account recovery support.\nflex.support@nu.edu.pk"
+      },
+      {
+        "chunk_id": "fda96c3dd2ad07124c2a2ceef75ffc57cf174e122f4c83a87efdcea8bdfe26dd",
+        "references": [
+          {
+            "id": "guidebook",
+            "filename": "Student-Guide-Book-2026.pdf",
+            "title": "CFD Student Guide Book 2026",
+            "url": "",
+            "publication_date": "2026",
+            "collection_date": "",
+            "extraction_method": "Windows English OCR + visually corrected tables/contacts",
+            "section": "Important campus contacts",
+            "pdf_page": 29,
+            "pdf_page_index": 28,
+            "printed_label": "29",
+            "campus": "CFD",
+            "degree": "undergraduate"
+          }
+        ],
+        "passage": "IMPORTANT\nCONTACTS\nDR. AFTAB AHMAD MAROOF\nRector FAST NUCES\nrector@nu.edu.pk\nDR. ADEEL ASHRAF CHEEMA\nCampus Coordinator\nHOD Data Science and Artificial Intelligence\ncfd.dsai@nu.edu.pk\nExt: 580\nDR. MUHAMMAD USAMA\nHead School of Engineering\ncfd.fse@nu.edu.pk\nExt: 142\nDR. AMMAR RAFIQ\nHOD software Engineering\ncfd.se@nu.edu.pk\nExt: 127\nDR. SHOAIB KHALID\nHOD Electrical Engineering\ncfd.ee@nu.edu.pk\nExt: 140\nDR. MUSHTAQ AHMAD\nHOD sciences and Humanities\ncfd.sh@nu.edu.pk\nExt: 270\nDR. SHAHZAD SARFRAZ\nDirector Chiniot Faisalabad Campus\ncfd.dir@nu.edu.pk\nDR. QAMAR UZ ZAMAN\nHead School of Computing\ncfd.hos@nu.edu.pk\nExt: 350\nDR. MUHAMMAD FAYAZ\nHOD Computer Science\ncfd.cs@nu.edu.pk\nExt: 160\nDR. GULFAM HAIDER\nHOD Fast School of Management\ncfd.fsm@nu.edu.pk\nExt: 250\nDR. MUHAMMAD USMAN JAMIL\nHOD Computer Engineering\ncfd.ce@nu.edu.pk\nExt: 165"
+      },
+      {
+        "chunk_id": "9f9f05554c6954fc2d2000c9d1c1d8c23ebcd5399ee6e6776b3f25981576f1bf",
+        "references": [
+          {
+            "id": "guidebook",
+            "filename": "Student-Guide-Book-2026.pdf",
+            "title": "CFD Student Guide Book 2026",
+            "url": "",
+            "publication_date": "2026",
+            "collection_date": "",
+            "extraction_method": "Windows English OCR + visually corrected tables/contacts",
+            "section": "Important campus contacts",
+            "pdf_page": 33,
+            "pdf_page_index": 32,
+            "printed_label": "33",
+            "campus": "CFD",
+            "degree": "undergraduate"
+          }
+        ],
+        "passage": "IMPORTANT\nCONTACTS\nSTUDENT AFFAIRS OFFICE\nIssue student RFID cards.\n\u2022 Manage student induction into societies.\nPlan and execute student events and activities.\n\u2022\nFacilitate student trips and recreational activities.\n\u2022\nCoordinate student societies and related activities.\n\u2022\nAddress student concerns, complaints, and grievances.\nSupport student engagement and co-curricular development.\nSupport student welfare and overall student engagement initiatives.\n\u2022\n\u2022 Handle student registration, travel, and accommodation arrangements for events.\nMs. Samra Imtiaz\nAssistant Manager\ncfd.studentaffairs@edu.pk\nExt: 112\nCAREER SERVICES OFFICE\n\u2022 Maintain and strengthen alumni relations.\n\u2022 provide internship and job placement opportunities.\n\u2022 Support students in career planning and industry readiness.\n\u2022 Organize professional development seminars and workshops.\nMs. Aysha Shafique\nDeputy manager\ncfd.cso@edu.pk\nExt: 194\nEXAMINATION OFFICE\n\u2022 Issue examination admit cards.\n\u2022 Prepare and issue exam datasheets.\n\u2022 Develop invigilation plans for examinations.\n\u2022 Coordinate and manage examination-related procedures.\n\u2022 Ensure smooth conduct of midterm and final examinations.\nMs. Meriam Chuhdary\nAssistant Manager\ncfd.academics@edu.pk\nExt: 113"
+      },
+      {
+        "chunk_id": "196d7352d3214c0179f506f92e5eab5dbb2489b22d9f8a87b1d01f4f4fb0d469",
+        "references": [
+          {
+            "id": "guidebook",
+            "filename": "Student-Guide-Book-2026.pdf",
+            "title": "CFD Student Guide Book 2026",
+            "url": "",
+            "publication_date": "2026",
+            "collection_date": "",
+            "extraction_method": "Windows English OCR + visually corrected tables/contacts",
+            "section": "Important campus contacts",
+            "pdf_page": 36,
+            "pdf_page_index": 35,
+            "printed_label": "36",
+            "campus": "CFD",
+            "degree": "undergraduate"
+          }
+        ],
+        "passage": "IMPORTANT\nCONTACTS\nSLATE TEAM\n\u2022 Update missing or incorrect course tabs.\n\u2022 Synchronize courses on the SLATE system.\n\u2022 Resolve SLATE-related technical and academic content issues.\n\u2022 Coordinate with departments for accurate course data updates.\n\u2022 Ensure proper course visibility and access for students and faculty.\nslatefsd@nu.edu.pk\nLIBRARY\n\u2022 Manage books and digital learning resources.\n\u2022 Issue and return books to students and faculty.\n\u2022 Maintain a quiet and disciplined study environment.\n\u2022 Provide access to online databases and digital libraries.\n\u2022 Assist students in locating academic and research materials\n\u2022 Maintain library records.\nMr. Azhar Mehmood\nLibrarian\ncfd.library@nu.edu.pk\nExt: 240\nMEDICAL CENTER\n\u2022 Maintain medical records and treatment history of patients.\n\u2022 Provide medical consultation and basic healthcare services.\n\u2022 Offer first aid and emergency medical assistance on campus,\n\u2022 Assist students with health-related concerns and provide medical guidance.\n\u2022 Coordinate referrals to hospitals or specialist healthcare providers when required.\nDr. Areeba Sundas\nExt: 373"
+      }
+    ],
+    "packed_source_ids": {
+      "S1": "ce376de70c8b62dd901caaa3f488f51bc49f5165ba54fa1837c7a85dd5d6ce34",
+      "S2": "b35f8e1a9376fd934cc72c5eae2b80ca72ffc097f0e98ca51e50a17560dd1b95",
+      "S3": "99eb227cb98707cc016c477e17b29538d52cc5d6d593cabf8ad934c266e777c0",
+      "S4": "fda96c3dd2ad07124c2a2ceef75ffc57cf174e122f4c83a87efdcea8bdfe26dd",
+      "S5": "9f9f05554c6954fc2d2000c9d1c1d8c23ebcd5399ee6e6776b3f25981576f1bf",
+      "S6": "196d7352d3214c0179f506f92e5eab5dbb2489b22d9f8a87b1d01f4f4fb0d469"
+    },
+    "validation": "targeted_policy_and_citation_checks"
+  },
+  "client_request_id": "a8595ed1-4c50-44bc-9d25-09f01f59aac1",
+  "running": false,
+  "verification_retry_count": 0
+}
