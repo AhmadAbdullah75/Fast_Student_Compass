@@ -1,0 +1,13 @@
+[server]
+address = "127.0.0.1"
+headless = true
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+primaryColor = "#087F8C"
+backgroundColor = "#FAFBFC"
+secondaryBackgroundColor = "#EEF3F5"
+textColor = "#172A3A"
+font = "sans serif"
