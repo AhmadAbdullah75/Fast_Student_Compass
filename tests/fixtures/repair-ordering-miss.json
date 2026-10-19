@@ -1,0 +1,229 @@
+{
+  "id": "O04",
+  "question": "Give library, Accounts extensions in that order.",
+  "difficulty": "complex",
+  "expected_behavior": "answer",
+  "expected_answer": "Preserve explicitly requested order: library: cfd.library@nu.edu.pk, Ext: 240; Accounts: cfd.accounts@nu.edu.pk, Ext: 119. Include requested fields and source support for every office.",
+  "answer": "The library extension is Ext: 240 [S1], and the retrieved evidence does not establish the Accounts extension.",
+  "citations": [
+    {
+      "id": "S1",
+      "chunk_id": "196d7352d3214c0179f506f92e5eab5dbb2489b22d9f8a87b1d01f4f4fb0d469",
+      "references": [
+        {
+          "id": "guidebook",
+          "filename": "Student-Guide-Book-2026.pdf",
+          "title": "CFD Student Guide Book 2026",
+          "url": "",
+          "publication_date": "2026",
+          "collection_date": "",
+          "extraction_method": "Windows English OCR + visually corrected tables/contacts",
+          "section": "Important campus contacts",
+          "pdf_page": 36,
+          "pdf_page_index": 35,
+          "printed_label": "36",
+          "campus": "CFD",
+          "degree": "undergraduate"
+        }
+      ],
+      "excerpt": "IMPORTANT\nCONTACTS\nSLATE TEAM\n\u2022 Update missing or incorrect course tabs.\n\u2022 Synchronize courses on the SLATE system.\n\u2022 Resolve SLATE-related technical and academic content issues.\n\u2022 Coordinate with departments for accurate course data updates.\n\u2022 Ensure proper course visibility and access for students and faculty.\nslatefsd@nu.edu.pk\nLIBRARY\n\u2022 Manage books and digital learning resources.\n\u2022 Issue and return books to students and faculty.\n\u2022 Maintain a quiet and disciplined study environment.\n\u2022 Provide access to online databases and digital libraries.\n\u2022 Assist students in locating academic and research materials\n\u2022 Maintain library records.\nMr. Azhar Mehmood\nLibrarian\ncfd.library@nu.edu.pk\nExt: 240\nMEDICAL CENTER\n\u2022 Maintain medical records and treatment history of patients.\n\u2022 Provide medical consultation and basic healthcare services.\n\u2022 Offer first aid and emergency medical assistance on campus,\n\u2022 Assist students with health-related concerns and provide medical guidance.\n\u2022 Coordinate referrals to hospitals or specialist healthcare providers when required.\nDr. Areeba Sundas\nExt: 373"
+    }
+  ],
+  "trace": {
+    "route": "document_rag",
+    "question": "Give library, Accounts extensions in that order.",
+    "search_question": "Give library, Accounts extensions in that order.",
+    "interpretation_override": "explicit_supported_multipart",
+    "requested_facets": [
+      "library_contact",
+      "accounts_contact"
+    ],
+    "evidence_facets": {
+      "library_contact": [
+        "S1"
+      ],
+      "accounts_contact": []
+    },
+    "retrieval_queries": [
+      "Give library, Accounts extensions in that order.",
+      "CFD library librarian contact email telephone extension Azhar Mehmood.",
+      "CFD Accounts Office contact email telephone extension."
+    ],
+    "interpretation": {
+      "question": "Give library, Accounts extensions in that order.",
+      "unresolved": false
+    },
+    "retrieval_history_context": "",
+    "transport_failures": [],
+    "history_tokens_estimated": 0,
+    "history_context": "",
+    "raw_answer": "The library extension is Ext: 240 [S1], and the retrieved evidence does not establish the Accounts extension.",
+    "retrieved": [
+      {
+        "chunk_id": "196d7352d3214c0179f506f92e5eab5dbb2489b22d9f8a87b1d01f4f4fb0d469",
+        "references": [
+          {
+            "id": "guidebook",
+            "filename": "Student-Guide-Book-2026.pdf",
+            "title": "CFD Student Guide Book 2026",
+            "url": "",
+            "publication_date": "2026",
+            "collection_date": "",
+            "extraction_method": "Windows English OCR + visually corrected tables/contacts",
+            "section": "Important campus contacts",
+            "pdf_page": 36,
+            "pdf_page_index": 35,
+            "printed_label": "36",
+            "campus": "CFD",
+            "degree": "undergraduate"
+          }
+        ],
+        "passage": "IMPORTANT\nCONTACTS\nSLATE TEAM\n\u2022 Update missing or incorrect course tabs.\n\u2022 Synchronize courses on the SLATE system.\n\u2022 Resolve SLATE-related technical and academic content issues.\n\u2022 Coordinate with departments for accurate course data updates.\n\u2022 Ensure proper course visibility and access for students and faculty.\nslatefsd@nu.edu.pk\nLIBRARY\n\u2022 Manage books and digital learning resources.\n\u2022 Issue and return books to students and faculty.\n\u2022 Maintain a quiet and disciplined study environment.\n\u2022 Provide access to online databases and digital libraries.\n\u2022 Assist students in locating academic and research materials\n\u2022 Maintain library records.\nMr. Azhar Mehmood\nLibrarian\ncfd.library@nu.edu.pk\nExt: 240\nMEDICAL CENTER\n\u2022 Maintain medical records and treatment history of patients.\n\u2022 Provide medical consultation and basic healthcare services.\n\u2022 Offer first aid and emergency medical assistance on campus,\n\u2022 Assist students with health-related concerns and provide medical guidance.\n\u2022 Coordinate referrals to hospitals or specialist healthcare providers when required.\nDr. Areeba Sundas\nExt: 373"
+      },
+      {
+        "chunk_id": "99eb227cb98707cc016c477e17b29538d52cc5d6d593cabf8ad934c266e777c0",
+        "references": [
+          {
+            "id": "guidebook",
+            "filename": "Student-Guide-Book-2026.pdf",
+            "title": "CFD Student Guide Book 2026",
+            "url": "",
+            "publication_date": "2026",
+            "collection_date": "",
+            "extraction_method": "Windows English OCR + visually corrected tables/contacts",
+            "section": "Important campus contacts",
+            "pdf_page": 34,
+            "pdf_page_index": 33,
+            "printed_label": "34",
+            "campus": "CFD",
+            "degree": "undergraduate"
+          },
+          {
+            "id": "guidebook",
+            "filename": "Student-Guide-Book-2026.pdf",
+            "title": "CFD Student Guide Book 2026",
+            "url": "",
+            "publication_date": "2026",
+            "collection_date": "",
+            "extraction_method": "Windows English OCR + visually corrected tables/contacts",
+            "section": "Important campus contacts",
+            "pdf_page": 35,
+            "pdf_page_index": 34,
+            "printed_label": "35",
+            "campus": "CFD",
+            "degree": "undergraduate"
+          }
+        ],
+        "passage": "Ms. Afshan Rani\ncfd.girlshostel@nu.edu.pk\nExt: 399\n\nIMPORTANT\nCONTACTS\nIT OFFICE\nHandle surveillance system-related queries.\n\u2022\nSupport computing lab-related issues and access.\n\u2022\n\u2022 Address all other IT-related technical support queries.\nprovide credentials for domain login and Wi-Fi access.\n\u2022\nProvide Final Year Project (FYP) related resources and support.\n\u2022\n\u2022 Ensure smooth functioning of campus IT systems and services.\nManage NU email accounts, lab PCs, and other university portals.\n\u2022\nResolve internet and network connectivity issues across the campus.\nMr. Muhammad Shahid Younas\ncfd.it@nu.edu.pk\nExt: 200\nFINANCIAL ASSISTANCE\n\u2022 Share and manage scholarship opportunities.\n\u2022 Manage financial assistance and financial aid applications.\n\u2022 Verify eligibility and supporting documents for financial assistance.\n\u2022 Communicate financial assistance approvals, and other related updates.\n\u2022 Tackle the status of financial assistance applications and maintain related records.\nMs. Nooria Fatima\nAssistant Manager (ORIC)\ncfd.fa@nu.edu.pk\nExt: 128\nFLEX TEAM\n\u2022 Assist users with FLEX system access issues.\n\u2022 Ensure smooth access to FLEX-related services.\n\u2022 Provide password reset and account recovery support.\nflex.support@nu.edu.pk"
+      },
+      {
+        "chunk_id": "3a74beef0026a69c215a934063fadadd00f64ff2407cee30601e6cc7bdeaa049",
+        "references": [
+          {
+            "id": "handbook",
+            "filename": "Student_Handbook_2026.pdf",
+            "title": "Student Handbook 2026",
+            "url": "",
+            "publication_date": "2026-06",
+            "collection_date": "",
+            "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+            "section": "Library services and undergraduate borrowing rules",
+            "pdf_page": 31,
+            "pdf_page_index": 30,
+            "printed_label": "23",
+            "campus": "all",
+            "degree": "undergraduate"
+          }
+        ],
+        "passage": "VII - LIBRARY SERVICES AND RULES \n1. Silence must be observed in the study areas. The library \nstaff has the right to ask the people to leave the library if \nthey are talking anywhere in the library in a way, causing, \ndisturbance to other people working. \n2. Members who behave in an abusive, disorderly,  \ndisruptive, indecent, offensive, or unreasonable manner \nwill be asked to leave the library. Offender will be reported \nto the Disciplinary Committee. \n3. Students must carry their NU ID cards to enter the library. \n4. All library material must be borrowed out before leaving \nthe library. Un -borrowed items taken beyond the library \nGate are consider ed stolen. Offenders are liable to \nsuspension and stern disciplinary action. \n5. Users are requested to stop and come back when a \nsound alarm triggers while passing through the exit gate \nand make sure they are not carrying any of the library \nmaterial which is not checked out by the system. \n6. Seats are not allowed to be reserved. When there is a \ndemand for seats, Library staff can remove the \nunattended articles from the tables. \n7. Chairs and study tables should not be moved around \nwithout the permission of library staff. \n8. Group Study Rooms can only be booked for a group (at -\nleast three members) for one hour, which may be \nextended if no other booking is in place. Group Study \nRooms are not available for demos, interviews, and online \nmeetings. \n9. Smoking, eating, and drinking are prohibited."
+      },
+      {
+        "chunk_id": "4aae7aac9352c4d0d3cd65af85a0011e826016d42143389c32727d207ad5506e",
+        "references": [
+          {
+            "id": "handbook",
+            "filename": "Student_Handbook_2026.pdf",
+            "title": "Student Handbook 2026",
+            "url": "",
+            "publication_date": "2026-06",
+            "collection_date": "",
+            "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+            "section": "Library services and undergraduate borrowing rules",
+            "pdf_page": 32,
+            "pdf_page_index": 31,
+            "printed_label": "24",
+            "campus": "all",
+            "degree": "undergraduate"
+          }
+        ],
+        "passage": "10. Personal belongings (such as file covers, briefcases, \nhandbags etc.) must be placed at the designated place. \nThe University accepts no responsibility for personal \nbelongings left in the library unattended.  \n11. Members are not permitted to take phone calls and/or \nthe voice messages, play games in the library. Turn the \nmobile phones ringer off. Library staff are not permitted \nto accept private telephone messages for readers except \nfor emergency calls. \n12. Students are advised not to write on, tear off, or deface \nlibrary material (books, furniture etc.) by ballpoint, marker, \npen, pencil etc. \n13. Where the Librarian or other Library Staff has reasonable \ngrounds to suspect that a breach of library rules is being \ncommitted, he or she has the power to requ ire that any \nperson who is present in, or is leaving or attempting to \nleave the library, shall demonstrate to the satisfaction of \nthe Librarian or Library Staff that he or she is not in \npossession of any library property. \n14. No users of the library shall ente r areas of the library \ndesignated by the Librarian \u201cnot for public access\u201d, unless \naccompanied by a member of the library staff. \n15. Reference material will NOT be issued. \n16. Renewal of borrowed books cannot be claimed as a right. \nPriority would be given to those  in the waiting list, if any. \nThe library has a right to recall the material on a when \nand where required basis."
+      },
+      {
+        "chunk_id": "77107dbf38ac63225dad7b600bdeb77021c09b6f968b127fee580530fe5457b6",
+        "references": [
+          {
+            "id": "handbook",
+            "filename": "Student_Handbook_2026.pdf",
+            "title": "Student Handbook 2026",
+            "url": "",
+            "publication_date": "2026-06",
+            "collection_date": "",
+            "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+            "section": "Library services and undergraduate borrowing rules",
+            "pdf_page": 34,
+            "pdf_page_index": 33,
+            "printed_label": "26",
+            "campus": "all",
+            "degree": "undergraduate"
+          }
+        ],
+        "passage": "Violation of any of the above rules may result in either \ntermination of the library membership for th e semester or \nimposition of fine. \nOnline Public Access Catalogue (OPAC) \nThe library is providing access to its print and online resources \nthrough online portal. All five campus libraries are accessible to \nthe users. An app of the OPAC is also available with the name of \nInsignia ILS. \nE-Resources \nUniversity is subscribing to databases not only from Higher \nEducation Commission but from the publisher/aggregator \ndirectly as well. This includes the premier resources like of IEEE, \nACM, and Science Direct as well. \nOff-Campus Access \nThe library provides off- campus access to its online subscribed \nresources to all the faculty members\u2019 at all five campuses \nthrough Virtual Private Network.  \nInter-library loan service \nInter Library Loan service is provided to faculty a nd students \nequally. Users can place their request by sending an email to the \nlibrary and library processes the request within 24 hours. For ILL, \nthe NUCES Library has a network of other 5 campuses libraries, \n25 libraries linked with PASTIC Islamabad and 2 0 more libraries \nwith HEC. \nCirculation service \nLibrary is providing borrowing services to its users at just two \nclicks. First click to scan the barcode of the student\u2019s card and \nsecond click to scan the barcode assigned to a book. The users \nwould have a re ceipt of the borrowed material to know the due"
+      },
+      {
+        "chunk_id": "e6386410457c063164c376531cff4652c5a4a026debfe0b369c76d425da92325",
+        "references": [
+          {
+            "id": "handbook",
+            "filename": "Student_Handbook_2026.pdf",
+            "title": "Student Handbook 2026",
+            "url": "",
+            "publication_date": "2026-06",
+            "collection_date": "",
+            "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+            "section": "Library services and undergraduate borrowing rules",
+            "pdf_page": 33,
+            "pdf_page_index": 32,
+            "printed_label": "25",
+            "campus": "all",
+            "degree": "undergraduate"
+          }
+        ],
+        "passage": "Library material loan table \u2014 undergraduate row:\nPatron Group: Undergraduate; Loan Limit: 04; Max Renew: 02; Loan Period: 02 Weeks; Fine Rate: PKR 10/item/day; Fine Ceiling: PKR 5,000.\n17. Borrower must return or renew all library material \npromptly. Borrowers should ensure that the material is \nreturned by the due date, otherwise fines will be imposed. \n18. Lost item charges are current item price in the market + \n10% processing fee or else the replacement of the \nmaterial? \n19. If an item is found damaged at the time of its issue, the \nstudent must immediate ly inform the library staff about \nits condition. \n20. Borrowers shall be responsible for any damage to the \nborrowed items. The librarian can ask the borrower to \nreplace the damaged item with the same item in \nexcellent condition. \n21. Members must notify the library of any change in their \npostal or email addresses. \nTheft of library material is a major offence that may result in \nimmediate expulsion from the University."
+      }
+    ],
+    "packed_source_ids": {
+      "S1": "196d7352d3214c0179f506f92e5eab5dbb2489b22d9f8a87b1d01f4f4fb0d469",
+      "S2": "99eb227cb98707cc016c477e17b29538d52cc5d6d593cabf8ad934c266e777c0",
+      "S3": "3a74beef0026a69c215a934063fadadd00f64ff2407cee30601e6cc7bdeaa049",
+      "S4": "4aae7aac9352c4d0d3cd65af85a0011e826016d42143389c32727d207ad5506e",
+      "S5": "77107dbf38ac63225dad7b600bdeb77021c09b6f968b127fee580530fe5457b6",
+      "S6": "e6386410457c063164c376531cff4652c5a4a026debfe0b369c76d425da92325"
+    },
+    "validation": "targeted_policy_and_citation_checks"
+  },
+  "status": "completed",
+  "retrieval_facets_found": [
+    true,
+    false
+  ],
+  "packed_facets_found": [
+    true,
+    false
+  ],
+  "retrieval_complete": false,
+  "evidence_complete": false,
+  "review": null,
+  "latency_seconds": 3.197,
+  "started_utc": "2026-10-17T09:53:52.452808+00:00",
+  "completed_utc": "2026-10-17T09:53:55.649282+00:00"
+}
