@@ -1,0 +1,498 @@
+{
+  "note": "Fresh12 after H12 compoundcontact retrieval failure. Separate exact-email/extension facet per requested office.",
+  "cases": [
+    {
+      "id": "K01",
+      "question": "State Accounts and Financial Assistance extensions separately.",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "accounts: cfd.accounts@nu.edu.pk, Ext: 119; financial: cfd.fa@nu.edu.pk, Ext: 128; answer explicitly requested fields with separate source support.",
+      "source_reviewed_by": "Codex reviewed exact contact blocks before execution",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                31
+              ],
+              "anchors": [
+                "cfd.accounts@nu.edu.pk",
+                "Ext: 119"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                34,
+                35
+              ],
+              "anchors": [
+                "cfd.fa@nu.edu.pk",
+                "Ext: 128"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "K02",
+      "question": "State Financial Assistance and library telephone extensions.",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "financial: cfd.fa@nu.edu.pk, Ext: 128; library: cfd.library@nu.edu.pk, Ext: 240; answer explicitly requested fields with separate source support.",
+      "source_reviewed_by": "Codex reviewed exact contact blocks before execution",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                34,
+                35
+              ],
+              "anchors": [
+                "cfd.fa@nu.edu.pk",
+                "Ext: 128"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                36
+              ],
+              "anchors": [
+                "cfd.library@nu.edu.pk",
+                "Ext: 240"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "K03",
+      "question": "Give library and Accounts printed emails.",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "library: cfd.library@nu.edu.pk, Ext: 240; accounts: cfd.accounts@nu.edu.pk, Ext: 119; answer explicitly requested fields with separate source support.",
+      "source_reviewed_by": "Codex reviewed exact contact blocks before execution",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                36
+              ],
+              "anchors": [
+                "cfd.library@nu.edu.pk",
+                "Ext: 240"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                31
+              ],
+              "anchors": [
+                "cfd.accounts@nu.edu.pk",
+                "Ext: 119"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "K04",
+      "question": "Give Accounts, library and Financial Assistance contact emails and extensions.",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "accounts: cfd.accounts@nu.edu.pk, Ext: 119; library: cfd.library@nu.edu.pk, Ext: 240; financial: cfd.fa@nu.edu.pk, Ext: 128; answer explicitly requested fields with separate source support.",
+      "source_reviewed_by": "Codex reviewed exact contact blocks before execution",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                31
+              ],
+              "anchors": [
+                "cfd.accounts@nu.edu.pk",
+                "Ext: 119"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                36
+              ],
+              "anchors": [
+                "cfd.library@nu.edu.pk",
+                "Ext: 240"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                34,
+                35
+              ],
+              "anchors": [
+                "cfd.fa@nu.edu.pk",
+                "Ext: 128"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "K05",
+      "question": "Which email and extension belong to the Financial Assistance office versus the library?",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "financial: cfd.fa@nu.edu.pk, Ext: 128; library: cfd.library@nu.edu.pk, Ext: 240; answer explicitly requested fields with separate source support.",
+      "source_reviewed_by": "Codex reviewed exact contact blocks before execution",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                34,
+                35
+              ],
+              "anchors": [
+                "cfd.fa@nu.edu.pk",
+                "Ext: 128"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                36
+              ],
+              "anchors": [
+                "cfd.library@nu.edu.pk",
+                "Ext: 240"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "K06",
+      "question": "List the library and Financial Assistance contacts with source support for each extension.",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "library: cfd.library@nu.edu.pk, Ext: 240; financial: cfd.fa@nu.edu.pk, Ext: 128; answer explicitly requested fields with separate source support.",
+      "source_reviewed_by": "Codex reviewed exact contact blocks before execution",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                36
+              ],
+              "anchors": [
+                "cfd.library@nu.edu.pk",
+                "Ext: 240"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                34,
+                35
+              ],
+              "anchors": [
+                "cfd.fa@nu.edu.pk",
+                "Ext: 128"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "K07",
+      "question": "Distinguish Accounts email and extension from the Financial Assistance contact.",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "accounts: cfd.accounts@nu.edu.pk, Ext: 119; financial: cfd.fa@nu.edu.pk, Ext: 128; answer explicitly requested fields with separate source support.",
+      "source_reviewed_by": "Codex reviewed exact contact blocks before execution",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                31
+              ],
+              "anchors": [
+                "cfd.accounts@nu.edu.pk",
+                "Ext: 119"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                34,
+                35
+              ],
+              "anchors": [
+                "cfd.fa@nu.edu.pk",
+                "Ext: 128"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "K08",
+      "question": "Compare library and Accounts contact details without substituting the departments.",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "library: cfd.library@nu.edu.pk, Ext: 240; accounts: cfd.accounts@nu.edu.pk, Ext: 119; answer explicitly requested fields with separate source support.",
+      "source_reviewed_by": "Codex reviewed exact contact blocks before execution",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                36
+              ],
+              "anchors": [
+                "cfd.library@nu.edu.pk",
+                "Ext: 240"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                31
+              ],
+              "anchors": [
+                "cfd.accounts@nu.edu.pk",
+                "Ext: 119"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "K09",
+      "question": "Give library, Financial Assistance and Accounts extensions in that order.",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "library: cfd.library@nu.edu.pk, Ext: 240; financial: cfd.fa@nu.edu.pk, Ext: 128; accounts: cfd.accounts@nu.edu.pk, Ext: 119; answer explicitly requested fields with separate source support.",
+      "source_reviewed_by": "Codex reviewed exact contact blocks before execution",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                36
+              ],
+              "anchors": [
+                "cfd.library@nu.edu.pk",
+                "Ext: 240"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                34,
+                35
+              ],
+              "anchors": [
+                "cfd.fa@nu.edu.pk",
+                "Ext: 128"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                31
+              ],
+              "anchors": [
+                "cfd.accounts@nu.edu.pk",
+                "Ext: 119"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "K10",
+      "question": "Please list the Financial Assistance and Accounts emails exactly as printed.",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "financial: cfd.fa@nu.edu.pk, Ext: 128; accounts: cfd.accounts@nu.edu.pk, Ext: 119; answer explicitly requested fields with separate source support.",
+      "source_reviewed_by": "Codex reviewed exact contact blocks before execution",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                34,
+                35
+              ],
+              "anchors": [
+                "cfd.fa@nu.edu.pk",
+                "Ext: 128"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                31
+              ],
+              "anchors": [
+                "cfd.accounts@nu.edu.pk",
+                "Ext: 119"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "K11",
+      "question": "Give the Financial Assistance email together with the library extension.",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "financial: cfd.fa@nu.edu.pk, Ext: 128; library: cfd.library@nu.edu.pk, Ext: 240; answer explicitly requested fields with separate source support.",
+      "source_reviewed_by": "Codex reviewed exact contact blocks before execution",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                34,
+                35
+              ],
+              "anchors": [
+                "cfd.fa@nu.edu.pk",
+                "Ext: 128"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                36
+              ],
+              "anchors": [
+                "cfd.library@nu.edu.pk",
+                "Ext: 240"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "K12",
+      "question": "Give Accounts extension and the library email, each tied to its own office.",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "accounts: cfd.accounts@nu.edu.pk, Ext: 119; library: cfd.library@nu.edu.pk, Ext: 240; answer explicitly requested fields with separate source support.",
+      "source_reviewed_by": "Codex reviewed exact contact blocks before execution",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                31
+              ],
+              "anchors": [
+                "cfd.accounts@nu.edu.pk",
+                "Ext: 119"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                36
+              ],
+              "anchors": [
+                "cfd.library@nu.edu.pk",
+                "Ext: 240"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
