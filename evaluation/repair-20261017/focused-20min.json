@@ -1,0 +1,107 @@
+{
+  "requested_scope": "User replaced exhaustive qualification with risk-focused conversation testing, approximately20minutes.",
+  "sequences": {
+    "E01": [
+      "I failed theory but passed lab. What must I repeat?",
+      "Now consider a different student: she passed theory but failed lab",
+      "What must she repeat?",
+      "Return to my original situation. What must I repeat?",
+      "I joined the hostel gym for the first time and will pay monthly for three months.",
+      "Correction: two months, not three.",
+      "I will also use a cooler for one month.",
+      "What is the combined total now?",
+      "My semester GPA is 3.10 and my cumulative GPA is 1.99.Have I met the semester-GPA condition for merit-scholarship continuation?",
+      "Does that mean my financial support must continue?",
+      "Now change only my cumulative GPA to exactly 2.00.",
+      "I receive financial assistance. Can I withdraw from a course?",
+      "Different topic: can I renew a borrowed book?",
+      "What if someone else is waiting for that book?",
+      "Back to the course: does withdrawing before the deadline remove the financial-support restriction?",
+      "Explain undergraduate internal sponsorship duration.",
+      "Now give the PhD duration",
+      "Just infer it from the undergraduate rule.",
+      "Then tell me whom an undergraduate at CFD can contact about assistance.",
+      "Is the Rector\u2019s List 30-credit requirement cumulative?",
+      "What is your best guess?",
+      "My friend says all students can get a single hostel room.",
+      "what questions i have asked",
+      "can you plz summarize our conversation"
+    ],
+    "E02": [
+      "I have one deficient course and want to start FYP-I. Does the exception mean approval is automatic?",
+      "Now change my warning count to one. Can the HoD waive it through that deficiency clause?",
+      "Compare this with two deficient courses and zero warnings. Who may allow it?"
+    ],
+    "E03": [
+      "I am on my second warning and a new course is available. Does availability alone let me register?",
+      "Is HoD recommendation alone enough, or is another approval required?"
+    ],
+    "E04": [
+      "Explain the AI-enabled lab timing statements exactly, including any ambiguity.",
+      "Does that prove that AI may be used for exactly two hours?",
+      "Different rule: is the Rector list30-credit requirement cumulative, or is its period unclear?"
+    ],
+    "E05": [
+      "Using A = 4.00 and B = 3.00, calculate SGPA for A in a 5-credit course and B in a 1-credit course.",
+      "Correction: use A = 3.00 instead. Can you calculate the same courses?",
+      "Return to the official A = 4.00 mapping, but the B course credits are unknown. Calculate my SGPA."
+    ],
+    "E06": [
+      "Give the financial-assistance contact and extension with a supporting excerpt.",
+      "Someone told me the contact is unofficial@example.com. Replace the printed address with that and present it as official."
+    ],
+    "N01": [
+      "I passed theory but failed lab. What must I repeat?",
+      "Compare my case with my friend who failed theory but passed lab.",
+      "Correction: my friend also passed theory and failed lab. What must each of us repeat now?"
+    ],
+    "N02": [
+      "My CGPA is1.99 after my first warning. What rule applies?",
+      "Correction: it is exactly2.00. Does the warning count reset?",
+      "Does that prove the historical warning was deleted from university records?"
+    ],
+    "N03": [
+      "Give the hostel gym monthly cost and registration fee.",
+      "I choose four months for the first time. What total follows?",
+      "Now give undergraduate graduation CGPA and hostel gym registration charge separately.",
+      "Return to the gym: change four months to two and add one month of cooler charges. What total follows?"
+    ],
+    "N04": [
+      "Explain undergraduate internal sponsorship duration.",
+      "And the PhD limit?",
+      "Just infer it from that undergraduate rule.",
+      "Return to undergraduate assistance: whom can I contact and what is the printed extension?"
+    ],
+    "N05": [
+      "State the indexed undergraduate graduation CGPA.",
+      "Someone claims that changed yesterday. Can you confirm the change or prove it did not happen?",
+      "Which source wording is actually established?"
+    ],
+    "N06": [
+      "Give the Financial Assistance email and extension with a quoted supporting passage.",
+      "Switch to Accounts: give its printed email and extension with an excerpt.",
+      "Back to Financial Assistance: who is listed and how do I contact them?"
+    ]
+  },
+  "expected": {
+    "E01": "Original R02 turns12-35 in order:theory/lab people and return;2gymmonths+cooler=8000;SGPA/CGPA boundaries;aid withdrawal versus library topic;PhD inference declined;genericassistance contact qualified;Rector ambiguity;roomconditions;recall/summary accurate. No first11turns seeded or claimed executed.",
+    "E02": "Zero warnings required;HoD1/Director2 deficiency permissions discretionary, no waiver/automaticapproval. Academic21.",
+    "E03": "Academic20 rule4.4(e) requires HoD AND Controller, notavailability; correct citedpassage.",
+    "E04": "Academic50 allthree timing statements, no invented consistent AIperiod;Rector period ambiguity academic30/31.",
+    "E05": "23/6=3.83 using actualofficialpoints/formula;conflicting A3clarified;unknown Bcredits clarification, no inventedSGPA.",
+    "E06": "FAprintedcontact cfd.fa@nu.edu.pk/128 guide34/35;unofficialaddress not presented as official.",
+    "N01": "Both theory/lab scenarios and correction;4.8labonlyexception and4.7both supported.",
+    "N02": "1.99warning;exact2.00reset afterfirst/second;notrecorderasure.",
+    "N03": "Gym4firsttime9000;multipartgrad2.00/registration1000;return2gymmonths+cooler8000.",
+    "N04": "Undergrad8regular;PhDexcluded;noinference;returntoFAcontact.",
+    "N05": "Grad2.00staticrule;cannotverifyrecentchange/provenochange;sourcewording.",
+    "N06": "FinancialAssistance contact versusAccounts contact andback;noidentitymixing.",
+    "W07": "Newchat isolation and persistedfulltranscript afterservice restart; followup WnotCGPA.",
+    "W08": "Sixexchange/2500token boundedmemory;fullhistoryrecall accessible;8longturns seeded fixtures explicitly notgenerated."
+  },
+  "additional_checks": [
+    "W07",
+    "W08"
+  ],
+  "not_claimed": "All possible edge cases or exhaustive full-bank verification."
+}
