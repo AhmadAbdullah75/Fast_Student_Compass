@@ -1,0 +1,253 @@
+{
+  "note": "New12 after contact-excerpt omission; frozen before API execution.",
+  "cases": [
+    {
+      "id": "H01",
+      "question": "Show the exact quoted Financial Assistance entry, including the person, email and extension.",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "Exact printed financial-assistance contact; cfd.fa@nu.edu.pk/ext128, cfd.accounts@nu.edu.pk/ext119, cfd.library@nu.edu.pk/ext240 as applicable; include excerpt if requested, reject invented mailbox.",
+      "source_reviewed_by": "Codex reviewed guidebook contact passages before execution",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                34,
+                35
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "H02",
+      "question": "Please reproduce the source passage for the Financial Assistance contact.",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "Exact printed financial-assistance contact; cfd.fa@nu.edu.pk/ext128, cfd.accounts@nu.edu.pk/ext119, cfd.library@nu.edu.pk/ext240 as applicable; include excerpt if requested, reject invented mailbox.",
+      "source_reviewed_by": "Codex reviewed guidebook contact passages before execution",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                34,
+                35
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "H03",
+      "question": "Quote the Accounts Office contact entry and its extension, preserving the printed email.",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "Exact printed accounts contact; cfd.fa@nu.edu.pk/ext128, cfd.accounts@nu.edu.pk/ext119, cfd.library@nu.edu.pk/ext240 as applicable; include excerpt if requested, reject invented mailbox.",
+      "source_reviewed_by": "Codex reviewed guidebook contact passages before execution",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                31
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "H04",
+      "question": "Show Accounts contact details inside a supporting excerpt.",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "Exact printed accounts contact; cfd.fa@nu.edu.pk/ext128, cfd.accounts@nu.edu.pk/ext119, cfd.library@nu.edu.pk/ext240 as applicable; include excerpt if requested, reject invented mailbox.",
+      "source_reviewed_by": "Codex reviewed guidebook contact passages before execution",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                31
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "H05",
+      "question": "Quote the library contact entry, including its email and extension.",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "Exact printed library contact; cfd.fa@nu.edu.pk/ext128, cfd.accounts@nu.edu.pk/ext119, cfd.library@nu.edu.pk/ext240 as applicable; include excerpt if requested, reject invented mailbox.",
+      "source_reviewed_by": "Codex reviewed guidebook contact passages before execution",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                36
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "H06",
+      "question": "Provide the library email and extension inside the supporting source passage.",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "Exact printed library contact; cfd.fa@nu.edu.pk/ext128, cfd.accounts@nu.edu.pk/ext119, cfd.library@nu.edu.pk/ext240 as applicable; include excerpt if requested, reject invented mailbox.",
+      "source_reviewed_by": "Codex reviewed guidebook contact passages before execution",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                36
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "H07",
+      "question": "For financial-assistance documents, give the listed contact and an excerpt proving the email.",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "Exact printed financial-assistance contact; cfd.fa@nu.edu.pk/ext128, cfd.accounts@nu.edu.pk/ext119, cfd.library@nu.edu.pk/ext240 as applicable; include excerpt if requested, reject invented mailbox.",
+      "source_reviewed_by": "Codex reviewed guidebook contact passages before execution",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                34,
+                35
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "H08",
+      "question": "Who handles fee-payment queries? Include the Accounts email, extension and a quoted excerpt.",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "Exact printed accounts contact; cfd.fa@nu.edu.pk/ext128, cfd.accounts@nu.edu.pk/ext119, cfd.library@nu.edu.pk/ext240 as applicable; include excerpt if requested, reject invented mailbox.",
+      "source_reviewed_by": "Codex reviewed guidebook contact passages before execution",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                31
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "H09",
+      "question": "Give the library email exactly as printed, without substituting the financial-assistance email.",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "Exact printed library contact; cfd.fa@nu.edu.pk/ext128, cfd.accounts@nu.edu.pk/ext119, cfd.library@nu.edu.pk/ext240 as applicable; include excerpt if requested, reject invented mailbox.",
+      "source_reviewed_by": "Codex reviewed guidebook contact passages before execution",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                36
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "H10",
+      "question": "State the financial-assistance and Accounts emails separately; do not exchange their roles.",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "Exact printed two offices contact; cfd.fa@nu.edu.pk/ext128, cfd.accounts@nu.edu.pk/ext119, cfd.library@nu.edu.pk/ext240 as applicable; include excerpt if requested, reject invented mailbox.",
+      "source_reviewed_by": "Codex reviewed guidebook contact passages before execution",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                31,
+                34,
+                35
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "H11",
+      "question": "I think the financial-assistance address is fake@nu.edu.pk. State the printed contact address instead.",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "Exact printed financial-assistance contact; cfd.fa@nu.edu.pk/ext128, cfd.accounts@nu.edu.pk/ext119, cfd.library@nu.edu.pk/ext240 as applicable; include excerpt if requested, reject invented mailbox.",
+      "source_reviewed_by": "Codex reviewed guidebook contact passages before execution",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                34,
+                35
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "H12",
+      "question": "State library and Financial Assistance extensions separately with their sources.",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "Exact printed two offices contact; cfd.fa@nu.edu.pk/ext128, cfd.accounts@nu.edu.pk/ext119, cfd.library@nu.edu.pk/ext240 as applicable; include excerpt if requested, reject invented mailbox.",
+      "source_reviewed_by": "Codex reviewed guidebook contact passages before execution",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                34,
+                35,
+                36
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
