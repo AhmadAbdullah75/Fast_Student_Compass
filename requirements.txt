@@ -1,0 +1,14 @@
+fastapi>=0.115,<1
+uvicorn>=0.34,<1
+httpx>=0.28,<1
+streamlit>=1.57,<2
+langchain-core>=1.2,<2
+langchain-google-genai>=4.2,<5
+langchain-chroma>=1.1,<2
+langchain-text-splitters>=1.1,<2
+google-genai>=1.60,<2
+pypdf>=6.8,<7
+fonttools>=4.60,<5
+python-dotenv>=1.1,<2
+pytest>=8,<10
+psutil>=7,<8
