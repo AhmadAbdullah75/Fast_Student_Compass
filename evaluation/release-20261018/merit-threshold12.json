@@ -1,0 +1,928 @@
+{
+  "cases": [
+    {
+      "id": "MTH01",
+      "difficulty": "complex",
+      "question": "Explain the semester-GPA continuation threshold and exact course-load rule for a merit scholarship; cite the passage for each.",
+      "expected_behavior": "answer",
+      "expected_answer": "Use the actual merit continuation semesterGPA>=3.0 rule (Hand20/Scholarships1 matching passage), not only course-load Hand19 or medal evidence. Distinguish CGPA warning minimum2.00 (Academic24) and applicable internal suspension/restoration. Answer requested parts with own supporting citations; false3.50 premise must be corrected, not repeated as a rule. Numeric scenarioSGPA2.90 fails3.0 despiteCGPA3.00; no guarantee.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                19
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Frozen after actualMCT04 threshold-locator failure; new unseen wording before execution, no independent human review implied.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "handbook PDF 20: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships",
+        "handbook PDF 19: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships"
+      ],
+      "original_case_id": "S01",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "MTH02",
+      "difficulty": "complex",
+      "question": "What semester GPA is required to keep a merit scholarship, and where is that continuation rule printed?",
+      "expected_behavior": "answer",
+      "expected_answer": "Use the actual merit continuation semesterGPA>=3.0 rule (Hand20/Scholarships1 matching passage), not only course-load Hand19 or medal evidence. Distinguish CGPA warning minimum2.00 (Academic24) and applicable internal suspension/restoration. Answer requested parts with own supporting citations; false3.50 premise must be corrected, not repeated as a rule. Numeric scenarioSGPA2.90 fails3.0 despiteCGPA3.00; no guarantee.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                19
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Frozen after actualMCT04 threshold-locator failure; new unseen wording before execution, no independent human review implied.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "handbook PDF 20: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships",
+        "handbook PDF 19: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships"
+      ],
+      "original_case_id": "S01",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "MTH03",
+      "difficulty": "complex",
+      "question": "Distinguish the semester-GPA threshold and cumulative-GPA warning threshold when discussing merit-scholarship continuation, with separate sources.",
+      "expected_behavior": "answer",
+      "expected_answer": "Use the actual merit continuation semesterGPA>=3.0 rule (Hand20/Scholarships1 matching passage), not only course-load Hand19 or medal evidence. Distinguish CGPA warning minimum2.00 (Academic24) and applicable internal suspension/restoration. Answer requested parts with own supporting citations; false3.50 premise must be corrected, not repeated as a rule. Numeric scenarioSGPA2.90 fails3.0 despiteCGPA3.00; no guarantee.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                19
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Frozen after actualMCT04 threshold-locator failure; new unseen wording before execution, no independent human review implied.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "handbook PDF 20: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships",
+        "handbook PDF 19: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships"
+      ],
+      "original_case_id": "S01",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "MTH04",
+      "difficulty": "complex",
+      "question": "Is a semester GPA of3.00 or higher by itself enough to guarantee continuation of a merit scholarship?",
+      "expected_behavior": "answer",
+      "expected_answer": "Use the actual merit continuation semesterGPA>=3.0 rule (Hand20/Scholarships1 matching passage), not only course-load Hand19 or medal evidence. Distinguish CGPA warning minimum2.00 (Academic24) and applicable internal suspension/restoration. Answer requested parts with own supporting citations; false3.50 premise must be corrected, not repeated as a rule. Numeric scenarioSGPA2.90 fails3.0 despiteCGPA3.00; no guarantee.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                19
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Frozen after actualMCT04 threshold-locator failure; new unseen wording before execution, no independent human review implied.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "handbook PDF 20: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships",
+        "handbook PDF 19: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships"
+      ],
+      "original_case_id": "S01",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "MTH05",
+      "difficulty": "complex",
+      "question": "A friend says merit-scholarship continuation requires a semester GPA of3.50 or higher. What does the documented rule actually say?",
+      "expected_behavior": "answer",
+      "expected_answer": "Use the actual merit continuation semesterGPA>=3.0 rule (Hand20/Scholarships1 matching passage), not only course-load Hand19 or medal evidence. Distinguish CGPA warning minimum2.00 (Academic24) and applicable internal suspension/restoration. Answer requested parts with own supporting citations; false3.50 premise must be corrected, not repeated as a rule. Numeric scenarioSGPA2.90 fails3.0 despiteCGPA3.00; no guarantee.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                19
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Frozen after actualMCT04 threshold-locator failure; new unseen wording before execution, no independent human review implied.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "handbook PDF 20: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships",
+        "handbook PDF 19: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships"
+      ],
+      "original_case_id": "S01",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "MTH06",
+      "difficulty": "complex",
+      "question": "My SGPA is2.90 and my CGPA is3.00. Compare these with the merit-scholarship continuation conditions.",
+      "expected_behavior": "answer",
+      "expected_answer": "Use the actual merit continuation semesterGPA>=3.0 rule (Hand20/Scholarships1 matching passage), not only course-load Hand19 or medal evidence. Distinguish CGPA warning minimum2.00 (Academic24) and applicable internal suspension/restoration. Answer requested parts with own supporting citations; false3.50 premise must be corrected, not repeated as a rule. Numeric scenarioSGPA2.90 fails3.0 despiteCGPA3.00; no guarantee.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                19
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Frozen after actualMCT04 threshold-locator failure; new unseen wording before execution, no independent human review implied.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "handbook PDF 20: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships",
+        "handbook PDF 19: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships"
+      ],
+      "original_case_id": "S01",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "MTH07",
+      "difficulty": "complex",
+      "question": "Explain why the rule is not a semester GPA of3.50 or higher for keeping a merit scholarship, with the actual continuation passage.",
+      "expected_behavior": "answer",
+      "expected_answer": "Use the actual merit continuation semesterGPA>=3.0 rule (Hand20/Scholarships1 matching passage), not only course-load Hand19 or medal evidence. Distinguish CGPA warning minimum2.00 (Academic24) and applicable internal suspension/restoration. Answer requested parts with own supporting citations; false3.50 premise must be corrected, not repeated as a rule. Numeric scenarioSGPA2.90 fails3.0 despiteCGPA3.00; no guarantee.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                19
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Frozen after actualMCT04 threshold-locator failure; new unseen wording before execution, no independent human review implied.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "handbook PDF 20: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships",
+        "handbook PDF 19: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships"
+      ],
+      "original_case_id": "S01",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "MTH08",
+      "difficulty": "complex",
+      "question": "For merit-scholarship renewal, attach the semester-GPA rule to its own source and the exact-load restriction to its own source.",
+      "expected_behavior": "answer",
+      "expected_answer": "Use the actual merit continuation semesterGPA>=3.0 rule (Hand20/Scholarships1 matching passage), not only course-load Hand19 or medal evidence. Distinguish CGPA warning minimum2.00 (Academic24) and applicable internal suspension/restoration. Answer requested parts with own supporting citations; false3.50 premise must be corrected, not repeated as a rule. Numeric scenarioSGPA2.90 fails3.0 despiteCGPA3.00; no guarantee.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                19
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Frozen after actualMCT04 threshold-locator failure; new unseen wording before execution, no independent human review implied.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "handbook PDF 20: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships",
+        "handbook PDF 19: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships"
+      ],
+      "original_case_id": "S01",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "MTH09",
+      "difficulty": "complex",
+      "question": "Explain the different roles of semester GPA3.00 and CGPA2.00 in merit-scholarship continuation.",
+      "expected_behavior": "answer",
+      "expected_answer": "Use the actual merit continuation semesterGPA>=3.0 rule (Hand20/Scholarships1 matching passage), not only course-load Hand19 or medal evidence. Distinguish CGPA warning minimum2.00 (Academic24) and applicable internal suspension/restoration. Answer requested parts with own supporting citations; false3.50 premise must be corrected, not repeated as a rule. Numeric scenarioSGPA2.90 fails3.0 despiteCGPA3.00; no guarantee.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                19
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Frozen after actualMCT04 threshold-locator failure; new unseen wording before execution, no independent human review implied.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "handbook PDF 20: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships",
+        "handbook PDF 19: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships"
+      ],
+      "original_case_id": "S01",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "MTH10",
+      "difficulty": "complex",
+      "question": "Quote the documented merit-scholarship semester-GPA continuation wording and identify its source.",
+      "expected_behavior": "answer",
+      "expected_answer": "Use the actual merit continuation semesterGPA>=3.0 rule (Hand20/Scholarships1 matching passage), not only course-load Hand19 or medal evidence. Distinguish CGPA warning minimum2.00 (Academic24) and applicable internal suspension/restoration. Answer requested parts with own supporting citations; false3.50 premise must be corrected, not repeated as a rule. Numeric scenarioSGPA2.90 fails3.0 despiteCGPA3.00; no guarantee.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                19
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Frozen after actualMCT04 threshold-locator failure; new unseen wording before execution, no independent human review implied.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "handbook PDF 20: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships",
+        "handbook PDF 19: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships"
+      ],
+      "original_case_id": "S01",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "MTH11",
+      "difficulty": "complex",
+      "question": "Give all the continuing merit-scholarship conditions without confusing semester GPA with CGPA.",
+      "expected_behavior": "answer",
+      "expected_answer": "Use the actual merit continuation semesterGPA>=3.0 rule (Hand20/Scholarships1 matching passage), not only course-load Hand19 or medal evidence. Distinguish CGPA warning minimum2.00 (Academic24) and applicable internal suspension/restoration. Answer requested parts with own supporting citations; false3.50 premise must be corrected, not repeated as a rule. Numeric scenarioSGPA2.90 fails3.0 despiteCGPA3.00; no guarantee.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                19
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Frozen after actualMCT04 threshold-locator failure; new unseen wording before execution, no independent human review implied.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "handbook PDF 20: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships",
+        "handbook PDF 19: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships"
+      ],
+      "original_case_id": "S01",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "MTH12",
+      "difficulty": "complex",
+      "question": "Explain merit-scholarship continuation, including semester GPA and warning rules, using scholarship evidence rather than semester-position-medal conditions.",
+      "expected_behavior": "answer",
+      "expected_answer": "Use the actual merit continuation semesterGPA>=3.0 rule (Hand20/Scholarships1 matching passage), not only course-load Hand19 or medal evidence. Distinguish CGPA warning minimum2.00 (Academic24) and applicable internal suspension/restoration. Answer requested parts with own supporting citations; false3.50 premise must be corrected, not repeated as a rule. Numeric scenarioSGPA2.90 fails3.0 despiteCGPA3.00; no guarantee.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                19
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Frozen after actualMCT04 threshold-locator failure; new unseen wording before execution, no independent human review implied.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "handbook PDF 20: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships",
+        "handbook PDF 19: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships"
+      ],
+      "original_case_id": "S01",
+      "original_suite": "publication187"
+    }
+  ]
+}
