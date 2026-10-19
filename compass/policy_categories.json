@@ -1,0 +1,270 @@
+{
+  "bca651d4d1c3289aa34ca7061f345686137946751b6e869181d23f9c582440a0": [
+    {
+      "category": "theory_lab",
+      "start": 425,
+      "end": 428
+    },
+    {
+      "category": "theory_lab",
+      "start": 519,
+      "end": 522
+    },
+    {
+      "category": "second_warning_new_course",
+      "start": 41,
+      "end": 187
+    }
+  ],
+  "e25b53dd5bac0b72c259223c2e7f2412a1415d20f6acf688ff1d8337627cfcfb": [
+    {
+      "category": "warning",
+      "start": 740,
+      "end": 743
+    },
+    {
+      "category": "warning",
+      "start": 836,
+      "end": 839
+    },
+    {
+      "category": "warning",
+      "start": 984,
+      "end": 987
+    }
+  ],
+  "d80f97dc0e0c8d4aede4b6660aa6de9a5f09658d8eddc75b2ce8e6425c6d9d71": [
+    {
+      "category": "warning",
+      "start": 0,
+      "end": 3
+    },
+    {
+      "category": "retake",
+      "start": 1036,
+      "end": 1054
+    }
+  ],
+  "0aa1d1bdf3574279349b9b2fa6319254ae746ffd62a4316d6aa45df87cffa57b": [
+    {
+      "category": "rector",
+      "start": 777,
+      "end": 790
+    },
+    {
+      "category": "rector",
+      "start": 802,
+      "end": 805
+    }
+  ],
+  "39ed3b7225dda0708f4fb4374aeeea1d6d84a367ffb24a91aed433db22c0d4df": [
+    {
+      "category": "medal",
+      "start": 1128,
+      "end": 1132
+    }
+  ],
+  "4461be72f12fe659b50392b207df52ecf63b3073790c7aaeefc24c5178932b62": [
+    {
+      "category": "medal",
+      "start": 574,
+      "end": 578
+    },
+    {
+      "category": "medal",
+      "start": 711,
+      "end": 725
+    }
+  ],
+  "78eedcee337f6451ed069b8691e3097eb3e3ff969c5436f0869ac9b672fd9e21": [
+    {
+      "category": "ai_lab",
+      "start": 256,
+      "end": 270
+    },
+    {
+      "category": "ai_lab",
+      "start": 917,
+      "end": 926
+    }
+  ],
+  "9a174529e549b9b7847c1dc55b819791fb5b66bd2e50a98b77fe16fee7a85061": [
+    {
+      "category": "scholarship",
+      "start": 292,
+      "end": 309
+    },
+    {
+      "category": "scholarship",
+      "start": 333,
+      "end": 350
+    },
+    {
+      "category": "scholarship",
+      "start": 450,
+      "end": 467
+    },
+    {
+      "category": "scholarship",
+      "start": 784,
+      "end": 807
+    }
+  ],
+  "f4632e4fb8c58af9d0fccf88f5c1024455fb12da15f150816eb387df77ac5751": [
+    {
+      "category": "scholarship",
+      "start": 429,
+      "end": 446
+    },
+    {
+      "category": "scholarship",
+      "start": 470,
+      "end": 487
+    },
+    {
+      "category": "scholarship",
+      "start": 585,
+      "end": 602
+    },
+    {
+      "category": "scholarship",
+      "start": 914,
+      "end": 937
+    },
+    {
+      "category": "scholarship",
+      "start": 1322,
+      "end": 1339
+    },
+    {
+      "category": "scholarship",
+      "start": 1614,
+      "end": 1631
+    }
+  ],
+  "9d8859375c3408b1f0d1f1a3a8d5d7410a21015d92afdaa9df2b753d8a4e5a3b": [
+    {
+      "category": "scholarship",
+      "start": 142,
+      "end": 159
+    }
+  ],
+  "5d606d94ad5a36fbe72442319c69b4d9af3ea6481d3994156c44f34fffa6b673": [
+    {
+      "category": "rechecking",
+      "start": 861,
+      "end": 871
+    },
+    {
+      "category": "rechecking",
+      "start": 897,
+      "end": 907
+    },
+    {
+      "category": "rechecking",
+      "start": 1050,
+      "end": 1058
+    },
+    {
+      "category": "rechecking",
+      "start": 1126,
+      "end": 1136
+    }
+  ],
+  "137d58f4c24b957cea166491021a79a1ac4ebb62415c9af0248552b7aab09cab": [
+    {
+      "category": "rechecking",
+      "start": 187,
+      "end": 197
+    },
+    {
+      "category": "rechecking",
+      "start": 424,
+      "end": 434
+    },
+    {
+      "category": "rechecking",
+      "start": 657,
+      "end": 667
+    },
+    {
+      "category": "rechecking",
+      "start": 801,
+      "end": 811
+    },
+    {
+      "category": "rechecking",
+      "start": 874,
+      "end": 884
+    }
+  ],
+  "adbf49119012de90daef7f2904a81ebd5dc12fa96f6c4fda133b5b73fa9cdf21": [
+    {
+      "category": "retake",
+      "start": 10,
+      "end": 28
+    },
+    {
+      "category": "retake",
+      "start": 29,
+      "end": 47
+    },
+    {
+      "category": "retake",
+      "start": 761,
+      "end": 779
+    }
+  ],
+  "401b94290e6fe598b98b8ea7ee830a343e7b1cd9e5aec08acc782cd3d88cb36c": [
+    {
+      "category": "retake",
+      "start": 10,
+      "end": 28
+    },
+    {
+      "category": "retake",
+      "start": 29,
+      "end": 47
+    },
+    {
+      "category": "retake",
+      "start": 760,
+      "end": 778
+    }
+  ],
+  "b2f478b6302aecdf54ba870ea3f4f5dc0688c2cf6ed00b0aaecee754815851a9": [
+    {
+      "category": "facet:graduation_cgpa",
+      "start": 0,
+      "end": 1056
+    }
+  ],
+  "da411a3a21ef41c1a0f0874a0dbe6473e4dfadb286a9e17a0aabae78b8ec4328": [
+    {
+      "category": "facet:gym_registration",
+      "start": 0,
+      "end": 690
+    }
+  ],
+  "b35f8e1a9376fd934cc72c5eae2b80ca72ffc097f0e98ca51e50a17560dd1b95": [
+    {
+      "category": "facet:accounts_contact",
+      "start": 0,
+      "end": 1250
+    }
+  ],
+  "99eb227cb98707cc016c477e17b29538d52cc5d6d593cabf8ad934c266e777c0": [
+    {
+      "category": "facet:financial_contact",
+      "start": 0,
+      "end": 1223
+    }
+  ],
+  "196d7352d3214c0179f506f92e5eab5dbb2489b22d9f8a87b1d01f4f4fb0d469": [
+    {
+      "category": "facet:library_contact",
+      "start": 0,
+      "end": 1091
+    }
+  ]
+}
