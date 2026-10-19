@@ -1,0 +1,103 @@
+{
+  "cases": [
+    {
+      "id": "V01",
+      "question": "What is the maximum internal sponsorship for Ph.D. students? Do not substitute a bachelor limit.",
+      "difficulty": "confusing",
+      "expected_behavior": "abstain",
+      "expected_answer": "Ph.D postgraduate outside indexed coverage; no invented or inferred duration.",
+      "retrieval_facets": [],
+      "source_reviewed_by": "Codex approved coverage/source comparison before execution; postgraduate original-PDF numeric rows deliberately excluded."
+    },
+    {
+      "id": "V02",
+      "question": "How many semesters of internal support can M.S. students receive?",
+      "difficulty": "confusing",
+      "expected_behavior": "abstain",
+      "expected_answer": "M.S postgraduate outside approved coverage, not bachelor8 as an MS entitlement.",
+      "retrieval_facets": [],
+      "source_reviewed_by": "Codex approved coverage/source comparison before execution; postgraduate original-PDF numeric rows deliberately excluded."
+    },
+    {
+      "id": "V03",
+      "question": "Compare bachelor sponsorship with Master’s sponsorship using only the approved knowledge base.",
+      "difficulty": "confusing",
+      "expected_behavior": "answer",
+      "expected_answer": "Bachelor8regular semesters/tuition only; postgraduate portion explicitly unverified/excluded, not absent originalPDFs.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "Bachelors: 8 semesters"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex approved coverage/source comparison before execution; postgraduate original-PDF numeric rows deliberately excluded."
+    },
+    {
+      "id": "V04",
+      "question": "Do graduate students qualify for the same library loan limit as undergraduates?",
+      "difficulty": "confusing",
+      "expected_behavior": "abstain",
+      "expected_answer": "Give undergraduate4/2renew/2weeks only if useful; no graduate borrowing allowance inferred from undergraduate-only index.",
+      "retrieval_facets": [],
+      "source_reviewed_by": "Codex approved coverage/source comparison before execution; postgraduate original-PDF numeric rows deliberately excluded."
+    },
+    {
+      "id": "V05",
+      "question": "I am an undergraduate student: can I graduate with CGPA1.99 after completing every course?",
+      "difficulty": "confusing",
+      "expected_behavior": "answer",
+      "expected_answer": "Graduation verb not postgraduate scope; minimum2.00,1.99below despite completion, correct actual source.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                10
+              ],
+              "anchors": [
+                "2.00",
+                "graduation"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex approved coverage/source comparison before execution; postgraduate original-PDF numeric rows deliberately excluded."
+    },
+    {
+      "id": "V06",
+      "question": "Who manages financial assistance for an undergraduate, and can you infer a doctoral funding duration from those rules?",
+      "difficulty": "confusing",
+      "expected_behavior": "answer",
+      "expected_answer": "Supported Nooria/cfd.fa128 contact; decline doctoral duration inference, no invented limit.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                34,
+                35
+              ],
+              "anchors": [
+                "cfd.fa@nu.edu.pk",
+                "128"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex approved coverage/source comparison before execution; postgraduate original-PDF numeric rows deliberately excluded."
+    }
+  ]
+}
