@@ -1,0 +1,471 @@
+{
+  "note": "Actual failed replay turns before boundary repair; no provider internals or credentials.",
+  "turns": [
+    {
+      "id": "25833ad94a9c4257ae3bf45c5c2df085",
+      "conversation_id": "71ec1a402bfc48f6b1dae44538c6f15f",
+      "question": "Can I apply?",
+      "answer": "External-university admission and credit-transfer rules are outside the scope of this approved index [S2] [S3]. Please consult the Academic Office or the complete admission policy.",
+      "citations": [
+        {
+          "id": "S2",
+          "chunk_id": "4c0d627f27523a3885726fa69cceb64d735a61929c099e618ded6abab14775c5",
+          "references": [
+            {
+              "id": "academic",
+              "filename": "Academic_Rules_Handbook_2026.pdf",
+              "title": "Undergraduate Academic Rules and Regulations 2026",
+              "url": "",
+              "publication_date": "2026-06",
+              "collection_date": "",
+              "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+              "section": "Readmission, campus transfer and closure",
+              "pdf_page": 15,
+              "pdf_page_index": 14,
+              "printed_label": "9",
+              "campus": "all",
+              "degree": "undergraduate"
+            },
+            {
+              "id": "academic",
+              "filename": "Academic_Rules_Handbook_2026.pdf",
+              "title": "Undergraduate Academic Rules and Regulations 2026",
+              "url": "",
+              "publication_date": "2026-06",
+              "collection_date": "",
+              "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+              "section": "Readmission, campus transfer and closure",
+              "pdf_page": 16,
+              "pdf_page_index": 15,
+              "printed_label": "10",
+              "campus": "all",
+              "degree": "undergraduate"
+            }
+          ],
+          "excerpt": "Readmission of former FAST-NUCES students \n3.15 A former student of the University seeking readmission in an \nundergraduate program can do so b y taking the relevant \nadmission test. After qualifying for the admission on merit, the \nstudent is admitted as a NEW student. \n3.16 A former student who has been on dis ciplinary warning shall \nnot be readmitted. \n3.17 A former stud ent who se admission w as closed d ue to 3rd \nacademic warning will be readmitted only once.\n\n3.18 Only credits of r elevant courses, which have been earned \nwithin the last five years with at-least C grade are transferable.  \n3.19 CGPA earn ed at the previous admission is not transferred \nwhile transferring courses. \n3.20 FYP credits are not transferable. \nReadmission in a different Degree Program \n3.21 A student of the University  who wishes to change the degree \nprogram c an do so b y taking the admission test. Af ter \nqualifying for admission on merit, the student is admitted as a \nNEW student. \n3.22 Only credits of r elevant courses with at le ast C  grade are \ntransferable, and NOT the CGPA earned in t he transferred \ncourses. \n3.23 The Director of the campus shall recommend each case with \nfull details to the Controller of Examinations for approval. \nTransfer to another FAST-NUCES campus \n3.24 Request of a  student for  transfer from one  campus of the \nUniversity to another will be considered only on the f ollowing \ngrounds: \na) Death of a parent. \nb) Posting of a  parent to the city where the transfer is  \ndesired. \nc) Marriage of a female student."
+        },
+        {
+          "id": "S3",
+          "chunk_id": "4d2f5fe398d4d40641d2b146059659e9404ff809e31dc106f62d19ee3eb453d0",
+          "references": [
+            {
+              "id": "handbook",
+              "filename": "Student_Handbook_2026.pdf",
+              "title": "Student Handbook 2026",
+              "url": "",
+              "publication_date": "2026-06",
+              "collection_date": "",
+              "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+              "section": "Migration",
+              "pdf_page": 25,
+              "pdf_page_index": 24,
+              "printed_label": "17",
+              "campus": "all",
+              "degree": "undergraduate"
+            }
+          ],
+          "excerpt": "IV - MIGRATION \nMigration from NU to other Universities \nA student may be allowed to transfer from this University to any \nother educational institution after obtaining Clearance from the \nUniversity. Such transfer will result in closing of admission at this \nUniversity. Such a student may be considered for re -admission, \nprovided the following conditions are satisfied. \n\u2022 The student has been pursuing studies in the same \ndiscipline he was enrolled at NUCES during the period of \nabsence from the University. \n\u2022 The request for re- admission is made within one year of \nthe d ate of closing of admission. University will use its \ndiscretion in deciding about the transfer of credits from \nthe migrated institution. \nChange of Discipline: A student may apply for change of \ndiscipline subject to completion of certain requirements as per  \nuniversity policy."
+        }
+      ],
+      "status": "completed",
+      "error": null,
+      "model": "gemini-3.5-flash-lite",
+      "dataset_version": "2026-reviewed-v1:b13c59ecc7ad",
+      "created": "2026-10-17T10:18:36.698265+00:00",
+      "completed": "2026-10-17T10:18:40.096716+00:00",
+      "latency": 3.389099600011832,
+      "diagnostics": {
+        "route": "document_rag",
+        "question": "Can I apply?",
+        "search_question": "Can I apply as an external applicant for undergraduate admission?",
+        "interpretation_override": null,
+        "requested_facets": [],
+        "evidence_facets": {},
+        "retrieval_queries": [
+          "Can I apply as an external applicant for undergraduate admission?"
+        ],
+        "interpretation": {
+          "question": "Can I apply as an external applicant for undergraduate admission?",
+          "unresolved": false
+        },
+        "retrieval_history_context": "[\"How many semesters of sponsorship can undergraduate, master\u2019s, and PhD students receive?\", \"I am applying from another university. Tell me the complete external-applicant credit-transfer procedure.\", \"Since you have all four PDFs, summarize every admission policy in them.\", \"What is my current attendance percentage in Programming Fundamentals?\", \"What is the fee?\"]",
+        "transport_failures": [],
+        "history_tokens_estimated": 1558,
+        "history_context": "Student: How many semesters of sponsorship can undergraduate, master\u2019s, and PhD students receive?\nAssistant (context only): Internal sponsorships for Bachelor's students are available for a maximum of 8 semesters  . They are for studying in regular semesters (spring and Fall) and are limited to the tuition fee only  . Additionally, internal sponsorships are not available for repeat or withdrawn courses and are suspended if the student's CGPA falls below the minimum specified to avoid warning, but they will be restored upon getting out of warning by improving the CGPA  .\n\nThis local knowledge base covers approved undergraduate sections. Postgraduate-only requirements are outside its indexed coverage; this does not mean they are absent from the original PDFs.\n\nStudent: I am applying from another university. Tell me the complete external-applicant credit-transfer procedure.\nAssistant (context only): External-university admission and credit-transfer rules are outside this approved index. Readmission rules cannot establish those requirements. Please consult the Academic Office or the complete admission policy.\n\nStudent: Since you have all four PDFs, summarize every admission policy in them.\nAssistant (context only): This index covers selected undergraduate readmission, degree-change and admission-closure rules, not every admission policy in the four original PDFs. External-applicant admission and credit-transfer procedures are excluded.\n\nThe following retrieved passages establish the selected covered rules:\n\n> Readmission of former FAST-NUCES students 3.15 A former student of the University seeking readmission in an undergraduate program can do so b y taking the relevant admission test. After qualifying for the admission on merit, the student is admitted as a NEW student. 3.16 A former student who has been on dis ciplinary warning shall not be readmitted. 3.17 A former stud ent who se admission w as closed d ue to 3rd academic warning will be readmitted only once. 3.18 Only credits of r elevant courses, which have been earned within the last five years with at-least C grade are transferable. 3.19 CGPA earn ed at the previous admission is not transferred while transferring courses. 3.20 FYP credits are not transferable. Readmission in a different Degree Program 3.21 A student of the University who wishes to change the degree program c an do so b y taking the admission test. Af ter qualifying for admission on merit, the student is admitted as a NEW student. 3.22 Only credits of r elevant courses with at le ast C grade are transferable, and NOT the CGPA earned in t he transferred courses. 3.23 The Director of the campus shall recommend each case with full details to the Controller of Examinations for approval. Transfer to another FAST-NUCES campus 3.24 Request of a student for transfer from one campus of the University to another will be considered only on the f ollowing grounds: a) Death of a parent. b) Posting of a parent to the city where the transfer is desired. c) Marriage of a female student. \n\n> 3.25 The request shall be considered by the Competent Authority, provided the D irectors of both the campuses h ave no objection to it and th at there is a pl ace available in the destination campus. 3.26 Transfer shall not be considered in the following cases: a) The student is under disciplinary punishment. b) Disciplinary action is pending against the student. c) Dues are outstanding against the student. d) During the course of a semester. Closure of Admission 3.27 Closure of admission r esults in te rmination of a student's studies at the University. 3.28 If the CGPA of a n undergraduate stud ent fall below the acceptable threshold of 2. 00 for third consecutive semester, then his/her admission is closed. 3.29 A stud ent\u2019s admission will be cancelled automatically after completion of maximum dur ation allowed to e arn a degree unless extension is approved by competent authority. 3.30 Admission may be closed for failure to r estore suspended registration. 3.31 Admission will be closed if rec ommended by a Disciplinary Committee and approved by the Competent Authority. 3.32 A new admission is closed if an awaited result does not meet the eligibility criteria of a particular degree program. 3.33 A student can request closure of his/her admission to pursue studies elsewhere or for personal reasons. \n\nStudent: What is my current attendance percentage in Programming Fundamentals?\nAssistant (context only): I could not find this information in the provided documents.\n\nStudent: What is the fee?\nAssistant (context only): Which fee do you mean: course withdrawal, tuition, hostel, gym, or another fee?",
+        "raw_answer": "External-university admission and credit-transfer rules are outside the scope of this approved index [S2, S3]. Please consult the Academic Office or the complete admission policy.",
+        "retrieved": [
+          {
+            "chunk_id": "df048ad485b8c5d88a64575a32cccd4f13513b501a8585f33684954d59190e18",
+            "references": [
+              {
+                "id": "handbook",
+                "filename": "Student_Handbook_2026.pdf",
+                "title": "Student Handbook 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Financial rules and undergraduate assistance",
+                "pdf_page": 20,
+                "pdf_page_index": 19,
+                "printed_label": "12",
+                "campus": "all",
+                "degree": "undergraduate"
+              },
+              {
+                "id": "handbook",
+                "filename": "Student_Handbook_2026.pdf",
+                "title": "Student Handbook 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Financial rules and undergraduate assistance",
+                "pdf_page": 21,
+                "pdf_page_index": 20,
+                "printed_label": "13",
+                "campus": "all",
+                "degree": "undergraduate"
+              }
+            ],
+            "passage": "External Scholarships\n \nSindh Government Endowment Board Scholarships  \nThis is offered on need-cum-merit to rural and urban students in \nboth Undergraduate and Graduate level for all disciplines.\n\nScholarship covers full tuition fee for entire duration of the \nprogram, renewable every year. The scholarship quota for rural \nsector is 60% and for Urban is 40%. \nICT Scholarships and Balochistan Endowment Scholarships  \nICT Scholarships refer to the Prime Minister's Na tional ICT \nScholarship Program, a program by Ignite (formerly National ICT \nR&D Fund) that provides financial assistance to students \npursuing ICT degrees. Balochistan Endowment Scholarships, \nspecifically the Balochistan Education Endowment Fund (BEEF), \naims to support the education of talented students from \nBalochistan, including those from less privileged backgrounds. \nPunjab Educational Endowment Fund (PEEF) Scholarships \nThe PEEF provides financial assistance to talented and needy \nstudents in Punjab and oth er provinces of Pakistan, including \nAzad Jammu and Kashmir, FATA, Gilgit Baltistan, and Islamabad \nCapital Territory. It aims to support students pursuing \nIntermediate, Graduation, and Master's level degrees. PEEF was \nestablished to address the gap in educational opportunities for \ndeserving students by providing scholarships and other financial \nassistance. \nPunjab Honhaar Scholarship Program \nThe Honhaar Scholarship Program, an initiative of the Punjab \nHigher Education Commission, aims to provide financial \nassistance to deserving and meritorious students pursuing higher \neducation at universities and colleges in Punjab, Pakistan. The \nprogram seeks to ensure equal access to quality education, \nparticularly for those with limited financial resources."
+          },
+          {
+            "chunk_id": "4c0d627f27523a3885726fa69cceb64d735a61929c099e618ded6abab14775c5",
+            "references": [
+              {
+                "id": "academic",
+                "filename": "Academic_Rules_Handbook_2026.pdf",
+                "title": "Undergraduate Academic Rules and Regulations 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Readmission, campus transfer and closure",
+                "pdf_page": 15,
+                "pdf_page_index": 14,
+                "printed_label": "9",
+                "campus": "all",
+                "degree": "undergraduate"
+              },
+              {
+                "id": "academic",
+                "filename": "Academic_Rules_Handbook_2026.pdf",
+                "title": "Undergraduate Academic Rules and Regulations 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Readmission, campus transfer and closure",
+                "pdf_page": 16,
+                "pdf_page_index": 15,
+                "printed_label": "10",
+                "campus": "all",
+                "degree": "undergraduate"
+              }
+            ],
+            "passage": "Readmission of former FAST-NUCES students \n3.15 A former student of the University seeking readmission in an \nundergraduate program can do so b y taking the relevant \nadmission test. After qualifying for the admission on merit, the \nstudent is admitted as a NEW student. \n3.16 A former student who has been on dis ciplinary warning shall \nnot be readmitted. \n3.17 A former stud ent who se admission w as closed d ue to 3rd \nacademic warning will be readmitted only once.\n\n3.18 Only credits of r elevant courses, which have been earned \nwithin the last five years with at-least C grade are transferable.  \n3.19 CGPA earn ed at the previous admission is not transferred \nwhile transferring courses. \n3.20 FYP credits are not transferable. \nReadmission in a different Degree Program \n3.21 A student of the University  who wishes to change the degree \nprogram c an do so b y taking the admission test. Af ter \nqualifying for admission on merit, the student is admitted as a \nNEW student. \n3.22 Only credits of r elevant courses with at le ast C  grade are \ntransferable, and NOT the CGPA earned in t he transferred \ncourses. \n3.23 The Director of the campus shall recommend each case with \nfull details to the Controller of Examinations for approval. \nTransfer to another FAST-NUCES campus \n3.24 Request of a  student for  transfer from one  campus of the \nUniversity to another will be considered only on the f ollowing \ngrounds: \na) Death of a parent. \nb) Posting of a  parent to the city where the transfer is  \ndesired. \nc) Marriage of a female student."
+          },
+          {
+            "chunk_id": "4d2f5fe398d4d40641d2b146059659e9404ff809e31dc106f62d19ee3eb453d0",
+            "references": [
+              {
+                "id": "handbook",
+                "filename": "Student_Handbook_2026.pdf",
+                "title": "Student Handbook 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Migration",
+                "pdf_page": 25,
+                "pdf_page_index": 24,
+                "printed_label": "17",
+                "campus": "all",
+                "degree": "undergraduate"
+              }
+            ],
+            "passage": "IV - MIGRATION \nMigration from NU to other Universities \nA student may be allowed to transfer from this University to any \nother educational institution after obtaining Clearance from the \nUniversity. Such transfer will result in closing of admission at this \nUniversity. Such a student may be considered for re -admission, \nprovided the following conditions are satisfied. \n\u2022 The student has been pursuing studies in the same \ndiscipline he was enrolled at NUCES during the period of \nabsence from the University. \n\u2022 The request for re- admission is made within one year of \nthe d ate of closing of admission. University will use its \ndiscretion in deciding about the transfer of credits from \nthe migrated institution. \nChange of Discipline: A student may apply for change of \ndiscipline subject to completion of certain requirements as per  \nuniversity policy."
+          },
+          {
+            "chunk_id": "69c59a86fbe64043f26d2dc3e8794b8352edb0f568d0d5bbdf38d259f10b982e",
+            "references": [
+              {
+                "id": "guidebook",
+                "filename": "Student-Guide-Book-2026.pdf",
+                "title": "CFD Student Guide Book 2026",
+                "url": "",
+                "publication_date": "2026",
+                "collection_date": "",
+                "extraction_method": "Windows English OCR + visually corrected tables/contacts",
+                "section": "Student FAQs",
+                "pdf_page": 13,
+                "pdf_page_index": 12,
+                "printed_label": "13",
+                "campus": "CFD",
+                "degree": "undergraduate"
+              }
+            ],
+            "passage": "FAQs\nHow Do I Prepare Myself For Semester Studies?\nYou prepare yourself by participating in group studies, class participation and visiting\nonline resources available in the library portal.\nHow Much Time Do Students Spend On Studies Per Week?\nFor each hour you spend in the classroom, you should spend at least three hours con-\nsuming the contents covered in that hour.\nHow Can I Get Work And Skills Training While Studying?\nThe career office announces vacancies for internships, jobs, and other opportunities for\ncurrent and graduated students. Contact careerservices.nfsd@nu.edu.pk.\nHow Do I Get Notified About My Assessment & Where Do I Have To Submit Them?\nFrom announcement to submission, you can use our academic portal (slate.nu.edu.pk);\nhowever, faculty members may also announce any other mode of submission.\nAre There Opportunities To Build Personal Skills On Campus?\nThe campus encourages and provides platforms via societies and events to polish\nstudents' personal skills.\nWhat Is The Role Of The Batch Advisor?\nThe batch advisor is a mentor assigned to you during your stay at the campus. At the start\nof each semester, you may need counselling regarding course registration. You may discuss\nyour academic or personal issues with him.\nDo I Have A Mentor During My Semester Studies?\nYou can contact batch advisor.\nHow Do I Contact Faculty Members?\nFAST CFD campus has an open-door policy for students. Moreover, each faculty member has\nannounced their student visiting hours at their offices. You may schedule an appointment via\ntheir emails.\nDo I Need To Register For My Semester Courses As A Student?\nYou must register your courses offered by the department at the start of each semester by"
+          },
+          {
+            "chunk_id": "a72f19ebae12ec9225783124562b995a8fe74444b7c4c9233920591f7f297811",
+            "references": [
+              {
+                "id": "academic",
+                "filename": "Academic_Rules_Handbook_2026.pdf",
+                "title": "Undergraduate Academic Rules and Regulations 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Readmission, campus transfer and closure",
+                "pdf_page": 17,
+                "pdf_page_index": 16,
+                "printed_label": "11",
+                "campus": "all",
+                "degree": "undergraduate"
+              },
+              {
+                "id": "academic",
+                "filename": "Academic_Rules_Handbook_2026.pdf",
+                "title": "Undergraduate Academic Rules and Regulations 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Readmission, campus transfer and closure",
+                "pdf_page": 18,
+                "pdf_page_index": 17,
+                "printed_label": "12",
+                "campus": "all",
+                "degree": "undergraduate"
+              }
+            ],
+            "passage": "3.25 The request shall be considered by the Competent Authority, \nprovided the D irectors of both the  campuses h ave no \nobjection to it and th at there is a pl ace available in the \ndestination campus. \n3.26 Transfer shall not be considered in the following cases: \na) The student is under disciplinary punishment. \nb) Disciplinary action is pending against the student.  \nc)   Dues are outstanding against the student. \nd) During the course of a semester. \nClosure of Admission \n3.27 Closure of admission r esults in te rmination of  a student's \nstudies at the University. \n3.28 If the CGPA of a n undergraduate stud ent fall below the  \nacceptable threshold of 2. 00 for third consecutive semester, \nthen his/her admission is closed. \n3.29 A stud ent\u2019s admission will be cancelled automatically after \ncompletion of  maximum dur ation allowed to e arn a degree \nunless extension is approved by competent authority. \n3.30 Admission may be closed for  failure to r estore suspended \nregistration. \n3.31 Admission will be closed if rec ommended by a Disciplinary \nCommittee and approved by the Competent Authority.\n\n3.32 A new admission is closed if an awaited result does not meet \nthe eligibility criteria of a particular degree program. \n3.33 A student can request closure of his/her admission to pursue \nstudies elsewhere or for personal reasons."
+          },
+          {
+            "chunk_id": "c4b1cf67dee513a3c85403c88bbd231dc8c7b07af91c456222f7d504e8e45a2b",
+            "references": [
+              {
+                "id": "guidebook",
+                "filename": "Student-Guide-Book-2026.pdf",
+                "title": "CFD Student Guide Book 2026",
+                "url": "",
+                "publication_date": "2026",
+                "collection_date": "",
+                "extraction_method": "Windows English OCR + visually corrected tables/contacts",
+                "section": "Campus introduction",
+                "pdf_page": 4,
+                "pdf_page_index": 3,
+                "printed_label": "04",
+                "campus": "CFD",
+                "degree": "undergraduate"
+              }
+            ],
+            "passage": "Campus Introduction:\nLocated between Faisalabad, Pakistan's industrial center, and the historic city of Chiniot, the\nChiniot-Faisalabad Campus offers a setting that combines accessibility with a focused\nacademic environment. Spread over 30 acres along Faisalabad-Chiniot Road, the campus\nprovides space conducive to learning and personal development.\nThe campus maintains a clear emphasis on academic quality and student development.\nIts graduates are placed in reputable national and international organizations, reflecting\nthe practical orientation of its programs. Linkages with industry and software development\norganizations provide students with opportunities for internships, projects, and exposure to\nprofessional practices.\nUndergraduate programs include Computer Science (CS), Software Engineering (SE), Artificial\nIntelligence & Data Science (AI & DS), Electrical Engineering (EE), Computer Engineering\n(CE), Business Administration (BBA), Business Analytics (BA) and Financial Technology (FinTech).\nThese programs are structured to combine theoretical foundations with practical application.\nThe faculty consists of qualified and experienced members who guide students in both\ncoursework and research activities, maintaining a consistent academic standard. The\ncampus also provides key facilities, including on-campus hostels for male & female students,\nindoor and outdoor sports facilities, and a day\u2014care center for faculty and staff, supporting a\nstable and balanced academic environment\nThe Chiniot-Faisalabad Campus provides an environment where students develop the\nknowledge and skills required for their future careers."
+          }
+        ],
+        "packed_source_ids": {
+          "S1": "df048ad485b8c5d88a64575a32cccd4f13513b501a8585f33684954d59190e18",
+          "S2": "4c0d627f27523a3885726fa69cceb64d735a61929c099e618ded6abab14775c5",
+          "S3": "4d2f5fe398d4d40641d2b146059659e9404ff809e31dc106f62d19ee3eb453d0",
+          "S4": "69c59a86fbe64043f26d2dc3e8794b8352edb0f568d0d5bbdf38d259f10b982e",
+          "S5": "a72f19ebae12ec9225783124562b995a8fe74444b7c4c9233920591f7f297811"
+        },
+        "validation": "targeted_policy_and_citation_checks"
+      },
+      "client_request_id": "5a8f6612-ed5b-4076-b879-8b96c37473f1",
+      "running": false,
+      "verification_retry_count": 0
+    },
+    {
+      "id": "cd7e7e9dcd324e5d8c31e3404b9c3251",
+      "conversation_id": "71ec1a402bfc48f6b1dae44538c6f15f",
+      "question": "My loan application number is TEST-204. Tell me whether it was approved.",
+      "answer": null,
+      "citations": [],
+      "status": "failed",
+      "error": "The response could not be validated: policy answers need source references. Retry or inspect the retrieved passages.",
+      "model": null,
+      "dataset_version": null,
+      "created": "2026-10-17T10:18:46.749566+00:00",
+      "completed": null,
+      "latency": null,
+      "diagnostics": {
+        "route": "document_rag",
+        "question": "My loan application number is TEST-204. Tell me whether it was approved.",
+        "search_question": "Was loan application TEST-204 approved?",
+        "interpretation_override": null,
+        "requested_facets": [],
+        "evidence_facets": {},
+        "retrieval_queries": [
+          "Was loan application TEST-204 approved?"
+        ],
+        "interpretation": {
+          "question": "Was loan application TEST-204 approved?",
+          "unresolved": false
+        },
+        "retrieval_history_context": "[\"How many semesters of sponsorship can undergraduate, master\u2019s, and PhD students receive?\", \"I am applying from another university. Tell me the complete external-applicant credit-transfer procedure.\", \"Since you have all four PDFs, summarize every admission policy in them.\", \"What is my current attendance percentage in Programming Fundamentals?\", \"What is the fee?\", \"Can I apply?\"]",
+        "transport_failures": [],
+        "history_tokens_estimated": 1632,
+        "history_context": "Student: How many semesters of sponsorship can undergraduate, master\u2019s, and PhD students receive?\nAssistant (context only): Internal sponsorships for Bachelor's students are available for a maximum of 8 semesters  . They are for studying in regular semesters (spring and Fall) and are limited to the tuition fee only  . Additionally, internal sponsorships are not available for repeat or withdrawn courses and are suspended if the student's CGPA falls below the minimum specified to avoid warning, but they will be restored upon getting out of warning by improving the CGPA  .\n\nThis local knowledge base covers approved undergraduate sections. Postgraduate-only requirements are outside its indexed coverage; this does not mean they are absent from the original PDFs.\n\nStudent: I am applying from another university. Tell me the complete external-applicant credit-transfer procedure.\nAssistant (context only): External-university admission and credit-transfer rules are outside this approved index. Readmission rules cannot establish those requirements. Please consult the Academic Office or the complete admission policy.\n\nStudent: Since you have all four PDFs, summarize every admission policy in them.\nAssistant (context only): This index covers selected undergraduate readmission, degree-change and admission-closure rules, not every admission policy in the four original PDFs. External-applicant admission and credit-transfer procedures are excluded.\n\nThe following retrieved passages establish the selected covered rules:\n\n> Readmission of former FAST-NUCES students 3.15 A former student of the University seeking readmission in an undergraduate program can do so b y taking the relevant admission test. After qualifying for the admission on merit, the student is admitted as a NEW student. 3.16 A former student who has been on dis ciplinary warning shall not be readmitted. 3.17 A former stud ent who se admission w as closed d ue to 3rd academic warning will be readmitted only once. 3.18 Only credits of r elevant courses, which have been earned within the last five years with at-least C grade are transferable. 3.19 CGPA earn ed at the previous admission is not transferred while transferring courses. 3.20 FYP credits are not transferable. Readmission in a different Degree Program 3.21 A student of the University who wishes to change the degree program c an do so b y taking the admission test. Af ter qualifying for admission on merit, the student is admitted as a NEW student. 3.22 Only credits of r elevant courses with at le ast C grade are transferable, and NOT the CGPA earned in t he transferred courses. 3.23 The Director of the campus shall recommend each case with full details to the Controller of Examinations for approval. Transfer to another FAST-NUCES campus 3.24 Request of a student for transfer from one campus of the University to another will be considered only on the f ollowing grounds: a) Death of a parent. b) Posting of a parent to the city where the transfer is desired. c) Marriage of a female student. \n\n> 3.25 The request shall be considered by the Competent Authority, provided the D irectors of both the campuses h ave no objection to it and th at there is a pl ace available in the destination campus. 3.26 Transfer shall not be considered in the following cases: a) The student is under disciplinary punishment. b) Disciplinary action is pending against the student. c) Dues are outstanding against the student. d) During the course of a semester. Closure of Admission 3.27 Closure of admission r esults in te rmination of a student's studies at the University. 3.28 If the CGPA of a n undergraduate stud ent fall below the acceptable threshold of 2. 00 for third consecutive semester, then his/her admission is closed. 3.29 A stud ent\u2019s admission will be cancelled automatically after completion of maximum dur ation allowed to e arn a degree unless extension is approved by competent authority. 3.30 Admission may be closed for failure to r estore suspended registration. 3.31 Admission will be closed if rec ommended by a Disciplinary Committee and approved by the Competent Authority. 3.32 A new admission is closed if an awaited result does not meet the eligibility criteria of a particular degree program. 3.33 A student can request closure of his/her admission to pursue studies elsewhere or for personal reasons. \n\nStudent: What is my current attendance percentage in Programming Fundamentals?\nAssistant (context only): I could not find this information in the provided documents.\n\nStudent: What is the fee?\nAssistant (context only): Which fee do you mean: course withdrawal, tuition, hostel, gym, or another fee?\n\nStudent: Can I apply?\nAssistant (context only): External-university admission and credit-transfer rules are outside the scope of this approved index  . Please consult the Academic Office or the complete admission policy.",
+        "raw_answer": "For a personal record or official approval such as the status of loan application TEST-204, I could not find this information in the provided documents.",
+        "retrieved": [
+          {
+            "chunk_id": "401b94290e6fe598b98b8ea7ee830a343e7b1cd9e5aec08acc782cd3d88cb36c",
+            "references": [
+              {
+                "id": "handbook",
+                "filename": "Student_Handbook_2026.pdf",
+                "title": "Student Handbook 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Retake examinations",
+                "pdf_page": 46,
+                "pdf_page_index": 45,
+                "printed_label": "38",
+                "campus": "all",
+                "degree": "undergraduate"
+              }
+            ],
+            "passage": "Policy on Retake Examination\nRetake examination application may be considered in the following cases:\nIssue | Description | Documents Required\nMarriage | Self or Sibling | Wedding Card and Marriage Certificate\nSevere Illness | Hospitalization (Self/Immediate Family Member) | Hospitalization Certificate and Hospital Bill\nDeath | Immediate Family Member | Certificate\nHigh Fever / Diarrhea Asthma | Self | Medical Certificate\nSevere Injury | Injury leading to disruption in capability to appear for the exam | Supporting Documents and Medical Reports\nISSB Examination / Iqama Renewal | Actual dates must collide with the examination date. | Documentary Proof\nAny religious festival/event with fixed dates | Hajj | Travel documents or other related information\nRetake examination applications will not be considered in the \nfollowing cases: \n \n1. Habitual Applicants. An \napplicant with more than 5 \nrequests of retake in his or her \nacademic career; \n5. Students suffering \nfrom minor Injuries; \n2. Applications with incomplete \ndocuments; \n6. Marriage of cousins; \nand"
+          },
+          {
+            "chunk_id": "c9dd69b36816a716e78f3dd31b076e220cd8689e40e128dd3c74bb2dbbfd378b",
+            "references": [
+              {
+                "id": "academic",
+                "filename": "Academic_Rules_Handbook_2026.pdf",
+                "title": "Undergraduate Academic Rules and Regulations 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Retake examinations",
+                "pdf_page": 39,
+                "pdf_page_index": 38,
+                "printed_label": "33",
+                "campus": "all",
+                "degree": "undergraduate"
+              }
+            ],
+            "passage": "(Exam paper shall be sent \nthrough email to the \nconcerned HoD at the remote \ncampus); \nstudent who has a \nmedical condition; and \n \n5. Above are just the \nguidelines. Final decision \nrests with the Campus \nCommittee and the \nCampus Director."
+          },
+          {
+            "chunk_id": "adbf49119012de90daef7f2904a81ebd5dc12fa96f6c4fda133b5b73fa9cdf21",
+            "references": [
+              {
+                "id": "academic",
+                "filename": "Academic_Rules_Handbook_2026.pdf",
+                "title": "Undergraduate Academic Rules and Regulations 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Retake examinations",
+                "pdf_page": 37,
+                "pdf_page_index": 36,
+                "printed_label": "31",
+                "campus": "all",
+                "degree": "undergraduate"
+              },
+              {
+                "id": "academic",
+                "filename": "Academic_Rules_Handbook_2026.pdf",
+                "title": "Undergraduate Academic Rules and Regulations 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Retake examinations",
+                "pdf_page": 38,
+                "pdf_page_index": 37,
+                "printed_label": "32",
+                "campus": "all",
+                "degree": "undergraduate"
+              }
+            ],
+            "passage": "Policy on Retake Examination\nRetake examination application may be considered in the following cases:\nIssue | Description | Documents Required\nMarriage | Self or Sibling | Wedding Card and Marriage Certificate\nSevere Illness | Hospitalization (Self/Immediate Family Member) | Hospitalization Certificate and Hospital Bill\nDeath | Immediate Family Member | Certificate\nHigh Fever / Diarrhea Asthma | Self | Medical Certificate\nSevere Injury | Injury leading to disruption in capability to appear for the exam | Supporting Documents and Medical Reports\nISSB Examination / Iqama Renewal | Actual dates must collide with the examination date. | Documentary Proof\nAny religious festival/event with fixed dates | Hajj | Travel documents or other related information\n\nRetake examination applications will not be considered  in the \nfollowing cases: \n1. Habitual Applicants. An \napplicant with more than 5 \nrequests of retake in his or her \nacademic career; \n5. Students suffering from \nminor Injuries; \n2. Applications with incomplete \ndocuments; \n6. Marriage of cousins; \nand \n3. Students suffering from Coughs \nand Colds;  \n7. Other cases not \ncovered in the table \nabove  \n4. Religious events with flexible \ndates (such as Umrah, Aitekaf \nleave); \n \nNotes: \n1. All applications along with \nsupporting documents must be \nsubmitted within the specified \ntimeframe on Flex; \n3. Immediate Family \nMember includes Sibling, \nParent, and Grand \nParents; \n2. A student travelling during \nexams due to a valid reason \nmay be facilitated by \nconducting the same exam at \nthe remote campus on the \nsame day and time of the \nexam at the base campus. \n4. If in doubt the student \nmust contact the office \nbefore the academic \nexam. Extra time may be \nallowed to facilitate a"
+          },
+          {
+            "chunk_id": "2aa350e17081bd72fd53d0783a3a8feff95aac208f0f35dad7a9e46a0441b93a",
+            "references": [
+              {
+                "id": "scholarships",
+                "filename": "FAST_Financial_Assistance_Scholarships.pdf",
+                "title": "Financial Assistance / Scholarships (webpage snapshot)",
+                "url": "https://www.nu.edu.pk/Admissions/Scholarship",
+                "publication_date": "",
+                "collection_date": "2026-10-08",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Undergraduate financial assistance and scholarships",
+                "pdf_page": 2,
+                "pdf_page_index": 1,
+                "printed_label": "2",
+                "campus": "all",
+                "degree": "undergraduate"
+              }
+            ],
+            "passage": "Khan Foundation Scholarships, etc.\n10. Repayment of Study Loan\nThe repayment of loan starts three months after graduation or soon after getting employment, whichever is\nearlier. The total amount has to be repaid within a period of four years after graduation. Students are required to\nsign a contract allowing future employers to deduct loan repayments at source and remit it to the University."
+          },
+          {
+            "chunk_id": "f5a4b00e8e6566f57ea620e8b1994ff3d0b8fcb0802a6c6873d8d910bb05d241",
+            "references": [
+              {
+                "id": "handbook",
+                "filename": "Student_Handbook_2026.pdf",
+                "title": "Student Handbook 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Financial rules and undergraduate assistance",
+                "pdf_page": 18,
+                "pdf_page_index": 17,
+                "printed_label": "10",
+                "campus": "all",
+                "degree": "undergraduate"
+              }
+            ],
+            "passage": "II - FINANCIAL RULES \nFee Structure and Mode of Payment \nThe fee is charged on Semester basis, and it becomes due two \nweeks earlier than the start of a semester at the time of course \nregistration.  \nFees are paid in the bank through bank challan available in \nAccounts Office/Flex. \nAll fees are non-Refundable \nAll fees are non -refundable (except security deposit ) and the \nUniversity reserves the right to review the fee structure from time \nto time. Any revision of fees would be uniformly applicable to all \nstudents at the University. \nFinancial Assistance (Loan) \nFAST, being a non -profit organization, charges subsidized fees \nfrom all its students. Realizing that even the subsidized fee may  \nnot be affordable for some of its students. FAST tries to arrange \nfinancial assistance in the form of loan for such indigent students. \nThis assistance is subject to renewal every semester in the light \nof the student's academic performance and financial need. The \nfinancial ass istance is limited to tuition fees only and is \ndiscontinued if the student's CGPA falls below 2.00 for \nundergraduate degree and 2.5 for graduate degree. \nThe repayment of loan starts three months after graduation or \ngetting a job, whichever is earlier. The total amount must  be \nrepaid within a period of four years after graduation. Students are \nrequired to sign to this effect. \nAll those who are admitted and are in real need of financial \nassistance should apply on the prescribed Financial Aid form. A \nnotice to this effect will be posted on the notice board."
+          },
+          {
+            "chunk_id": "137d58f4c24b957cea166491021a79a1ac4ebb62415c9af0248552b7aab09cab",
+            "references": [
+              {
+                "id": "academic",
+                "filename": "Academic_Rules_Handbook_2026.pdf",
+                "title": "Undergraduate Academic Rules and Regulations 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Academic assessment, warnings, repetition, missed exams and rechecking",
+                "pdf_page": 27,
+                "pdf_page_index": 26,
+                "printed_label": "21",
+                "campus": "all",
+                "degree": "undergraduate"
+              }
+            ],
+            "passage": "5.21 Student application should r each the Examination O ffice \nwithin seven days of the announcement of the result. \n5.22 Committee should adhere to  the following guidelines to \nhandle rechecking cases: \na) Committee should r ecount marks awarded by the \nconcerned instructor. \nb) Unmarked qu estion or  part should be s ent to the \ninstructor for checking/marking.  \nc) Committee should not d iscuss the outcome of the  \nrechecking with the students. \nd) Committee recommendation should be submit ted to \nthe Director\u2019s office using the Change of Grade Form \nfor final approval. \n5.23 Examination Office will inform the student about the outcome \nof the rechecking application. \n5.24 A stud ent who h as not vie wed his fin al e xam pape r in the  \nscheduled paper viewing session may also request rechecking \nof the final examination by paying the prescribed fee. \n5.25 Rechecking fee will be refunded if  there is an in crease in \nmarks."
+          }
+        ],
+        "packed_source_ids": {
+          "S1": "401b94290e6fe598b98b8ea7ee830a343e7b1cd9e5aec08acc782cd3d88cb36c",
+          "S2": "c9dd69b36816a716e78f3dd31b076e220cd8689e40e128dd3c74bb2dbbfd378b",
+          "S3": "adbf49119012de90daef7f2904a81ebd5dc12fa96f6c4fda133b5b73fa9cdf21",
+          "S4": "2aa350e17081bd72fd53d0783a3a8feff95aac208f0f35dad7a9e46a0441b93a",
+          "S5": "f5a4b00e8e6566f57ea620e8b1994ff3d0b8fcb0802a6c6873d8d910bb05d241",
+          "S6": "137d58f4c24b957cea166491021a79a1ac4ebb62415c9af0248552b7aab09cab"
+        }
+      },
+      "client_request_id": "07daf87f-1a2d-403d-8eda-c2072b47ac19",
+      "running": false,
+      "verification_retry_count": 0
+    }
+  ]
+}
