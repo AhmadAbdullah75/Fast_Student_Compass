@@ -1,0 +1,256 @@
+{
+  "id": "da41d49f624b4d02954b822129a67c01",
+  "conversation_id": "ace4bc570dea41fca3cd54db8a2782bf",
+  "question": "In that second case, if I also register theory, can I withdraw theory and continue lab?",
+  "answer": "If you passed theory and failed its lab, and you also register for theory, you may withdraw from theory later and continue with the lab [S1]. \n\nWhen withdrawing from a course, the following conditions and procedures apply:\n* **Deadline:** The deadline to withdraw from a course is the last day of the makeup week of every semester [S3].\n* **Financial Support Restriction:** Students on any form of financial support are not allowed to withdraw from any course [S3].\n* **First-Semester Exception:** Students are not allowed to withdraw from any course in the first semester unless necessitated by unavoidable circumstances, and such a request must be approved by the Director of the campus [S4].\n* **Fees/Refund Conditions:** Fee is not refunded for a withdrawn course [S4].\n* **Required Proof & Application:** Application for withdrawal from a course must be countersigned by the parent or the guardian of the student [S4].\n* **Final Deciding Authority:** Request for withdrawal must be approved by the HoD [S4] (or the Director of the campus in first-semester unavoidable circumstances [S4]).\n\n**Related conditions and exceptions from the retrieved sources:**\n\n> If a student passes Theory but fails in Lab, only Lab needs to be repeated. In this c ase if a student also r egisters for Theory, s/he may withdraw from Theory later and continue with the lab. [S1]",
+  "citations": [
+    {
+      "id": "S1",
+      "chunk_id": "bca651d4d1c3289aa34ca7061f345686137946751b6e869181d23f9c582440a0",
+      "references": [
+        {
+          "id": "academic",
+          "filename": "Academic_Rules_Handbook_2026.pdf",
+          "title": "Undergraduate Academic Rules and Regulations 2026",
+          "url": "",
+          "publication_date": "2026-06",
+          "collection_date": "",
+          "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+          "section": "Registration, warning restrictions, theory/lab, FYP, suspension, semester freezing and course changes",
+          "pdf_page": 20,
+          "pdf_page_index": 19,
+          "printed_label": "14",
+          "campus": "all",
+          "degree": "undergraduate"
+        }
+      ],
+      "excerpt": "academic performance of the student. \ne) Students on 2 nd academic warning must NOT register \nfor a new course, unl ess recommended by the HoD \nand approved by Controller of Examinations. \nRegistration of courses with Theory and associated Lab: \n4.5 A student must register for both the Theory and Lab part of a \ncourse. \n4.6 A student cannot withdraw from either Theory or Lab part of \nthe course. Must withdraw from both. \n4.7  If a student fails in Theory but passes the Lab, both theory and \nlab must be repeated. \n4.8 If a student passes Theory but fails in Lab, only Lab needs to be \nrepeated. In this c ase if a  student also r egisters for Theory, \ns/he may withdraw from Theory later and continue with the  \nlab. \n4.9 If a student, who has passed both Th eory and Lab, wishes to \nimprove grade in the course, s/he must  register for both \nTheory and Lab. Rule 4.6 will apply. \nRegistration of Final Year Project (FYP) \n4.10 Final Year Project (FYP) is offered in the second last regular \nsemester. It spans over two semesters (FYP-I and FYP-II). \n4.11 A stud ent must have  passed all courses shown in t he study \nplan of the degree program (up to the  second last s emester)"
+    },
+    {
+      "id": "S3",
+      "chunk_id": "bd31f277a12f5246517146faab1729bdb6f8061012e9dbcdb0c708e499080ee2",
+      "references": [
+        {
+          "id": "academic",
+          "filename": "Academic_Rules_Handbook_2026.pdf",
+          "title": "Undergraduate Academic Rules and Regulations 2026",
+          "url": "",
+          "publication_date": "2026-06",
+          "collection_date": "",
+          "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+          "section": "Registration, warning restrictions, theory/lab, FYP, suspension, semester freezing and course changes",
+          "pdf_page": 23,
+          "pdf_page_index": 22,
+          "printed_label": "17",
+          "campus": "all",
+          "degree": "undergraduate"
+        }
+      ],
+      "excerpt": "4.25 The deadline to withdraw from a course is the last day of the \nmakeup week of every semester. \n4.26 Students on a ny form of financial support a re not allowed to \nwithdraw from any course. \nCourse Replacement Policy \n4.27 Following conditions must be f ulfilled be fore submitting a \ncourse replacement request to the Dean for approval: \na) The student has either completed degree requirements or will \ncomplete at the end of the current semester. \nb) The Grade in the course to be replaced is \u2018F\u2019 \nc) The course to be replaced w as not of fered in t he following \nsemesters. \nd) The replacing course was passed at least one semester after \nthe course to be replaced was taken. \n4.28 A core course cannot be replaced by any other course."
+    },
+    {
+      "id": "S4",
+      "chunk_id": "e4b82e4456c2b547d3d7114f7c2af1f06ba3e88a35419fab60f36b9b8f32cd59",
+      "references": [
+        {
+          "id": "academic",
+          "filename": "Academic_Rules_Handbook_2026.pdf",
+          "title": "Undergraduate Academic Rules and Regulations 2026",
+          "url": "",
+          "publication_date": "2026-06",
+          "collection_date": "",
+          "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+          "section": "Registration, warning restrictions, theory/lab, FYP, suspension, semester freezing and course changes",
+          "pdf_page": 22,
+          "pdf_page_index": 21,
+          "printed_label": "16",
+          "campus": "all",
+          "degree": "undergraduate"
+        }
+      ],
+      "excerpt": "Freezing of Semester \n4.18 A student may request freezing of his/her admission for up to \n2 semesters along with prescribed \u2018Semester Freeze\u2019 charges. \nFreezing of first* two semester of BS degree are not allowed.  \n*Freezing of first semester is allowed for extreme hardship cases by \nCompetent Authority.  Such as Iddat, Maternity /Delivery, Death in the \nimmediate family member, and any other subject to acceptance on justified \nrationale \nAdding or Dropping a Course \n4.19 The request should be m ade with in the f irst two weeks of  a \nregular s emester. App roval of the  Head of Department is \nessential. \n4.20 Students are not allow ed to drop a ny course in the first \nsemester.  \n4.21 Students cannot drop a course in the summer semester.  \nWithdrawal from a Course \n4.22 Fee is not refunded for a withdrawn course. \n4.23 Application f or withdrawal f rom a course must be \ncountersigned by the parent or the g uardian of the student. \nRequest for withdrawal must be approved by the HoD. \n4.24 Students are not allowed to withdraw from any course in the \nfirst semester unless necessitated by unavoidable \ncircumstances. Such a r equest must be  approved by the \nDirector of the campus."
+    }
+  ],
+  "status": "completed",
+  "error": null,
+  "model": "gemini-3.5-flash-lite",
+  "dataset_version": "2026-reviewed-v1:b13c59ecc7ad",
+  "created": "2026-10-18T17:58:36.653052+00:00",
+  "completed": "2026-10-18T17:58:40.585684+00:00",
+  "latency": 3.900571399994078,
+  "diagnostics": {
+    "route": "document_rag",
+    "question": "In that second case, if I also register theory, can I withdraw theory and continue lab?",
+    "search_question": "If I passed theory and failed its lab, and I register for theory, can I withdraw from theory and continue attending the lab?",
+    "interpretation_override": null,
+    "requested_facets": [],
+    "evidence_facets": {},
+    "retrieval_queries": [
+      "If I passed theory and failed its lab, and I register for theory, can I withdraw from theory and continue attending the lab?"
+    ],
+    "interpretation": {
+      "question": "If I passed theory and failed its lab, and I register for theory, can I withdraw from theory and continue attending the lab?",
+      "unresolved": false
+    },
+    "retrieval_history_context": "[\"I failed theory but passed its lab. What must I repeat?\", \"What if the opposite happened?\"]",
+    "transport_failures": [],
+    "history_tokens_estimated": 150,
+    "history_context": "Student: I failed theory but passed its lab. What must I repeat?\nAssistant (context only): If a student fails in theory but passes the lab, both the theory and lab must be repeated .\n\nStudent: What if the opposite happened?\nAssistant (context only): If a student passes theory but fails in lab, only the lab needs to be repeated . In this case, if a student also registers for theory, s/he may withdraw from theory later and continue with the lab .",
+    "raw_answer": "If you passed theory and failed its lab, and you also register for theory, you may withdraw from theory later and continue with the lab [S1]. \n\nWhen withdrawing from a course, the following conditions and procedures apply:\n* **Deadline:** The deadline to withdraw from a course is the last day of the makeup week of every semester [S3].\n* **Financial Support Restriction:** Students on any form of financial support are not allowed to withdraw from any course [S3].\n* **First-Semester Exception:** Students are not allowed to withdraw from any course in the first semester unless necessitated by unavoidable circumstances, and such a request must be approved by the Director of the campus [S4].\n* **Fees/Refund Conditions:** Fee is not refunded for a withdrawn course [S4].\n* **Required Proof & Application:** Application for withdrawal from a course must be countersigned by the parent or the guardian of the student [S4].\n* **Final Deciding Authority:** Request for withdrawal must be approved by the HoD [S4] (or the Director of the campus in first-semester unavoidable circumstances [S4]).",
+    "retrieved": [
+      {
+        "chunk_id": "bca651d4d1c3289aa34ca7061f345686137946751b6e869181d23f9c582440a0",
+        "references": [
+          {
+            "id": "academic",
+            "filename": "Academic_Rules_Handbook_2026.pdf",
+            "title": "Undergraduate Academic Rules and Regulations 2026",
+            "url": "",
+            "publication_date": "2026-06",
+            "collection_date": "",
+            "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+            "section": "Registration, warning restrictions, theory/lab, FYP, suspension, semester freezing and course changes",
+            "pdf_page": 20,
+            "pdf_page_index": 19,
+            "printed_label": "14",
+            "campus": "all",
+            "degree": "undergraduate"
+          }
+        ],
+        "passage": "academic performance of the student. \ne) Students on 2 nd academic warning must NOT register \nfor a new course, unl ess recommended by the HoD \nand approved by Controller of Examinations. \nRegistration of courses with Theory and associated Lab: \n4.5 A student must register for both the Theory and Lab part of a \ncourse. \n4.6 A student cannot withdraw from either Theory or Lab part of \nthe course. Must withdraw from both. \n4.7  If a student fails in Theory but passes the Lab, both theory and \nlab must be repeated. \n4.8 If a student passes Theory but fails in Lab, only Lab needs to be \nrepeated. In this c ase if a  student also r egisters for Theory, \ns/he may withdraw from Theory later and continue with the  \nlab. \n4.9 If a student, who has passed both Th eory and Lab, wishes to \nimprove grade in the course, s/he must  register for both \nTheory and Lab. Rule 4.6 will apply. \nRegistration of Final Year Project (FYP) \n4.10 Final Year Project (FYP) is offered in the second last regular \nsemester. It spans over two semesters (FYP-I and FYP-II). \n4.11 A stud ent must have  passed all courses shown in t he study \nplan of the degree program (up to the  second last s emester)"
+      },
+      {
+        "chunk_id": "0bb3af4d7d6a2b0a1c3e66567dea11ede74efc20506998540f9e8322e04adc00",
+        "references": [
+          {
+            "id": "academic",
+            "filename": "Academic_Rules_Handbook_2026.pdf",
+            "title": "Undergraduate Academic Rules and Regulations 2026",
+            "url": "",
+            "publication_date": "2026-06",
+            "collection_date": "",
+            "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+            "section": "Instruction, academic year, scheduling, attendance and degree requirements",
+            "pdf_page": 8,
+            "pdf_page_index": 7,
+            "printed_label": "2",
+            "campus": "all",
+            "degree": "undergraduate"
+          }
+        ],
+        "passage": "1.9  A theo ry course is norm ally assigned 2 to  4 credit hours, \ndepending on its content. \n1.10 A lab or w orkshop is no rmally assigned 1 or  2 credit \nhours. \n1.11   1-credit hour of la b work is e quivalent to 3 hou rs of \nlaboratory or p ractical wor k pe r w eek thro ughout \nthe semester. \n1.12   A 4-credit hour course, for example, having 3 credit \nhours of th eory and 1 credit hour of associated lab is \ndesignated as a (3+1) credit hour course. \nScheduling of Classes \n1.13  All classes are held at scheduled hours duly communicated to \nstudents through notification of  timetable by the concerned \nAcademic Office. \n1.14  In case of any unavoidable situation , a class m ay be \npostponed and rescheduled under the following procedure: \na) All classes are rescheduled only through the Academic \nOffice with the approval of the c oncerned Head of  \nDepartment (HoD). \nb) Faculty members sh all not r eschedule any class at \ntheir own discretion. \nc) The academic office will be informed b efore the \ncancellation of class so that students a re notified well \nin time."
+      },
+      {
+        "chunk_id": "bd31f277a12f5246517146faab1729bdb6f8061012e9dbcdb0c708e499080ee2",
+        "references": [
+          {
+            "id": "academic",
+            "filename": "Academic_Rules_Handbook_2026.pdf",
+            "title": "Undergraduate Academic Rules and Regulations 2026",
+            "url": "",
+            "publication_date": "2026-06",
+            "collection_date": "",
+            "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+            "section": "Registration, warning restrictions, theory/lab, FYP, suspension, semester freezing and course changes",
+            "pdf_page": 23,
+            "pdf_page_index": 22,
+            "printed_label": "17",
+            "campus": "all",
+            "degree": "undergraduate"
+          }
+        ],
+        "passage": "4.25 The deadline to withdraw from a course is the last day of the \nmakeup week of every semester. \n4.26 Students on a ny form of financial support a re not allowed to \nwithdraw from any course. \nCourse Replacement Policy \n4.27 Following conditions must be f ulfilled be fore submitting a \ncourse replacement request to the Dean for approval: \na) The student has either completed degree requirements or will \ncomplete at the end of the current semester. \nb) The Grade in the course to be replaced is \u2018F\u2019 \nc) The course to be replaced w as not of fered in t he following \nsemesters. \nd) The replacing course was passed at least one semester after \nthe course to be replaced was taken. \n4.28 A core course cannot be replaced by any other course."
+      },
+      {
+        "chunk_id": "e4b82e4456c2b547d3d7114f7c2af1f06ba3e88a35419fab60f36b9b8f32cd59",
+        "references": [
+          {
+            "id": "academic",
+            "filename": "Academic_Rules_Handbook_2026.pdf",
+            "title": "Undergraduate Academic Rules and Regulations 2026",
+            "url": "",
+            "publication_date": "2026-06",
+            "collection_date": "",
+            "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+            "section": "Registration, warning restrictions, theory/lab, FYP, suspension, semester freezing and course changes",
+            "pdf_page": 22,
+            "pdf_page_index": 21,
+            "printed_label": "16",
+            "campus": "all",
+            "degree": "undergraduate"
+          }
+        ],
+        "passage": "Freezing of Semester \n4.18 A student may request freezing of his/her admission for up to \n2 semesters along with prescribed \u2018Semester Freeze\u2019 charges. \nFreezing of first* two semester of BS degree are not allowed.  \n*Freezing of first semester is allowed for extreme hardship cases by \nCompetent Authority.  Such as Iddat, Maternity /Delivery, Death in the \nimmediate family member, and any other subject to acceptance on justified \nrationale \nAdding or Dropping a Course \n4.19 The request should be m ade with in the f irst two weeks of  a \nregular s emester. App roval of the  Head of Department is \nessential. \n4.20 Students are not allow ed to drop a ny course in the first \nsemester.  \n4.21 Students cannot drop a course in the summer semester.  \nWithdrawal from a Course \n4.22 Fee is not refunded for a withdrawn course. \n4.23 Application f or withdrawal f rom a course must be \ncountersigned by the parent or the g uardian of the student. \nRequest for withdrawal must be approved by the HoD. \n4.24 Students are not allowed to withdraw from any course in the \nfirst semester unless necessitated by unavoidable \ncircumstances. Such a r equest must be  approved by the \nDirector of the campus."
+      },
+      {
+        "chunk_id": "d80f97dc0e0c8d4aede4b6660aa6de9a5f09658d8eddc75b2ce8e6425c6d9d71",
+        "references": [
+          {
+            "id": "academic",
+            "filename": "Academic_Rules_Handbook_2026.pdf",
+            "title": "Undergraduate Academic Rules and Regulations 2026",
+            "url": "",
+            "publication_date": "2026-06",
+            "collection_date": "",
+            "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+            "section": "Academic assessment, warnings, repetition, missed exams and rechecking",
+            "pdf_page": 25,
+            "pdf_page_index": 24,
+            "printed_label": "19",
+            "campus": "all",
+            "degree": "undergraduate"
+          }
+        ],
+        "passage": "5.7 If the CGPA equals or exceeds 2.00 after the 1 st or 2nd \nacademic warning, the warning count is reset to zero. \nRepeating a Course \n5.8 Any failed or missed course from a previous s emester should \nbecome mandatory in the subsequent semester (if Offered), \nand students should not be allowed to skip its registration. \n5.9 A student may repeat any course to improve CGPA. \n5.10 When a  student r epeats a course whose post-requisite \ncourse(s) s/he has p assed, s/he must  give a  written \nundertaking that if s/he f ails the c ourse, grades in  all post-\nrequisite courses will be changed to F grade. \n5.11 If a student repeats a failed course, the new grade will be used \nfor CGPA calculation, but i f a student takes a new course in \nlieu of the course in which s/he failed, both the grades will be \nused for CGPA calculation. \nLate conduct of Examination/ Missed Examination \n5.12 A student is expected to take mid and final examination as per \nthe announced schedule by the department. For more details, \nplease see Policy on Retake Examinations (Section 9). \n5.13 Late conduct of ex amination can be  held on the \nrecommendation of  the HoD and approval of the  Director, \nonly in ca ses of un avoidable emergencies/situations. \nExamples of su ch situations a re hospitalization, s erious road \naccident or death of a very close blood relative. Documentary \nevidence must be submitted to request permission to appear"
+      },
+      {
+        "chunk_id": "998606253b458b29e06f602a86c1275e65cb3462a59f62bfed20ac284c1dcb4c",
+        "references": [
+          {
+            "id": "academic",
+            "filename": "Academic_Rules_Handbook_2026.pdf",
+            "title": "Undergraduate Academic Rules and Regulations 2026",
+            "url": "",
+            "publication_date": "2026-06",
+            "collection_date": "",
+            "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+            "section": "Summer semester",
+            "pdf_page": 28,
+            "pdf_page_index": 27,
+            "printed_label": "22",
+            "campus": "all",
+            "degree": "undergraduate"
+          },
+          {
+            "id": "academic",
+            "filename": "Academic_Rules_Handbook_2026.pdf",
+            "title": "Undergraduate Academic Rules and Regulations 2026",
+            "url": "",
+            "publication_date": "2026-06",
+            "collection_date": "",
+            "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+            "section": "Summer semester",
+            "pdf_page": 29,
+            "pdf_page_index": 28,
+            "printed_label": "23",
+            "campus": "all",
+            "degree": "undergraduate"
+          }
+        ],
+        "passage": "6. Rules for Summer Semester \n6.1 Summer semester is an 8 -week semester and is meant to \nfacilitate students who are in one of the following four \ncategories. \nA. Academic Warning I/II \nB. Graduating \nC. Eligible for registering FYP-I in Fall by earning minimum \nrequired credits in the summer \nD. Eligible for registering a course/lab in Fall by passing \nits pre-requisite in summer \n6.2 Any course(s) offered can only be a repeat course. No new \ncourses are allowed for any of the above four categories \n6.3 Students can repeat only such courses, in which they has \nregistered in a previous semester and was awarded a letter \ngrade. \n6.4 The contact hours per week during the Summer Semester will \nbe doubled to ensure that the c ourse is completely taught in \nsummer (with half  the du ration as compared to a re gular \nsemester). \n6.5 Research courses or projects will not be offered. \n6.6 A student will be a llowed to r epeat a maximum of 2 courses \n(with associated labs if any). \n6.7 80% attendance rule shall apply to summer courses/labs.\n\n6.8 A student can withdraw from a summer course on or before \nthe last day of classes. \n6.9 Summer courses cannot be d ropped; hence, fee is  neither \nrefunded nor carried forward to next semester(s). \n6.10  Financial assistance, s cholarship or fee concession is not \navailable in summer semester. \n6.11 A minimum of TEN (10) students should register in a  summer \ncourse. Otherwise, the course shall be dropped. \n6.12 Warning Count is inc remented/decremented in s ummer \nsemester. \n6.13 A stud ent c an stu dy summer semester in  another campus, \nprovided that the parent campus is not of fering that course. \nStudent must obtain, in writing, prior permission from Director \nof the parent campus."
+      }
+    ],
+    "packed_source_ids": {
+      "S1": "bca651d4d1c3289aa34ca7061f345686137946751b6e869181d23f9c582440a0",
+      "S2": "0bb3af4d7d6a2b0a1c3e66567dea11ede74efc20506998540f9e8322e04adc00",
+      "S3": "bd31f277a12f5246517146faab1729bdb6f8061012e9dbcdb0c708e499080ee2",
+      "S4": "e4b82e4456c2b547d3d7114f7c2af1f06ba3e88a35419fab60f36b9b8f32cd59",
+      "S5": "d80f97dc0e0c8d4aede4b6660aa6de9a5f09658d8eddc75b2ce8e6425c6d9d71",
+      "S6": "998606253b458b29e06f602a86c1275e65cb3462a59f62bfed20ac284c1dcb4c"
+    },
+    "validation": "targeted_policy_and_citation_checks"
+  },
+  "client_request_id": "200f8195-af76-4e39-8704-0896609d2b3a",
+  "running": false,
+  "verification_retry_count": 0
+}
