@@ -1,0 +1,393 @@
+{
+  "note": "Fresh frozen variants after R02:21/:22 loan substitution despite correct rewrite.",
+  "cases": [
+    {
+      "id": "V01",
+      "question": "My semester GPA is3.20 and my cumulative GPA is1.98. Does this guarantee my merit-scholarship must continue?",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "SemesterGPA3.20 meets3.0 condition. CGPA1.98 below2.00: internal sponsorship suspension condition applies. Use internal scholarship and academic warning rules, not loan-specific rules.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "semester GPA of 3.0 or higher"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ],
+              "anchors": [
+                "Minimum CGPA",
+                "undergraduate programs"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex exact handbook20 internal scholarship and academic24 rule5.4 reviewed before execution."
+    },
+    {
+      "id": "V02",
+      "question": "My semester GPA is3.00 and my cumulative GPA is2.00. Does this guarantee my merit-scholarship must continue?",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "SemesterGPA3.00 meets3.0 condition. CGPA2.00 not below2.00: this threshold alone cannot guarantee continuity. Use internal scholarship and academic warning rules, not loan-specific rules.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "semester GPA of 3.0 or higher"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ],
+              "anchors": [
+                "Minimum CGPA",
+                "undergraduate programs"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex exact handbook20 internal scholarship and academic24 rule5.4 reviewed before execution."
+    },
+    {
+      "id": "V03",
+      "question": "My semester GPA is2.99 and my cumulative GPA is2.00. Does this guarantee my merit-scholarship must continue?",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "SemesterGPA2.99 does not meet3.0 condition. CGPA2.00 not below2.00: this threshold alone cannot guarantee continuity. Use internal scholarship and academic warning rules, not loan-specific rules.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "semester GPA of 3.0 or higher"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ],
+              "anchors": [
+                "Minimum CGPA",
+                "undergraduate programs"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex exact handbook20 internal scholarship and academic24 rule5.4 reviewed before execution."
+    },
+    {
+      "id": "V04",
+      "question": "My semester GPA is3.15 and my cumulative GPA is2.01. Does this guarantee my merit-scholarship must continue?",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "SemesterGPA3.15 meets3.0 condition. CGPA2.01 not below2.00: this threshold alone cannot guarantee continuity. Use internal scholarship and academic warning rules, not loan-specific rules.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "semester GPA of 3.0 or higher"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ],
+              "anchors": [
+                "Minimum CGPA",
+                "undergraduate programs"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex exact handbook20 internal scholarship and academic24 rule5.4 reviewed before execution."
+    },
+    {
+      "id": "V05",
+      "question": "My semester GPA is4.00 and my cumulative GPA is1.99. Does this guarantee my merit-scholarship must continue?",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "SemesterGPA4.00 meets3.0 condition. CGPA1.99 below2.00: internal sponsorship suspension condition applies. Use internal scholarship and academic warning rules, not loan-specific rules.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "semester GPA of 3.0 or higher"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ],
+              "anchors": [
+                "Minimum CGPA",
+                "undergraduate programs"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex exact handbook20 internal scholarship and academic24 rule5.4 reviewed before execution."
+    },
+    {
+      "id": "V06",
+      "question": "My semester GPA is3.01 and my cumulative GPA is2.00. Does this guarantee my merit-scholarship must continue?",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "SemesterGPA3.01 meets3.0 condition. CGPA2.00 not below2.00: this threshold alone cannot guarantee continuity. Use internal scholarship and academic warning rules, not loan-specific rules.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "semester GPA of 3.0 or higher"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ],
+              "anchors": [
+                "Minimum CGPA",
+                "undergraduate programs"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex exact handbook20 internal scholarship and academic24 rule5.4 reviewed before execution."
+    },
+    {
+      "id": "V07",
+      "question": "My semester GPA is2.80 and my cumulative GPA is1.90. Does this guarantee my merit-scholarship must continue?",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "SemesterGPA2.80 does not meet3.0 condition. CGPA1.90 below2.00: internal sponsorship suspension condition applies. Use internal scholarship and academic warning rules, not loan-specific rules.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "semester GPA of 3.0 or higher"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ],
+              "anchors": [
+                "Minimum CGPA",
+                "undergraduate programs"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex exact handbook20 internal scholarship and academic24 rule5.4 reviewed before execution."
+    },
+    {
+      "id": "V08",
+      "question": "My semester GPA is3.50 and my cumulative GPA is2.20. Does this guarantee my merit-scholarship must continue?",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "SemesterGPA3.50 meets3.0 condition. CGPA2.20 not below2.00: this threshold alone cannot guarantee continuity. Use internal scholarship and academic warning rules, not loan-specific rules.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "semester GPA of 3.0 or higher"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ],
+              "anchors": [
+                "Minimum CGPA",
+                "undergraduate programs"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex exact handbook20 internal scholarship and academic24 rule5.4 reviewed before execution."
+    },
+    {
+      "id": "V09",
+      "question": "My semester GPA is3.10 and my cumulative GPA is1.99. Have I met only the semester-GPA condition for merit-scholarship continuation?",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "SemesterGPA3.10 meets3.0 condition. Answer semester-only; do not invent loan membership.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "semester GPA of 3.0 or higher"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex exact handbook20 internal scholarship and academic24 rule5.4 reviewed before execution."
+    },
+    {
+      "id": "V10",
+      "question": "My semester GPA is2.95 and my cumulative GPA is2.00. Have I met only the semester-GPA condition for merit-scholarship continuation?",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "SemesterGPA2.95 does not meet3.0 condition. Answer semester-only; do not invent loan membership.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "semester GPA of 3.0 or higher"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex exact handbook20 internal scholarship and academic24 rule5.4 reviewed before execution."
+    },
+    {
+      "id": "V11",
+      "question": "My semester GPA is3.00 and my cumulative GPA is2.10. Have I met only the semester-GPA condition for merit-scholarship continuation?",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "SemesterGPA3.00 meets3.0 condition. Answer semester-only; do not invent loan membership.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "semester GPA of 3.0 or higher"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex exact handbook20 internal scholarship and academic24 rule5.4 reviewed before execution."
+    },
+    {
+      "id": "V12",
+      "question": "My semester GPA is4.00 and my cumulative GPA is1.80. Have I met only the semester-GPA condition for merit-scholarship continuation?",
+      "difficulty": "complex",
+      "expected_behavior": "answer",
+      "expected_answer": "SemesterGPA4.00 meets3.0 condition. Answer semester-only; do not invent loan membership.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "semester GPA of 3.0 or higher"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex exact handbook20 internal scholarship and academic24 rule5.4 reviewed before execution."
+    }
+  ]
+}
