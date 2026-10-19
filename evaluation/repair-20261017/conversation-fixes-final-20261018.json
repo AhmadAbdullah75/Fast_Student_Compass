@@ -1,0 +1,24 @@
+{
+  "sequences": {
+    "F01": [
+      "How do I withdraw from a course?",
+      "What's the deadline?",
+      "What is the library fine rate for undergraduates?",
+      "What's the deadline?",
+      "I mean the deadline for rechecking an examination paper."
+    ],
+    "F02": [
+      "What happens to my financial aid if I am found guilty of cheating by a disciplinary committee?",
+      "Is all financial aid definitely cancelled automatically?"
+    ],
+    "F03": [
+      "By when must an application to recheck a final examination reach the Examination Office?"
+    ]
+  },
+  "expected": {
+    "F01": "Withdrawal unique deadline, topic-switch clarify, recheck should seven days; actual retrieved evidence.",
+    "F02": "Scholarship disqualification versus conditional aid, no automatic all-aid inference.",
+    "F03": "Source should overrides question must."
+  },
+  "scope": "Only affected conversation edges on final revision."
+}
