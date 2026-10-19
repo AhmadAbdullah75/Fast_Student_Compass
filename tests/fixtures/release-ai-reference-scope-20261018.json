@@ -1,0 +1,904 @@
+{
+  "turns": [
+    {
+      "id": "35d5ae1ee709488fbc95e08f8143b26b",
+      "conversation_id": "164e134a617e4d26b9dcebfbeb458abe",
+      "question": "Can I use ChatGPT in a Programming Fundamentals lab without explicit instructor permission?",
+      "answer": "you cannot use ChatGPT in a Programming Fundamentals lab without explicit instructor permission. The use of generative AI tools like ChatGPT in labs is generally prohibited unless explicitly allowed by the lab instructor, particularly in courses such as Programming Fundamentals (PF), Object-Oriented Programming (OOP), and Data Structures (DS) [S1].\n\n**Related conditions and exceptions from the retrieved sources:**\n\n> Additionally, students must include images of the prompts they used with the Generative AI tool to ensure transparency and proper attribution. [S6]",
+      "citations": [
+        {
+          "id": "S1",
+          "chunk_id": "78eedcee337f6451ed069b8691e3097eb3e3ff969c5436f0869ac9b672fd9e21",
+          "references": [
+            {
+              "id": "academic",
+              "filename": "Academic_Rules_Handbook_2026.pdf",
+              "title": "Undergraduate Academic Rules and Regulations 2026",
+              "url": "",
+              "publication_date": "2026-06",
+              "collection_date": "",
+              "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+              "section": "Generative AI policy",
+              "pdf_page": 50,
+              "pdf_page_index": 49,
+              "printed_label": "44",
+              "campus": "all",
+              "degree": "undergraduate"
+            }
+          ],
+          "excerpt": "5) Students should be encouraged to submit the prompts they \nused in generative AI tools to understand the assignments. \nInstructors can use these prompts to ide ntify students' \nweaknesses by analyzing the approach they took to \ncomprehend the material. \n6.2 Use in Lab Courses: \n1) In general, the use of generative AI tools like ChatGPT in labs \nis prohibited unless explicitly allowed by the lab instructor, \nparticularly i n courses such as Programming Fundamentals \n(PF), Object -Oriented Programming (OOP), and Data \nStructures (DS) etc. \n2) 10% of the labs will allow the use of generative AI tools. \n3) When the use of generative AI is permitted, lab sessions will be \nextended to 2.5 ho urs. In the final half -hour, students will be \ngiven a small quiz task to complete independently, without \nusing generative AI tools. At the end of these sessions, \nstudents must submit the prompts they used during the first 2.5 \nhours. The LI will review thes e logs to assess the students' \nunderstanding. \n4) Marks for these labs will be based on performance in the quiz \ntask and the quality of the submitted prompts. The Lab \nInstructor must ensure that the quiz task's complexity is \nreasonable and appropriate, conside ring the original lab task \nand the allotted time."
+        },
+        {
+          "id": "S6",
+          "chunk_id": "1ccbf5789f684650e1256bdc5e2582c750c5999a257c9514b63d99f7f9d7d8be",
+          "references": [
+            {
+              "id": "academic",
+              "filename": "Academic_Rules_Handbook_2026.pdf",
+              "title": "Undergraduate Academic Rules and Regulations 2026",
+              "url": "",
+              "publication_date": "2026-06",
+              "collection_date": "",
+              "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+              "section": "Generative AI policy",
+              "pdf_page": 53,
+              "pdf_page_index": 52,
+              "printed_label": "47",
+              "campus": "all",
+              "degree": "undergraduate"
+            }
+          ],
+          "excerpt": "reference list. Additionally, students must include images of the \nprompts they used with the Generative AI tool to ensure transparency \nand proper attribution. \n9. Privacy & Data Security \nThe University must uphold its l egal responsibilities regarding the \nprotection of information, which extends to all University affiliates. \nBreaches of these protections can lead to severe consequences, \nincluding harm to affected individuals, damage to the University's \nreputation, and leg al liability. Faculty, staff, and students are \nprohibited from submitting any data directly identifying individuals or \nclassified as Sensitive or Confidential into AI tools not supported by \nthe University. Additionally, datasets containing information indi rectly \nidentifying individuals must not be submitted to unsupported AI tools. \nFurthermore, ensuring accuracy and integrity of information is \nparamount, requiring meticulous maintenance and retention of \nofficial records in accordance with established protoc ols. Attention \nmust also be given to metadata considerations, as there's a distinction \nbetween directly inputting data into a Generative AI system and \nuploading a file, which may contain unseen metadata. Documents \ncreated using AI may be subject to open re cords laws and record \nretention requirements, emphasizing the need for compliance with \ndata retention policies and procedures of the University. \n10. Training & Support \nTo ensure faculty and students at FAST-NUCES are equipped with the \nnecessary knowledge a nd support for effective utilization of \nGenerative AI tools, comprehensive training and technical assistance \nare provided. Workshops, training modules, and online resources are"
+        }
+      ],
+      "status": "completed",
+      "error": null,
+      "model": "gemini-3.5-flash-lite",
+      "dataset_version": "2026-reviewed-v1:b13c59ecc7ad",
+      "created": "2026-10-18T06:53:42.079228+00:00",
+      "completed": "2026-10-18T06:53:45.604634+00:00",
+      "latency": 3.5206773999962024,
+      "diagnostics": {
+        "route": "document_rag",
+        "question": "Can I use ChatGPT in a Programming Fundamentals lab without explicit instructor permission?",
+        "search_question": "Can I use ChatGPT in a Programming Fundamentals lab without explicit instructor permission?",
+        "interpretation_override": null,
+        "requested_facets": [],
+        "evidence_facets": {},
+        "retrieval_queries": [
+          "Can I use ChatGPT in a Programming Fundamentals lab without explicit instructor permission?",
+          "Additionally, students must include images of the prompts they used with the Generative AI tool to ensure transparency and proper attribution."
+        ],
+        "interpretation": {
+          "question": "Can I use ChatGPT in a Programming Fundamentals lab without explicit instructor permission?",
+          "unresolved": false
+        },
+        "retrieval_history_context": "",
+        "transport_failures": [],
+        "history_tokens_estimated": 0,
+        "history_context": "",
+        "raw_answer": "No, you cannot use ChatGPT in a Programming Fundamentals lab without explicit instructor permission. The use of generative AI tools like ChatGPT in labs is generally prohibited unless explicitly allowed by the lab instructor, particularly in courses such as Programming Fundamentals (PF), Object-Oriented Programming (OOP), and Data Structures (DS) [S1].",
+        "retrieved": [
+          {
+            "chunk_id": "78eedcee337f6451ed069b8691e3097eb3e3ff969c5436f0869ac9b672fd9e21",
+            "references": [
+              {
+                "id": "academic",
+                "filename": "Academic_Rules_Handbook_2026.pdf",
+                "title": "Undergraduate Academic Rules and Regulations 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Generative AI policy",
+                "pdf_page": 50,
+                "pdf_page_index": 49,
+                "printed_label": "44",
+                "campus": "all",
+                "degree": "undergraduate"
+              }
+            ],
+            "passage": "5) Students should be encouraged to submit the prompts they \nused in generative AI tools to understand the assignments. \nInstructors can use these prompts to ide ntify students' \nweaknesses by analyzing the approach they took to \ncomprehend the material. \n6.2 Use in Lab Courses: \n1) In general, the use of generative AI tools like ChatGPT in labs \nis prohibited unless explicitly allowed by the lab instructor, \nparticularly i n courses such as Programming Fundamentals \n(PF), Object -Oriented Programming (OOP), and Data \nStructures (DS) etc. \n2) 10% of the labs will allow the use of generative AI tools. \n3) When the use of generative AI is permitted, lab sessions will be \nextended to 2.5 ho urs. In the final half -hour, students will be \ngiven a small quiz task to complete independently, without \nusing generative AI tools. At the end of these sessions, \nstudents must submit the prompts they used during the first 2.5 \nhours. The LI will review thes e logs to assess the students' \nunderstanding. \n4) Marks for these labs will be based on performance in the quiz \ntask and the quality of the submitted prompts. The Lab \nInstructor must ensure that the quiz task's complexity is \nreasonable and appropriate, conside ring the original lab task \nand the allotted time."
+          },
+          {
+            "chunk_id": "7856376625ee0aab49c1a69a2db078ebd503b9a55f603f504e52459fc96f049c",
+            "references": [
+              {
+                "id": "academic",
+                "filename": "Academic_Rules_Handbook_2026.pdf",
+                "title": "Undergraduate Academic Rules and Regulations 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Generative AI policy",
+                "pdf_page": 49,
+                "pdf_page_index": 48,
+                "printed_label": "43",
+                "campus": "all",
+                "degree": "undergraduate"
+              }
+            ],
+            "passage": "specific purposes to assist with their assessment \n• Generative AI is an integral part of the assessment and \nstudents are encouraged to use it extensively. \nDepartments, Instructors, and/or Lab Instructors, must decide which \ncategory to employ for their assessments in advance. \nEnsure that your decision is communicated and explained to students. \nAssessment could include a statement for students clearly. \n6.1 Use in Non-Lab Courses: \n1) Students are allowed, and sometimes encouraged, to use \ngenerative AI t ools like ChatGPT for completing course \nassignments. \n2) All the course assignments must include associated quizzes or \ndemonstrations. \n3) A small percentage (typically 10-15%) of the total marks will be \nallotted to the assignment submissions. The majority of the \nmarks will be based on the assignment quizzes or \ndemonstrations. This grading distribution should be clearly \nstated in the course outline. These quizzes or demonstrations \nshould take place in the week following the submission \ndeadline. \n4) Faculty members are encouraged to integrate questions \nrelated to these assignments into both sessional and final \nexams."
+          },
+          {
+            "chunk_id": "f3a6d9a7070f78a9590c91c8c281260c55a47765a4968c661d148c5530894013",
+            "references": [
+              {
+                "id": "academic",
+                "filename": "Academic_Rules_Handbook_2026.pdf",
+                "title": "Undergraduate Academic Rules and Regulations 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Generative AI policy",
+                "pdf_page": 51,
+                "pdf_page_index": 50,
+                "printed_label": "45",
+                "campus": "all",
+                "degree": "undergraduate"
+              }
+            ],
+            "passage": "6.3 Use in Research: \n1) Generative AI tools like ChatGPT are to be used as assistive \ntools for research purposes only. They should enhance \nproductivity, explore ideas, and provide insights while \npreserving the integrity of the research process. \n2) Researchers and students intending to use generative AI in \ntheir research must undergo appropriate training to \nunderstand its capabilities and limitations. They should also be \nfamiliar with the University’s policies on academic integrity and \nthe responsible use of AI tools. \n3) The use of generative AI in research projects must be \nreviewed and approved by relevant faculty members, \nadvisors, or supervisors to ensure compliance with University \npolicy and alignment with research objectives. \n4) Generative AI should not be used for the automated \nsubmission of research work, assignments, or any other \nacademic assessments. All submissions must be the original \nwork of the researchers. \n7. Detecting Generative AI Use in Assessments \n1) Use software like Originality.ai, Turnitin, Copyscape, and \nGrammarly etc. for detecting the use of generative AI in the \nassessment. \n2) Integrate plagiarism detection tools like Turnitin and \nCopyscape capable of spotting AI- generated content."
+          },
+          {
+            "chunk_id": "ee0084aa263a0611e35c2e0dd94c83065540cf558ea4e18b4c25ea2240c0d0e2",
+            "references": [
+              {
+                "id": "academic",
+                "filename": "Academic_Rules_Handbook_2026.pdf",
+                "title": "Undergraduate Academic Rules and Regulations 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Generative AI policy",
+                "pdf_page": 43,
+                "pdf_page_index": 42,
+                "printed_label": "37",
+                "campus": "all",
+                "degree": "undergraduate"
+              }
+            ],
+            "passage": "capabilities. Violations of these policies may result in disciplinary \nactions, including account suspension or academic penalties. Time \nlimits may be implemented t o regulate usage and ensure equitable \naccess for all users, with guidelines provided to facilitate responsible \nutilization within designated timeframes. \n4. Acceptable Uses of Generative AI Tools \nIn general, using Generative AI tools for preparatory researc h work, \nassignment and project is considered acceptable practice, however \nsuch tools should never be the only source of information used. \nGenerative AI tools are not academic sources; they do not produce \nfact- checked content, and they can, and often do, r eproduce \ninherent biases in provision of information, and they often do not \naccurately state the sources from which the content provided has \nbeen gathered. It is therefore vital that students use academic and \ntrusted disciplinary - specific sources when dev eloping their work. \nNone of the content generated by AI should be used in submitted work \nunless it is quoted and referenced as such. \nAI is at its best when it is used to help synthesize ideas, so that users \nare in a better position to write an assignment. It may be helpful for \nstudents to consider Generative AI tools in a similar light to Wikipedia: \nas a source of information, but not always a reliable one. \nSee some potentially acceptable uses of Generative AI here. Please \nnote, this list is not exhaustive and is indicative only. \n1) Initial research into a topic, idea, or concept to gain an \noverview for example: “what are the main ethical concerns for \nstudents when using generative artificial intelligence tools?”"
+          },
+          {
+            "chunk_id": "2b056d14ca5fab9515d7c903e3936f2627bfd50a20d802b72cd16f2a450e17b0",
+            "references": [
+              {
+                "id": "academic",
+                "filename": "Academic_Rules_Handbook_2026.pdf",
+                "title": "Undergraduate Academic Rules and Regulations 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Generative AI policy",
+                "pdf_page": 45,
+                "pdf_page_index": 44,
+                "printed_label": "39",
+                "campus": "all",
+                "degree": "undergraduate"
+              }
+            ],
+            "passage": "used in another’s work, thereby risking plagiarism. Therefore, students \nshould not upload their work to sites that do not have clear privacy \npolicies and opt outs. Equally, it is not permissible to upload any \npersonal or sensitive data, or University materials (e.g. lecture slides, \nteaching content, etc.) onto these systems without permission. \n5. Unacceptable Uses of Generative AI Tools \nThe unacceptable use of Generative AI software broadly falls in line \nwith other examples of academic misconduct that exist outside of \nGenerative AI space. Students using the technology to simply \ncircumvent the requirements of an assessment or using it to create \nentire assessments that they then disguise as their own original work \nis n ot acceptable. The requirement to declare, cite, reference and \nreflect on the use of Generative AI is designed to prevent students \nfrom simply using the technology to create assessments that they \nthen claim as their own, and a student that refuses to declare how \nthey have used the technology, does not cite it, reference it or reflect \non its outputs may be attempting to hide the fact that the work is not \ntheir own. If staff suspect that students have used Generative AI in \nunacceptable ways, they may use the Turnitin detector score to help \nthem identify how much of a document may have been written using \nAI. \nSome examples of misuse of Generative AI may include, but are not \nnecessarily limited to: \n1) Students generating an entire assignment submission and \npassing it off as their own work. \n2) Submitting content generated by Generative AI tools without \nappropriate and correctly presented acknowledgement and"
+          },
+          {
+            "chunk_id": "1ccbf5789f684650e1256bdc5e2582c750c5999a257c9514b63d99f7f9d7d8be",
+            "references": [
+              {
+                "id": "academic",
+                "filename": "Academic_Rules_Handbook_2026.pdf",
+                "title": "Undergraduate Academic Rules and Regulations 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Generative AI policy",
+                "pdf_page": 53,
+                "pdf_page_index": 52,
+                "printed_label": "47",
+                "campus": "all",
+                "degree": "undergraduate"
+              }
+            ],
+            "passage": "reference list. Additionally, students must include images of the \nprompts they used with the Generative AI tool to ensure transparency \nand proper attribution. \n9. Privacy & Data Security \nThe University must uphold its l egal responsibilities regarding the \nprotection of information, which extends to all University affiliates. \nBreaches of these protections can lead to severe consequences, \nincluding harm to affected individuals, damage to the University's \nreputation, and leg al liability. Faculty, staff, and students are \nprohibited from submitting any data directly identifying individuals or \nclassified as Sensitive or Confidential into AI tools not supported by \nthe University. Additionally, datasets containing information indi rectly \nidentifying individuals must not be submitted to unsupported AI tools. \nFurthermore, ensuring accuracy and integrity of information is \nparamount, requiring meticulous maintenance and retention of \nofficial records in accordance with established protoc ols. Attention \nmust also be given to metadata considerations, as there's a distinction \nbetween directly inputting data into a Generative AI system and \nuploading a file, which may contain unseen metadata. Documents \ncreated using AI may be subject to open re cords laws and record \nretention requirements, emphasizing the need for compliance with \ndata retention policies and procedures of the University. \n10. Training & Support \nTo ensure faculty and students at FAST-NUCES are equipped with the \nnecessary knowledge a nd support for effective utilization of \nGenerative AI tools, comprehensive training and technical assistance \nare provided. Workshops, training modules, and online resources are"
+          }
+        ],
+        "packed_source_ids": {
+          "S1": "78eedcee337f6451ed069b8691e3097eb3e3ff969c5436f0869ac9b672fd9e21",
+          "S2": "7856376625ee0aab49c1a69a2db078ebd503b9a55f603f504e52459fc96f049c",
+          "S3": "f3a6d9a7070f78a9590c91c8c281260c55a47765a4968c661d148c5530894013",
+          "S4": "ee0084aa263a0611e35c2e0dd94c83065540cf558ea4e18b4c25ea2240c0d0e2",
+          "S5": "2b056d14ca5fab9515d7c903e3936f2627bfd50a20d802b72cd16f2a450e17b0",
+          "S6": "1ccbf5789f684650e1256bdc5e2582c750c5999a257c9514b63d99f7f9d7d8be"
+        },
+        "validation": "targeted_policy_and_citation_checks"
+      },
+      "client_request_id": "847f4de8-bff4-4786-8be6-b031617a2794",
+      "running": false,
+      "verification_retry_count": 0
+    },
+    {
+      "id": "fe0320263e99429e87a14c904d6fe14a",
+      "conversation_id": "164e134a617e4d26b9dcebfbeb458abe",
+      "question": "If the instructor allows it, give the AI-lab timing. Is the document unambiguous about the total duration?",
+      "answer": "When the use of generative AI is permitted, lab sessions will be extended to 2.5 ho urs. In the final half -hour, students will be given a small quiz task to complete independently, without using generative AI tools. At the end of these sessions, students must submit the prompts they used during the first 2.5 hours. The LI will review thes e logs to assess the students' understanding. [S1] The wording is ambiguous: it describes a 2.5-hour session, a final half-hour quiz, and prompts from the first 2.5 hours. It does not unambiguously establish a consistent total duration or AI-use period. Confirm the schedule with the lab instructor.",
+      "citations": [
+        {
+          "id": "S1",
+          "chunk_id": "78eedcee337f6451ed069b8691e3097eb3e3ff969c5436f0869ac9b672fd9e21",
+          "references": [
+            {
+              "id": "academic",
+              "filename": "Academic_Rules_Handbook_2026.pdf",
+              "title": "Undergraduate Academic Rules and Regulations 2026",
+              "url": "",
+              "publication_date": "2026-06",
+              "collection_date": "",
+              "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+              "section": "Generative AI policy",
+              "pdf_page": 50,
+              "pdf_page_index": 49,
+              "printed_label": "44",
+              "campus": "all",
+              "degree": "undergraduate"
+            }
+          ],
+          "excerpt": "5) Students should be encouraged to submit the prompts they \nused in generative AI tools to understand the assignments. \nInstructors can use these prompts to ide ntify students' \nweaknesses by analyzing the approach they took to \ncomprehend the material. \n6.2 Use in Lab Courses: \n1) In general, the use of generative AI tools like ChatGPT in labs \nis prohibited unless explicitly allowed by the lab instructor, \nparticularly i n courses such as Programming Fundamentals \n(PF), Object -Oriented Programming (OOP), and Data \nStructures (DS) etc. \n2) 10% of the labs will allow the use of generative AI tools. \n3) When the use of generative AI is permitted, lab sessions will be \nextended to 2.5 ho urs. In the final half -hour, students will be \ngiven a small quiz task to complete independently, without \nusing generative AI tools. At the end of these sessions, \nstudents must submit the prompts they used during the first 2.5 \nhours. The LI will review thes e logs to assess the students' \nunderstanding. \n4) Marks for these labs will be based on performance in the quiz \ntask and the quality of the submitted prompts. The Lab \nInstructor must ensure that the quiz task's complexity is \nreasonable and appropriate, conside ring the original lab task \nand the allotted time."
+        }
+      ],
+      "status": "completed",
+      "error": null,
+      "model": "gemini-3.5-flash-lite",
+      "dataset_version": "2026-reviewed-v1:b13c59ecc7ad",
+      "created": "2026-10-18T06:53:54.087445+00:00",
+      "completed": "2026-10-18T06:53:56.162323+00:00",
+      "latency": 2.0708538000035333,
+      "diagnostics": {
+        "route": "document_rag",
+        "question": "If the instructor allows it, give the AI-lab timing. Is the document unambiguous about the total duration?",
+        "search_question": "If the instructor allows ChatGPT in a Programming Fundamentals lab, what is the AI-lab timing, and is the document unambiguous about the total duration?",
+        "interpretation_override": null,
+        "requested_facets": [],
+        "evidence_facets": {},
+        "retrieval_queries": [
+          "If the instructor allows ChatGPT in a Programming Fundamentals lab, what is the AI-lab timing, and is the document unambiguous about the total duration?"
+        ],
+        "interpretation": {
+          "question": "If the instructor allows ChatGPT in a Programming Fundamentals lab, what is the AI-lab timing, and is the document unambiguous about the total duration?",
+          "unresolved": false
+        },
+        "retrieval_history_context": "[\"Can I use ChatGPT in a Programming Fundamentals lab without explicit instructor permission?\"]",
+        "transport_failures": [],
+        "history_tokens_estimated": 229,
+        "history_context": "Student: Can I use ChatGPT in a Programming Fundamentals lab without explicit instructor permission?\nAssistant (context only): you cannot use ChatGPT in a Programming Fundamentals lab without explicit instructor permission. The use of generative AI tools like ChatGPT in labs is generally prohibited unless explicitly allowed by the lab instructor, particularly in courses such as Programming Fundamentals (PF), Object-Oriented Programming (OOP), and Data Structures (DS) .\n\n**Related conditions and exceptions from the retrieved sources:**\n\n> Additionally, students must include images of the prompts they used with the Generative AI tool to ensure transparency and proper attribution. ",
+        "raw_answer": "[retrieved rule or ambiguity; no generation call]",
+        "retrieved": [
+          {
+            "chunk_id": "78eedcee337f6451ed069b8691e3097eb3e3ff969c5436f0869ac9b672fd9e21",
+            "references": [
+              {
+                "id": "academic",
+                "filename": "Academic_Rules_Handbook_2026.pdf",
+                "title": "Undergraduate Academic Rules and Regulations 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Generative AI policy",
+                "pdf_page": 50,
+                "pdf_page_index": 49,
+                "printed_label": "44",
+                "campus": "all",
+                "degree": "undergraduate"
+              }
+            ],
+            "passage": "5) Students should be encouraged to submit the prompts they \nused in generative AI tools to understand the assignments. \nInstructors can use these prompts to ide ntify students' \nweaknesses by analyzing the approach they took to \ncomprehend the material. \n6.2 Use in Lab Courses: \n1) In general, the use of generative AI tools like ChatGPT in labs \nis prohibited unless explicitly allowed by the lab instructor, \nparticularly i n courses such as Programming Fundamentals \n(PF), Object -Oriented Programming (OOP), and Data \nStructures (DS) etc. \n2) 10% of the labs will allow the use of generative AI tools. \n3) When the use of generative AI is permitted, lab sessions will be \nextended to 2.5 ho urs. In the final half -hour, students will be \ngiven a small quiz task to complete independently, without \nusing generative AI tools. At the end of these sessions, \nstudents must submit the prompts they used during the first 2.5 \nhours. The LI will review thes e logs to assess the students' \nunderstanding. \n4) Marks for these labs will be based on performance in the quiz \ntask and the quality of the submitted prompts. The Lab \nInstructor must ensure that the quiz task's complexity is \nreasonable and appropriate, conside ring the original lab task \nand the allotted time."
+          },
+          {
+            "chunk_id": "7856376625ee0aab49c1a69a2db078ebd503b9a55f603f504e52459fc96f049c",
+            "references": [
+              {
+                "id": "academic",
+                "filename": "Academic_Rules_Handbook_2026.pdf",
+                "title": "Undergraduate Academic Rules and Regulations 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Generative AI policy",
+                "pdf_page": 49,
+                "pdf_page_index": 48,
+                "printed_label": "43",
+                "campus": "all",
+                "degree": "undergraduate"
+              }
+            ],
+            "passage": "specific purposes to assist with their assessment \n• Generative AI is an integral part of the assessment and \nstudents are encouraged to use it extensively. \nDepartments, Instructors, and/or Lab Instructors, must decide which \ncategory to employ for their assessments in advance. \nEnsure that your decision is communicated and explained to students. \nAssessment could include a statement for students clearly. \n6.1 Use in Non-Lab Courses: \n1) Students are allowed, and sometimes encouraged, to use \ngenerative AI t ools like ChatGPT for completing course \nassignments. \n2) All the course assignments must include associated quizzes or \ndemonstrations. \n3) A small percentage (typically 10-15%) of the total marks will be \nallotted to the assignment submissions. The majority of the \nmarks will be based on the assignment quizzes or \ndemonstrations. This grading distribution should be clearly \nstated in the course outline. These quizzes or demonstrations \nshould take place in the week following the submission \ndeadline. \n4) Faculty members are encouraged to integrate questions \nrelated to these assignments into both sessional and final \nexams."
+          },
+          {
+            "chunk_id": "f3a6d9a7070f78a9590c91c8c281260c55a47765a4968c661d148c5530894013",
+            "references": [
+              {
+                "id": "academic",
+                "filename": "Academic_Rules_Handbook_2026.pdf",
+                "title": "Undergraduate Academic Rules and Regulations 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Generative AI policy",
+                "pdf_page": 51,
+                "pdf_page_index": 50,
+                "printed_label": "45",
+                "campus": "all",
+                "degree": "undergraduate"
+              }
+            ],
+            "passage": "6.3 Use in Research: \n1) Generative AI tools like ChatGPT are to be used as assistive \ntools for research purposes only. They should enhance \nproductivity, explore ideas, and provide insights while \npreserving the integrity of the research process. \n2) Researchers and students intending to use generative AI in \ntheir research must undergo appropriate training to \nunderstand its capabilities and limitations. They should also be \nfamiliar with the University’s policies on academic integrity and \nthe responsible use of AI tools. \n3) The use of generative AI in research projects must be \nreviewed and approved by relevant faculty members, \nadvisors, or supervisors to ensure compliance with University \npolicy and alignment with research objectives. \n4) Generative AI should not be used for the automated \nsubmission of research work, assignments, or any other \nacademic assessments. All submissions must be the original \nwork of the researchers. \n7. Detecting Generative AI Use in Assessments \n1) Use software like Originality.ai, Turnitin, Copyscape, and \nGrammarly etc. for detecting the use of generative AI in the \nassessment. \n2) Integrate plagiarism detection tools like Turnitin and \nCopyscape capable of spotting AI- generated content."
+          },
+          {
+            "chunk_id": "ee0084aa263a0611e35c2e0dd94c83065540cf558ea4e18b4c25ea2240c0d0e2",
+            "references": [
+              {
+                "id": "academic",
+                "filename": "Academic_Rules_Handbook_2026.pdf",
+                "title": "Undergraduate Academic Rules and Regulations 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Generative AI policy",
+                "pdf_page": 43,
+                "pdf_page_index": 42,
+                "printed_label": "37",
+                "campus": "all",
+                "degree": "undergraduate"
+              }
+            ],
+            "passage": "capabilities. Violations of these policies may result in disciplinary \nactions, including account suspension or academic penalties. Time \nlimits may be implemented t o regulate usage and ensure equitable \naccess for all users, with guidelines provided to facilitate responsible \nutilization within designated timeframes. \n4. Acceptable Uses of Generative AI Tools \nIn general, using Generative AI tools for preparatory researc h work, \nassignment and project is considered acceptable practice, however \nsuch tools should never be the only source of information used. \nGenerative AI tools are not academic sources; they do not produce \nfact- checked content, and they can, and often do, r eproduce \ninherent biases in provision of information, and they often do not \naccurately state the sources from which the content provided has \nbeen gathered. It is therefore vital that students use academic and \ntrusted disciplinary - specific sources when dev eloping their work. \nNone of the content generated by AI should be used in submitted work \nunless it is quoted and referenced as such. \nAI is at its best when it is used to help synthesize ideas, so that users \nare in a better position to write an assignment. It may be helpful for \nstudents to consider Generative AI tools in a similar light to Wikipedia: \nas a source of information, but not always a reliable one. \nSee some potentially acceptable uses of Generative AI here. Please \nnote, this list is not exhaustive and is indicative only. \n1) Initial research into a topic, idea, or concept to gain an \noverview for example: “what are the main ethical concerns for \nstudents when using generative artificial intelligence tools?”"
+          },
+          {
+            "chunk_id": "1ccbf5789f684650e1256bdc5e2582c750c5999a257c9514b63d99f7f9d7d8be",
+            "references": [
+              {
+                "id": "academic",
+                "filename": "Academic_Rules_Handbook_2026.pdf",
+                "title": "Undergraduate Academic Rules and Regulations 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Generative AI policy",
+                "pdf_page": 53,
+                "pdf_page_index": 52,
+                "printed_label": "47",
+                "campus": "all",
+                "degree": "undergraduate"
+              }
+            ],
+            "passage": "reference list. Additionally, students must include images of the \nprompts they used with the Generative AI tool to ensure transparency \nand proper attribution. \n9. Privacy & Data Security \nThe University must uphold its l egal responsibilities regarding the \nprotection of information, which extends to all University affiliates. \nBreaches of these protections can lead to severe consequences, \nincluding harm to affected individuals, damage to the University's \nreputation, and leg al liability. Faculty, staff, and students are \nprohibited from submitting any data directly identifying individuals or \nclassified as Sensitive or Confidential into AI tools not supported by \nthe University. Additionally, datasets containing information indi rectly \nidentifying individuals must not be submitted to unsupported AI tools. \nFurthermore, ensuring accuracy and integrity of information is \nparamount, requiring meticulous maintenance and retention of \nofficial records in accordance with established protoc ols. Attention \nmust also be given to metadata considerations, as there's a distinction \nbetween directly inputting data into a Generative AI system and \nuploading a file, which may contain unseen metadata. Documents \ncreated using AI may be subject to open re cords laws and record \nretention requirements, emphasizing the need for compliance with \ndata retention policies and procedures of the University. \n10. Training & Support \nTo ensure faculty and students at FAST-NUCES are equipped with the \nnecessary knowledge a nd support for effective utilization of \nGenerative AI tools, comprehensive training and technical assistance \nare provided. Workshops, training modules, and online resources are"
+          },
+          {
+            "chunk_id": "0bb3af4d7d6a2b0a1c3e66567dea11ede74efc20506998540f9e8322e04adc00",
+            "references": [
+              {
+                "id": "academic",
+                "filename": "Academic_Rules_Handbook_2026.pdf",
+                "title": "Undergraduate Academic Rules and Regulations 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Instruction, academic year, scheduling, attendance and degree requirements",
+                "pdf_page": 8,
+                "pdf_page_index": 7,
+                "printed_label": "2",
+                "campus": "all",
+                "degree": "undergraduate"
+              }
+            ],
+            "passage": "1.9  A theo ry course is norm ally assigned 2 to  4 credit hours, \ndepending on its content. \n1.10 A lab or w orkshop is no rmally assigned 1 or  2 credit \nhours. \n1.11   1-credit hour of la b work is e quivalent to 3 hou rs of \nlaboratory or p ractical wor k pe r w eek thro ughout \nthe semester. \n1.12   A 4-credit hour course, for example, having 3 credit \nhours of th eory and 1 credit hour of associated lab is \ndesignated as a (3+1) credit hour course. \nScheduling of Classes \n1.13  All classes are held at scheduled hours duly communicated to \nstudents through notification of  timetable by the concerned \nAcademic Office. \n1.14  In case of any unavoidable situation , a class m ay be \npostponed and rescheduled under the following procedure: \na) All classes are rescheduled only through the Academic \nOffice with the approval of the c oncerned Head of  \nDepartment (HoD). \nb) Faculty members sh all not r eschedule any class at \ntheir own discretion. \nc) The academic office will be informed b efore the \ncancellation of class so that students a re notified well \nin time."
+          }
+        ],
+        "packed_source_ids": {
+          "S1": "78eedcee337f6451ed069b8691e3097eb3e3ff969c5436f0869ac9b672fd9e21",
+          "S2": "7856376625ee0aab49c1a69a2db078ebd503b9a55f603f504e52459fc96f049c",
+          "S3": "f3a6d9a7070f78a9590c91c8c281260c55a47765a4968c661d148c5530894013",
+          "S4": "ee0084aa263a0611e35c2e0dd94c83065540cf558ea4e18b4c25ea2240c0d0e2",
+          "S5": "1ccbf5789f684650e1256bdc5e2582c750c5999a257c9514b63d99f7f9d7d8be",
+          "S6": "0bb3af4d7d6a2b0a1c3e66567dea11ede74efc20506998540f9e8322e04adc00"
+        },
+        "validation": "ai_lab_ambiguity"
+      },
+      "client_request_id": "30dc8d78-562b-4dd5-bdc2-aea3e56630fd",
+      "running": false,
+      "verification_retry_count": 0
+    },
+    {
+      "id": "7914f9a9dd3c4404bb1e781390153937",
+      "conversation_id": "164e134a617e4d26b9dcebfbeb458abe",
+      "question": "For a submitted assignment containing an AI-generated image, are attribution and prompt images relevant?",
+      "answer": "Attribution and prompt images are relevant when a submitted work includes an AI-generated embedded image or figure [S3]. For such content, referencing must be included within the text or content of the assignment and in the reference list, and students must additionally include images of the prompts they used with the Generative AI tool to ensure transparency and proper attribution [S2]. \n\nRegarding preparatory use versus incorporated content, using Generative AI tools for preparatory research work, assignments, and projects is generally considered acceptable practice (such as for initial research into a topic, idea, or concept), provided such tools are never the only source of information used [S5]. However, none of the content generated by AI should be used in submitted work unless it is quoted and referenced as such [S5].\n\n**Related conditions and exceptions from the retrieved sources:**\n\n> Therefore, the use of Generative AI for similar purposes need not be referenced unless an assignment brief specifically states otherwise. [S3]\n\n> However, students must critically evaluate any content generated using AI. [S3]",
+      "citations": [
+        {
+          "id": "S2",
+          "chunk_id": "1ccbf5789f684650e1256bdc5e2582c750c5999a257c9514b63d99f7f9d7d8be",
+          "references": [
+            {
+              "id": "academic",
+              "filename": "Academic_Rules_Handbook_2026.pdf",
+              "title": "Undergraduate Academic Rules and Regulations 2026",
+              "url": "",
+              "publication_date": "2026-06",
+              "collection_date": "",
+              "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+              "section": "Generative AI policy",
+              "pdf_page": 53,
+              "pdf_page_index": 52,
+              "printed_label": "47",
+              "campus": "all",
+              "degree": "undergraduate"
+            }
+          ],
+          "excerpt": "reference list. Additionally, students must include images of the \nprompts they used with the Generative AI tool to ensure transparency \nand proper attribution. \n9. Privacy & Data Security \nThe University must uphold its l egal responsibilities regarding the \nprotection of information, which extends to all University affiliates. \nBreaches of these protections can lead to severe consequences, \nincluding harm to affected individuals, damage to the University's \nreputation, and leg al liability. Faculty, staff, and students are \nprohibited from submitting any data directly identifying individuals or \nclassified as Sensitive or Confidential into AI tools not supported by \nthe University. Additionally, datasets containing information indi rectly \nidentifying individuals must not be submitted to unsupported AI tools. \nFurthermore, ensuring accuracy and integrity of information is \nparamount, requiring meticulous maintenance and retention of \nofficial records in accordance with established protoc ols. Attention \nmust also be given to metadata considerations, as there's a distinction \nbetween directly inputting data into a Generative AI system and \nuploading a file, which may contain unseen metadata. Documents \ncreated using AI may be subject to open re cords laws and record \nretention requirements, emphasizing the need for compliance with \ndata retention policies and procedures of the University. \n10. Training & Support \nTo ensure faculty and students at FAST-NUCES are equipped with the \nnecessary knowledge a nd support for effective utilization of \nGenerative AI tools, comprehensive training and technical assistance \nare provided. Workshops, training modules, and online resources are"
+        },
+        {
+          "id": "S3",
+          "chunk_id": "5d2fb3e3107fd590eac33cc8b5cf932ad3b7b6ff4c922ca6a1310c1dc68dd9d7",
+          "references": [
+            {
+              "id": "academic",
+              "filename": "Academic_Rules_Handbook_2026.pdf",
+              "title": "Undergraduate Academic Rules and Regulations 2026",
+              "url": "",
+              "publication_date": "2026-06",
+              "collection_date": "",
+              "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+              "section": "Generative AI policy",
+              "pdf_page": 52,
+              "pdf_page_index": 51,
+              "printed_label": "46",
+              "campus": "all",
+              "degree": "undergraduate"
+            }
+          ],
+          "excerpt": "3) Students should add screenshots of the prompts given to the \nGenerative AI to check how students has use it will help the TA \nas well. \n4) Encourage instructors to remain vigilant for sudden \nperformance improvements. \n5) Inform the students about the ethical implications of AI use in \na course. Communicate clear policies on AI use in \nassessments, including consequences. \n6) Create an active learning environment to encourage student \nengagement and understanding. \n8. Referencing Generative AI Tools \nUsing Generative AI/AI tools for research  and in the preparation of \nwork does not require citation, similar to how an initial Google search \nfor information does not require citation. Before the introduction of \nGenerative AI, students were not required to reference web searches, \nsources that had not directly informed their submitted work, or the use \nof spell checkers. Therefore, the use of Generative AI for similar \npurposes need not be referenced unless an assignment brief \nspecifically states otherwise. It is unlikely that students will need to \ndirectly quote content from AI -generated sources very often due to \nthe limitations of Generative AI tools. However, students must critically \nevaluate any content generated using AI. In certain circumstances, or \nfor specific content types, referencing may be required. For example, \npart of the assessment may involve using AI to generate text that the \nstudent then critiques. In these instances, if students' work includes a \nverbatim quotation, embedded image, or figure, this should be \nreferenced within the text or  content of the assignment and in the"
+        },
+        {
+          "id": "S5",
+          "chunk_id": "ee0084aa263a0611e35c2e0dd94c83065540cf558ea4e18b4c25ea2240c0d0e2",
+          "references": [
+            {
+              "id": "academic",
+              "filename": "Academic_Rules_Handbook_2026.pdf",
+              "title": "Undergraduate Academic Rules and Regulations 2026",
+              "url": "",
+              "publication_date": "2026-06",
+              "collection_date": "",
+              "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+              "section": "Generative AI policy",
+              "pdf_page": 43,
+              "pdf_page_index": 42,
+              "printed_label": "37",
+              "campus": "all",
+              "degree": "undergraduate"
+            }
+          ],
+          "excerpt": "capabilities. Violations of these policies may result in disciplinary \nactions, including account suspension or academic penalties. Time \nlimits may be implemented t o regulate usage and ensure equitable \naccess for all users, with guidelines provided to facilitate responsible \nutilization within designated timeframes. \n4. Acceptable Uses of Generative AI Tools \nIn general, using Generative AI tools for preparatory researc h work, \nassignment and project is considered acceptable practice, however \nsuch tools should never be the only source of information used. \nGenerative AI tools are not academic sources; they do not produce \nfact- checked content, and they can, and often do, r eproduce \ninherent biases in provision of information, and they often do not \naccurately state the sources from which the content provided has \nbeen gathered. It is therefore vital that students use academic and \ntrusted disciplinary - specific sources when dev eloping their work. \nNone of the content generated by AI should be used in submitted work \nunless it is quoted and referenced as such. \nAI is at its best when it is used to help synthesize ideas, so that users \nare in a better position to write an assignment. It may be helpful for \nstudents to consider Generative AI tools in a similar light to Wikipedia: \nas a source of information, but not always a reliable one. \nSee some potentially acceptable uses of Generative AI here. Please \nnote, this list is not exhaustive and is indicative only. \n1) Initial research into a topic, idea, or concept to gain an \noverview for example: “what are the main ethical concerns for \nstudents when using generative artificial intelligence tools?”"
+        }
+      ],
+      "status": "completed",
+      "error": null,
+      "model": "gemini-3.5-flash-lite",
+      "dataset_version": "2026-reviewed-v1:b13c59ecc7ad",
+      "created": "2026-10-18T06:54:06.112776+00:00",
+      "completed": "2026-10-18T06:54:10.930241+00:00",
+      "latency": 4.811324499998591,
+      "diagnostics": {
+        "route": "document_rag",
+        "question": "For a submitted assignment containing an AI-generated image, are attribution and prompt images relevant?",
+        "search_question": "For a submitted assignment containing an AI-generated image in a FAST CFD course, are attribution and prompt images relevant?",
+        "interpretation_override": null,
+        "requested_facets": [],
+        "evidence_facets": {},
+        "retrieval_queries": [
+          "For a submitted assignment containing an AI-generated image in a FAST CFD course, are attribution and prompt images relevant?",
+          "Additionally, students must include images of the prompts they used with the Generative AI tool to ensure transparency and proper attribution."
+        ],
+        "interpretation": {
+          "question": "For a submitted assignment containing an AI-generated image in a FAST CFD course, are attribution and prompt images relevant?",
+          "unresolved": false
+        },
+        "retrieval_history_context": "[\"Can I use ChatGPT in a Programming Fundamentals lab without explicit instructor permission?\", \"If the instructor allows it, give the AI-lab timing. Is the document unambiguous about the total duration?\"]",
+        "transport_failures": [],
+        "history_tokens_estimated": 490,
+        "history_context": "Student: Can I use ChatGPT in a Programming Fundamentals lab without explicit instructor permission?\nAssistant (context only): you cannot use ChatGPT in a Programming Fundamentals lab without explicit instructor permission. The use of generative AI tools like ChatGPT in labs is generally prohibited unless explicitly allowed by the lab instructor, particularly in courses such as Programming Fundamentals (PF), Object-Oriented Programming (OOP), and Data Structures (DS) .\n\n**Related conditions and exceptions from the retrieved sources:**\n\n> Additionally, students must include images of the prompts they used with the Generative AI tool to ensure transparency and proper attribution. \n\nStudent: If the instructor allows it, give the AI-lab timing. Is the document unambiguous about the total duration?\nAssistant (context only): When the use of generative AI is permitted, lab sessions will be extended to 2.5 ho urs. In the final half -hour, students will be given a small quiz task to complete independently, without using generative AI tools. At the end of these sessions, students must submit the prompts they used during the first 2.5 hours. The LI will review thes e logs to assess the students' understanding.  The wording is ambiguous: it describes a 2.5-hour session, a final half-hour quiz, and prompts from the first 2.5 hours. It does not unambiguously establish a consistent total duration or AI-use period. Confirm the schedule with the lab instructor.",
+        "raw_answer": "Attribution and prompt images are relevant when a submitted work includes an AI-generated embedded image or figure [S3]. For such content, referencing must be included within the text or content of the assignment and in the reference list, and students must additionally include images of the prompts they used with the Generative AI tool to ensure transparency and proper attribution [S2]. \n\nRegarding preparatory use versus incorporated content, using Generative AI tools for preparatory research work, assignments, and projects is generally considered acceptable practice (such as for initial research into a topic, idea, or concept), provided such tools are never the only source of information used [S5]. However, none of the content generated by AI should be used in submitted work unless it is quoted and referenced as such [S5].",
+        "retrieved": [
+          {
+            "chunk_id": "78eedcee337f6451ed069b8691e3097eb3e3ff969c5436f0869ac9b672fd9e21",
+            "references": [
+              {
+                "id": "academic",
+                "filename": "Academic_Rules_Handbook_2026.pdf",
+                "title": "Undergraduate Academic Rules and Regulations 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Generative AI policy",
+                "pdf_page": 50,
+                "pdf_page_index": 49,
+                "printed_label": "44",
+                "campus": "all",
+                "degree": "undergraduate"
+              }
+            ],
+            "passage": "5) Students should be encouraged to submit the prompts they \nused in generative AI tools to understand the assignments. \nInstructors can use these prompts to ide ntify students' \nweaknesses by analyzing the approach they took to \ncomprehend the material. \n6.2 Use in Lab Courses: \n1) In general, the use of generative AI tools like ChatGPT in labs \nis prohibited unless explicitly allowed by the lab instructor, \nparticularly i n courses such as Programming Fundamentals \n(PF), Object -Oriented Programming (OOP), and Data \nStructures (DS) etc. \n2) 10% of the labs will allow the use of generative AI tools. \n3) When the use of generative AI is permitted, lab sessions will be \nextended to 2.5 ho urs. In the final half -hour, students will be \ngiven a small quiz task to complete independently, without \nusing generative AI tools. At the end of these sessions, \nstudents must submit the prompts they used during the first 2.5 \nhours. The LI will review thes e logs to assess the students' \nunderstanding. \n4) Marks for these labs will be based on performance in the quiz \ntask and the quality of the submitted prompts. The Lab \nInstructor must ensure that the quiz task's complexity is \nreasonable and appropriate, conside ring the original lab task \nand the allotted time."
+          },
+          {
+            "chunk_id": "1ccbf5789f684650e1256bdc5e2582c750c5999a257c9514b63d99f7f9d7d8be",
+            "references": [
+              {
+                "id": "academic",
+                "filename": "Academic_Rules_Handbook_2026.pdf",
+                "title": "Undergraduate Academic Rules and Regulations 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Generative AI policy",
+                "pdf_page": 53,
+                "pdf_page_index": 52,
+                "printed_label": "47",
+                "campus": "all",
+                "degree": "undergraduate"
+              }
+            ],
+            "passage": "reference list. Additionally, students must include images of the \nprompts they used with the Generative AI tool to ensure transparency \nand proper attribution. \n9. Privacy & Data Security \nThe University must uphold its l egal responsibilities regarding the \nprotection of information, which extends to all University affiliates. \nBreaches of these protections can lead to severe consequences, \nincluding harm to affected individuals, damage to the University's \nreputation, and leg al liability. Faculty, staff, and students are \nprohibited from submitting any data directly identifying individuals or \nclassified as Sensitive or Confidential into AI tools not supported by \nthe University. Additionally, datasets containing information indi rectly \nidentifying individuals must not be submitted to unsupported AI tools. \nFurthermore, ensuring accuracy and integrity of information is \nparamount, requiring meticulous maintenance and retention of \nofficial records in accordance with established protoc ols. Attention \nmust also be given to metadata considerations, as there's a distinction \nbetween directly inputting data into a Generative AI system and \nuploading a file, which may contain unseen metadata. Documents \ncreated using AI may be subject to open re cords laws and record \nretention requirements, emphasizing the need for compliance with \ndata retention policies and procedures of the University. \n10. Training & Support \nTo ensure faculty and students at FAST-NUCES are equipped with the \nnecessary knowledge a nd support for effective utilization of \nGenerative AI tools, comprehensive training and technical assistance \nare provided. Workshops, training modules, and online resources are"
+          },
+          {
+            "chunk_id": "5d2fb3e3107fd590eac33cc8b5cf932ad3b7b6ff4c922ca6a1310c1dc68dd9d7",
+            "references": [
+              {
+                "id": "academic",
+                "filename": "Academic_Rules_Handbook_2026.pdf",
+                "title": "Undergraduate Academic Rules and Regulations 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Generative AI policy",
+                "pdf_page": 52,
+                "pdf_page_index": 51,
+                "printed_label": "46",
+                "campus": "all",
+                "degree": "undergraduate"
+              }
+            ],
+            "passage": "3) Students should add screenshots of the prompts given to the \nGenerative AI to check how students has use it will help the TA \nas well. \n4) Encourage instructors to remain vigilant for sudden \nperformance improvements. \n5) Inform the students about the ethical implications of AI use in \na course. Communicate clear policies on AI use in \nassessments, including consequences. \n6) Create an active learning environment to encourage student \nengagement and understanding. \n8. Referencing Generative AI Tools \nUsing Generative AI/AI tools for research  and in the preparation of \nwork does not require citation, similar to how an initial Google search \nfor information does not require citation. Before the introduction of \nGenerative AI, students were not required to reference web searches, \nsources that had not directly informed their submitted work, or the use \nof spell checkers. Therefore, the use of Generative AI for similar \npurposes need not be referenced unless an assignment brief \nspecifically states otherwise. It is unlikely that students will need to \ndirectly quote content from AI -generated sources very often due to \nthe limitations of Generative AI tools. However, students must critically \nevaluate any content generated using AI. In certain circumstances, or \nfor specific content types, referencing may be required. For example, \npart of the assessment may involve using AI to generate text that the \nstudent then critiques. In these instances, if students' work includes a \nverbatim quotation, embedded image, or figure, this should be \nreferenced within the text or  content of the assignment and in the"
+          },
+          {
+            "chunk_id": "7856376625ee0aab49c1a69a2db078ebd503b9a55f603f504e52459fc96f049c",
+            "references": [
+              {
+                "id": "academic",
+                "filename": "Academic_Rules_Handbook_2026.pdf",
+                "title": "Undergraduate Academic Rules and Regulations 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Generative AI policy",
+                "pdf_page": 49,
+                "pdf_page_index": 48,
+                "printed_label": "43",
+                "campus": "all",
+                "degree": "undergraduate"
+              }
+            ],
+            "passage": "specific purposes to assist with their assessment \n• Generative AI is an integral part of the assessment and \nstudents are encouraged to use it extensively. \nDepartments, Instructors, and/or Lab Instructors, must decide which \ncategory to employ for their assessments in advance. \nEnsure that your decision is communicated and explained to students. \nAssessment could include a statement for students clearly. \n6.1 Use in Non-Lab Courses: \n1) Students are allowed, and sometimes encouraged, to use \ngenerative AI t ools like ChatGPT for completing course \nassignments. \n2) All the course assignments must include associated quizzes or \ndemonstrations. \n3) A small percentage (typically 10-15%) of the total marks will be \nallotted to the assignment submissions. The majority of the \nmarks will be based on the assignment quizzes or \ndemonstrations. This grading distribution should be clearly \nstated in the course outline. These quizzes or demonstrations \nshould take place in the week following the submission \ndeadline. \n4) Faculty members are encouraged to integrate questions \nrelated to these assignments into both sessional and final \nexams."
+          },
+          {
+            "chunk_id": "ee0084aa263a0611e35c2e0dd94c83065540cf558ea4e18b4c25ea2240c0d0e2",
+            "references": [
+              {
+                "id": "academic",
+                "filename": "Academic_Rules_Handbook_2026.pdf",
+                "title": "Undergraduate Academic Rules and Regulations 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Generative AI policy",
+                "pdf_page": 43,
+                "pdf_page_index": 42,
+                "printed_label": "37",
+                "campus": "all",
+                "degree": "undergraduate"
+              }
+            ],
+            "passage": "capabilities. Violations of these policies may result in disciplinary \nactions, including account suspension or academic penalties. Time \nlimits may be implemented t o regulate usage and ensure equitable \naccess for all users, with guidelines provided to facilitate responsible \nutilization within designated timeframes. \n4. Acceptable Uses of Generative AI Tools \nIn general, using Generative AI tools for preparatory researc h work, \nassignment and project is considered acceptable practice, however \nsuch tools should never be the only source of information used. \nGenerative AI tools are not academic sources; they do not produce \nfact- checked content, and they can, and often do, r eproduce \ninherent biases in provision of information, and they often do not \naccurately state the sources from which the content provided has \nbeen gathered. It is therefore vital that students use academic and \ntrusted disciplinary - specific sources when dev eloping their work. \nNone of the content generated by AI should be used in submitted work \nunless it is quoted and referenced as such. \nAI is at its best when it is used to help synthesize ideas, so that users \nare in a better position to write an assignment. It may be helpful for \nstudents to consider Generative AI tools in a similar light to Wikipedia: \nas a source of information, but not always a reliable one. \nSee some potentially acceptable uses of Generative AI here. Please \nnote, this list is not exhaustive and is indicative only. \n1) Initial research into a topic, idea, or concept to gain an \noverview for example: “what are the main ethical concerns for \nstudents when using generative artificial intelligence tools?”"
+          },
+          {
+            "chunk_id": "2b056d14ca5fab9515d7c903e3936f2627bfd50a20d802b72cd16f2a450e17b0",
+            "references": [
+              {
+                "id": "academic",
+                "filename": "Academic_Rules_Handbook_2026.pdf",
+                "title": "Undergraduate Academic Rules and Regulations 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Generative AI policy",
+                "pdf_page": 45,
+                "pdf_page_index": 44,
+                "printed_label": "39",
+                "campus": "all",
+                "degree": "undergraduate"
+              }
+            ],
+            "passage": "used in another’s work, thereby risking plagiarism. Therefore, students \nshould not upload their work to sites that do not have clear privacy \npolicies and opt outs. Equally, it is not permissible to upload any \npersonal or sensitive data, or University materials (e.g. lecture slides, \nteaching content, etc.) onto these systems without permission. \n5. Unacceptable Uses of Generative AI Tools \nThe unacceptable use of Generative AI software broadly falls in line \nwith other examples of academic misconduct that exist outside of \nGenerative AI space. Students using the technology to simply \ncircumvent the requirements of an assessment or using it to create \nentire assessments that they then disguise as their own original work \nis n ot acceptable. The requirement to declare, cite, reference and \nreflect on the use of Generative AI is designed to prevent students \nfrom simply using the technology to create assessments that they \nthen claim as their own, and a student that refuses to declare how \nthey have used the technology, does not cite it, reference it or reflect \non its outputs may be attempting to hide the fact that the work is not \ntheir own. If staff suspect that students have used Generative AI in \nunacceptable ways, they may use the Turnitin detector score to help \nthem identify how much of a document may have been written using \nAI. \nSome examples of misuse of Generative AI may include, but are not \nnecessarily limited to: \n1) Students generating an entire assignment submission and \npassing it off as their own work. \n2) Submitting content generated by Generative AI tools without \nappropriate and correctly presented acknowledgement and"
+          }
+        ],
+        "packed_source_ids": {
+          "S1": "78eedcee337f6451ed069b8691e3097eb3e3ff969c5436f0869ac9b672fd9e21",
+          "S2": "1ccbf5789f684650e1256bdc5e2582c750c5999a257c9514b63d99f7f9d7d8be",
+          "S3": "5d2fb3e3107fd590eac33cc8b5cf932ad3b7b6ff4c922ca6a1310c1dc68dd9d7",
+          "S4": "7856376625ee0aab49c1a69a2db078ebd503b9a55f603f504e52459fc96f049c",
+          "S5": "ee0084aa263a0611e35c2e0dd94c83065540cf558ea4e18b4c25ea2240c0d0e2"
+        },
+        "validation": "targeted_policy_and_citation_checks"
+      },
+      "client_request_id": "be34395b-8db9-465f-b62a-fc8ea194814f",
+      "running": false,
+      "verification_retry_count": 0
+    },
+    {
+      "id": "18299e2e671543fa860173110d1f04e7",
+      "conversation_id": "164e134a617e4d26b9dcebfbeb458abe",
+      "question": "Does that mean every use of AI solely for preparation always requires citation even when the brief says nothing?",
+      "answer": "The use of Generative AI solely for research and in the preparation of work does not require citation unless an assignment brief specifically states otherwise [S4]. Using Generative AI tools for preparatory research and assignment preparation does not require citation, similar to how an initial Google search, web searches, sources not directly informing submitted work, or spell checkers do not require citation [S4]. However, none of the content generated by AI should be used in submitted work unless it is quoted and referenced as such [S2], and students must critically evaluate any content generated using AI [S4].\n\n**Related conditions and exceptions from the retrieved sources:**\n\n> Additionally, students must include images of the prompts they used with the Generative AI tool to ensure transparency and proper attribution. [S6]",
+      "citations": [
+        {
+          "id": "S2",
+          "chunk_id": "ee0084aa263a0611e35c2e0dd94c83065540cf558ea4e18b4c25ea2240c0d0e2",
+          "references": [
+            {
+              "id": "academic",
+              "filename": "Academic_Rules_Handbook_2026.pdf",
+              "title": "Undergraduate Academic Rules and Regulations 2026",
+              "url": "",
+              "publication_date": "2026-06",
+              "collection_date": "",
+              "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+              "section": "Generative AI policy",
+              "pdf_page": 43,
+              "pdf_page_index": 42,
+              "printed_label": "37",
+              "campus": "all",
+              "degree": "undergraduate"
+            }
+          ],
+          "excerpt": "capabilities. Violations of these policies may result in disciplinary \nactions, including account suspension or academic penalties. Time \nlimits may be implemented t o regulate usage and ensure equitable \naccess for all users, with guidelines provided to facilitate responsible \nutilization within designated timeframes. \n4. Acceptable Uses of Generative AI Tools \nIn general, using Generative AI tools for preparatory researc h work, \nassignment and project is considered acceptable practice, however \nsuch tools should never be the only source of information used. \nGenerative AI tools are not academic sources; they do not produce \nfact- checked content, and they can, and often do, r eproduce \ninherent biases in provision of information, and they often do not \naccurately state the sources from which the content provided has \nbeen gathered. It is therefore vital that students use academic and \ntrusted disciplinary - specific sources when dev eloping their work. \nNone of the content generated by AI should be used in submitted work \nunless it is quoted and referenced as such. \nAI is at its best when it is used to help synthesize ideas, so that users \nare in a better position to write an assignment. It may be helpful for \nstudents to consider Generative AI tools in a similar light to Wikipedia: \nas a source of information, but not always a reliable one. \nSee some potentially acceptable uses of Generative AI here. Please \nnote, this list is not exhaustive and is indicative only. \n1) Initial research into a topic, idea, or concept to gain an \noverview for example: “what are the main ethical concerns for \nstudents when using generative artificial intelligence tools?”"
+        },
+        {
+          "id": "S4",
+          "chunk_id": "5d2fb3e3107fd590eac33cc8b5cf932ad3b7b6ff4c922ca6a1310c1dc68dd9d7",
+          "references": [
+            {
+              "id": "academic",
+              "filename": "Academic_Rules_Handbook_2026.pdf",
+              "title": "Undergraduate Academic Rules and Regulations 2026",
+              "url": "",
+              "publication_date": "2026-06",
+              "collection_date": "",
+              "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+              "section": "Generative AI policy",
+              "pdf_page": 52,
+              "pdf_page_index": 51,
+              "printed_label": "46",
+              "campus": "all",
+              "degree": "undergraduate"
+            }
+          ],
+          "excerpt": "3) Students should add screenshots of the prompts given to the \nGenerative AI to check how students has use it will help the TA \nas well. \n4) Encourage instructors to remain vigilant for sudden \nperformance improvements. \n5) Inform the students about the ethical implications of AI use in \na course. Communicate clear policies on AI use in \nassessments, including consequences. \n6) Create an active learning environment to encourage student \nengagement and understanding. \n8. Referencing Generative AI Tools \nUsing Generative AI/AI tools for research  and in the preparation of \nwork does not require citation, similar to how an initial Google search \nfor information does not require citation. Before the introduction of \nGenerative AI, students were not required to reference web searches, \nsources that had not directly informed their submitted work, or the use \nof spell checkers. Therefore, the use of Generative AI for similar \npurposes need not be referenced unless an assignment brief \nspecifically states otherwise. It is unlikely that students will need to \ndirectly quote content from AI -generated sources very often due to \nthe limitations of Generative AI tools. However, students must critically \nevaluate any content generated using AI. In certain circumstances, or \nfor specific content types, referencing may be required. For example, \npart of the assessment may involve using AI to generate text that the \nstudent then critiques. In these instances, if students' work includes a \nverbatim quotation, embedded image, or figure, this should be \nreferenced within the text or  content of the assignment and in the"
+        },
+        {
+          "id": "S6",
+          "chunk_id": "1ccbf5789f684650e1256bdc5e2582c750c5999a257c9514b63d99f7f9d7d8be",
+          "references": [
+            {
+              "id": "academic",
+              "filename": "Academic_Rules_Handbook_2026.pdf",
+              "title": "Undergraduate Academic Rules and Regulations 2026",
+              "url": "",
+              "publication_date": "2026-06",
+              "collection_date": "",
+              "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+              "section": "Generative AI policy",
+              "pdf_page": 53,
+              "pdf_page_index": 52,
+              "printed_label": "47",
+              "campus": "all",
+              "degree": "undergraduate"
+            }
+          ],
+          "excerpt": "reference list. Additionally, students must include images of the \nprompts they used with the Generative AI tool to ensure transparency \nand proper attribution. \n9. Privacy & Data Security \nThe University must uphold its l egal responsibilities regarding the \nprotection of information, which extends to all University affiliates. \nBreaches of these protections can lead to severe consequences, \nincluding harm to affected individuals, damage to the University's \nreputation, and leg al liability. Faculty, staff, and students are \nprohibited from submitting any data directly identifying individuals or \nclassified as Sensitive or Confidential into AI tools not supported by \nthe University. Additionally, datasets containing information indi rectly \nidentifying individuals must not be submitted to unsupported AI tools. \nFurthermore, ensuring accuracy and integrity of information is \nparamount, requiring meticulous maintenance and retention of \nofficial records in accordance with established protoc ols. Attention \nmust also be given to metadata considerations, as there's a distinction \nbetween directly inputting data into a Generative AI system and \nuploading a file, which may contain unseen metadata. Documents \ncreated using AI may be subject to open re cords laws and record \nretention requirements, emphasizing the need for compliance with \ndata retention policies and procedures of the University. \n10. Training & Support \nTo ensure faculty and students at FAST-NUCES are equipped with the \nnecessary knowledge a nd support for effective utilization of \nGenerative AI tools, comprehensive training and technical assistance \nare provided. Workshops, training modules, and online resources are"
+        }
+      ],
+      "status": "completed",
+      "error": null,
+      "model": "gemini-3.5-flash-lite",
+      "dataset_version": "2026-reviewed-v1:b13c59ecc7ad",
+      "created": "2026-10-18T06:54:18.140711+00:00",
+      "completed": "2026-10-18T06:54:22.069845+00:00",
+      "latency": 3.9017003000044497,
+      "diagnostics": {
+        "route": "document_rag",
+        "question": "Does that mean every use of AI solely for preparation always requires citation even when the brief says nothing?",
+        "search_question": "Does the use of AI solely for preparation in a Programming Fundamentals assignment always require citation even when the brief says nothing?",
+        "interpretation_override": null,
+        "requested_facets": [],
+        "evidence_facets": {},
+        "retrieval_queries": [
+          "Does the use of AI solely for preparation in a Programming Fundamentals assignment always require citation even when the brief says nothing?",
+          "Additionally, students must include images of the prompts they used with the Generative AI tool to ensure transparency and proper attribution."
+        ],
+        "interpretation": {
+          "question": "Does the use of AI solely for preparation in a Programming Fundamentals assignment always require citation even when the brief says nothing?",
+          "unresolved": false
+        },
+        "retrieval_history_context": "[\"Can I use ChatGPT in a Programming Fundamentals lab without explicit instructor permission?\", \"If the instructor allows it, give the AI-lab timing. Is the document unambiguous about the total duration?\", \"For a submitted assignment containing an AI-generated image, are attribution and prompt images relevant?\"]",
+        "transport_failures": [],
+        "history_tokens_estimated": 906,
+        "history_context": "Student: Can I use ChatGPT in a Programming Fundamentals lab without explicit instructor permission?\nAssistant (context only): you cannot use ChatGPT in a Programming Fundamentals lab without explicit instructor permission. The use of generative AI tools like ChatGPT in labs is generally prohibited unless explicitly allowed by the lab instructor, particularly in courses such as Programming Fundamentals (PF), Object-Oriented Programming (OOP), and Data Structures (DS) .\n\n**Related conditions and exceptions from the retrieved sources:**\n\n> Additionally, students must include images of the prompts they used with the Generative AI tool to ensure transparency and proper attribution. \n\nStudent: If the instructor allows it, give the AI-lab timing. Is the document unambiguous about the total duration?\nAssistant (context only): When the use of generative AI is permitted, lab sessions will be extended to 2.5 ho urs. In the final half -hour, students will be given a small quiz task to complete independently, without using generative AI tools. At the end of these sessions, students must submit the prompts they used during the first 2.5 hours. The LI will review thes e logs to assess the students' understanding.  The wording is ambiguous: it describes a 2.5-hour session, a final half-hour quiz, and prompts from the first 2.5 hours. It does not unambiguously establish a consistent total duration or AI-use period. Confirm the schedule with the lab instructor.\n\nStudent: For a submitted assignment containing an AI-generated image, are attribution and prompt images relevant?\nAssistant (context only): Attribution and prompt images are relevant when a submitted work includes an AI-generated embedded image or figure . For such content, referencing must be included within the text or content of the assignment and in the reference list, and students must additionally include images of the prompts they used with the Generative AI tool to ensure transparency and proper attribution . \n\nRegarding preparatory use versus incorporated content, using Generative AI tools for preparatory research work, assignments, and projects is generally considered acceptable practice (such as for initial research into a topic, idea, or concept), provided such tools are never the only source of information used . However, none of the content generated by AI should be used in submitted work unless it is quoted and referenced as such .\n\n**Related conditions and exceptions from the retrieved sources:**\n\n> Therefore, the use of Generative AI for similar purposes need not be referenced unless an assignment brief specifically states otherwise. \n\n> However, students must critically evaluate any content generated using AI. ",
+        "raw_answer": "The use of Generative AI solely for research and in the preparation of work does not require citation unless an assignment brief specifically states otherwise [S4]. Using Generative AI tools for preparatory research and assignment preparation does not require citation, similar to how an initial Google search, web searches, sources not directly informing submitted work, or spell checkers do not require citation [S4]. However, none of the content generated by AI should be used in submitted work unless it is quoted and referenced as such [S2], and students must critically evaluate any content generated using AI [S4].",
+        "retrieved": [
+          {
+            "chunk_id": "78eedcee337f6451ed069b8691e3097eb3e3ff969c5436f0869ac9b672fd9e21",
+            "references": [
+              {
+                "id": "academic",
+                "filename": "Academic_Rules_Handbook_2026.pdf",
+                "title": "Undergraduate Academic Rules and Regulations 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Generative AI policy",
+                "pdf_page": 50,
+                "pdf_page_index": 49,
+                "printed_label": "44",
+                "campus": "all",
+                "degree": "undergraduate"
+              }
+            ],
+            "passage": "5) Students should be encouraged to submit the prompts they \nused in generative AI tools to understand the assignments. \nInstructors can use these prompts to ide ntify students' \nweaknesses by analyzing the approach they took to \ncomprehend the material. \n6.2 Use in Lab Courses: \n1) In general, the use of generative AI tools like ChatGPT in labs \nis prohibited unless explicitly allowed by the lab instructor, \nparticularly i n courses such as Programming Fundamentals \n(PF), Object -Oriented Programming (OOP), and Data \nStructures (DS) etc. \n2) 10% of the labs will allow the use of generative AI tools. \n3) When the use of generative AI is permitted, lab sessions will be \nextended to 2.5 ho urs. In the final half -hour, students will be \ngiven a small quiz task to complete independently, without \nusing generative AI tools. At the end of these sessions, \nstudents must submit the prompts they used during the first 2.5 \nhours. The LI will review thes e logs to assess the students' \nunderstanding. \n4) Marks for these labs will be based on performance in the quiz \ntask and the quality of the submitted prompts. The Lab \nInstructor must ensure that the quiz task's complexity is \nreasonable and appropriate, conside ring the original lab task \nand the allotted time."
+          },
+          {
+            "chunk_id": "ee0084aa263a0611e35c2e0dd94c83065540cf558ea4e18b4c25ea2240c0d0e2",
+            "references": [
+              {
+                "id": "academic",
+                "filename": "Academic_Rules_Handbook_2026.pdf",
+                "title": "Undergraduate Academic Rules and Regulations 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Generative AI policy",
+                "pdf_page": 43,
+                "pdf_page_index": 42,
+                "printed_label": "37",
+                "campus": "all",
+                "degree": "undergraduate"
+              }
+            ],
+            "passage": "capabilities. Violations of these policies may result in disciplinary \nactions, including account suspension or academic penalties. Time \nlimits may be implemented t o regulate usage and ensure equitable \naccess for all users, with guidelines provided to facilitate responsible \nutilization within designated timeframes. \n4. Acceptable Uses of Generative AI Tools \nIn general, using Generative AI tools for preparatory researc h work, \nassignment and project is considered acceptable practice, however \nsuch tools should never be the only source of information used. \nGenerative AI tools are not academic sources; they do not produce \nfact- checked content, and they can, and often do, r eproduce \ninherent biases in provision of information, and they often do not \naccurately state the sources from which the content provided has \nbeen gathered. It is therefore vital that students use academic and \ntrusted disciplinary - specific sources when dev eloping their work. \nNone of the content generated by AI should be used in submitted work \nunless it is quoted and referenced as such. \nAI is at its best when it is used to help synthesize ideas, so that users \nare in a better position to write an assignment. It may be helpful for \nstudents to consider Generative AI tools in a similar light to Wikipedia: \nas a source of information, but not always a reliable one. \nSee some potentially acceptable uses of Generative AI here. Please \nnote, this list is not exhaustive and is indicative only. \n1) Initial research into a topic, idea, or concept to gain an \noverview for example: “what are the main ethical concerns for \nstudents when using generative artificial intelligence tools?”"
+          },
+          {
+            "chunk_id": "7856376625ee0aab49c1a69a2db078ebd503b9a55f603f504e52459fc96f049c",
+            "references": [
+              {
+                "id": "academic",
+                "filename": "Academic_Rules_Handbook_2026.pdf",
+                "title": "Undergraduate Academic Rules and Regulations 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Generative AI policy",
+                "pdf_page": 49,
+                "pdf_page_index": 48,
+                "printed_label": "43",
+                "campus": "all",
+                "degree": "undergraduate"
+              }
+            ],
+            "passage": "specific purposes to assist with their assessment \n• Generative AI is an integral part of the assessment and \nstudents are encouraged to use it extensively. \nDepartments, Instructors, and/or Lab Instructors, must decide which \ncategory to employ for their assessments in advance. \nEnsure that your decision is communicated and explained to students. \nAssessment could include a statement for students clearly. \n6.1 Use in Non-Lab Courses: \n1) Students are allowed, and sometimes encouraged, to use \ngenerative AI t ools like ChatGPT for completing course \nassignments. \n2) All the course assignments must include associated quizzes or \ndemonstrations. \n3) A small percentage (typically 10-15%) of the total marks will be \nallotted to the assignment submissions. The majority of the \nmarks will be based on the assignment quizzes or \ndemonstrations. This grading distribution should be clearly \nstated in the course outline. These quizzes or demonstrations \nshould take place in the week following the submission \ndeadline. \n4) Faculty members are encouraged to integrate questions \nrelated to these assignments into both sessional and final \nexams."
+          },
+          {
+            "chunk_id": "5d2fb3e3107fd590eac33cc8b5cf932ad3b7b6ff4c922ca6a1310c1dc68dd9d7",
+            "references": [
+              {
+                "id": "academic",
+                "filename": "Academic_Rules_Handbook_2026.pdf",
+                "title": "Undergraduate Academic Rules and Regulations 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Generative AI policy",
+                "pdf_page": 52,
+                "pdf_page_index": 51,
+                "printed_label": "46",
+                "campus": "all",
+                "degree": "undergraduate"
+              }
+            ],
+            "passage": "3) Students should add screenshots of the prompts given to the \nGenerative AI to check how students has use it will help the TA \nas well. \n4) Encourage instructors to remain vigilant for sudden \nperformance improvements. \n5) Inform the students about the ethical implications of AI use in \na course. Communicate clear policies on AI use in \nassessments, including consequences. \n6) Create an active learning environment to encourage student \nengagement and understanding. \n8. Referencing Generative AI Tools \nUsing Generative AI/AI tools for research  and in the preparation of \nwork does not require citation, similar to how an initial Google search \nfor information does not require citation. Before the introduction of \nGenerative AI, students were not required to reference web searches, \nsources that had not directly informed their submitted work, or the use \nof spell checkers. Therefore, the use of Generative AI for similar \npurposes need not be referenced unless an assignment brief \nspecifically states otherwise. It is unlikely that students will need to \ndirectly quote content from AI -generated sources very often due to \nthe limitations of Generative AI tools. However, students must critically \nevaluate any content generated using AI. In certain circumstances, or \nfor specific content types, referencing may be required. For example, \npart of the assessment may involve using AI to generate text that the \nstudent then critiques. In these instances, if students' work includes a \nverbatim quotation, embedded image, or figure, this should be \nreferenced within the text or  content of the assignment and in the"
+          },
+          {
+            "chunk_id": "813399598164ac7e9a86960dc56a8a5e80e7ba9b32e833cbb9665d57d21802b2",
+            "references": [
+              {
+                "id": "academic",
+                "filename": "Academic_Rules_Handbook_2026.pdf",
+                "title": "Undergraduate Academic Rules and Regulations 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Generative AI policy",
+                "pdf_page": 44,
+                "pdf_page_index": 43,
+                "printed_label": "38",
+                "campus": "all",
+                "degree": "undergraduate"
+              }
+            ],
+            "passage": "2) Identifying/summarizing core concepts or viewpoints in a \nparticular disciplinary area for example “what were the \nprevalent influences on 19th century writers?” or “What ethical \nconsiderations arise from the use of data mining techniques in \ncybersecurity, particularly within the realm of computer \nscience?” \n3) Summarizing texts - Sections of text can be pasted into a \nGenerative AI tool and it asked it to summarize the content. \nThis is especially useful if you are unsure that you understand \nwhat the key message or concept in a piece of text is. \n4) It is imp ortant to note that summaries cannot be pasted into \nwork for assessment purposes unless they are being used as \nshort quotations for a specific purpose. These quotations must \nbe appropriately cited and the correct referencing \nconventions in the subject area used. \n• Taking notes during group work discussions \n• Getting ideas on how to present work \n• Organizing work \n• Formatting a reference list \nIt is also possible to use Generative AI tools for proof reading and self-\nassessment (i.e. to get feedback on your work prior  to submission), as \ndeemed acceptable, however, it is not clear what happens to the data \nsubmitted to Generative AI tools, and so caution must be exercised. If \nwork uploaded to Generative AI platforms is used to train the dataset \nfrom which it creates new responses for others, your work might be"
+          },
+          {
+            "chunk_id": "1ccbf5789f684650e1256bdc5e2582c750c5999a257c9514b63d99f7f9d7d8be",
+            "references": [
+              {
+                "id": "academic",
+                "filename": "Academic_Rules_Handbook_2026.pdf",
+                "title": "Undergraduate Academic Rules and Regulations 2026",
+                "url": "",
+                "publication_date": "2026-06",
+                "collection_date": "",
+                "extraction_method": "pypdf visible-coordinate extraction + reviewed table/scope overrides",
+                "section": "Generative AI policy",
+                "pdf_page": 53,
+                "pdf_page_index": 52,
+                "printed_label": "47",
+                "campus": "all",
+                "degree": "undergraduate"
+              }
+            ],
+            "passage": "reference list. Additionally, students must include images of the \nprompts they used with the Generative AI tool to ensure transparency \nand proper attribution. \n9. Privacy & Data Security \nThe University must uphold its l egal responsibilities regarding the \nprotection of information, which extends to all University affiliates. \nBreaches of these protections can lead to severe consequences, \nincluding harm to affected individuals, damage to the University's \nreputation, and leg al liability. Faculty, staff, and students are \nprohibited from submitting any data directly identifying individuals or \nclassified as Sensitive or Confidential into AI tools not supported by \nthe University. Additionally, datasets containing information indi rectly \nidentifying individuals must not be submitted to unsupported AI tools. \nFurthermore, ensuring accuracy and integrity of information is \nparamount, requiring meticulous maintenance and retention of \nofficial records in accordance with established protoc ols. Attention \nmust also be given to metadata considerations, as there's a distinction \nbetween directly inputting data into a Generative AI system and \nuploading a file, which may contain unseen metadata. Documents \ncreated using AI may be subject to open re cords laws and record \nretention requirements, emphasizing the need for compliance with \ndata retention policies and procedures of the University. \n10. Training & Support \nTo ensure faculty and students at FAST-NUCES are equipped with the \nnecessary knowledge a nd support for effective utilization of \nGenerative AI tools, comprehensive training and technical assistance \nare provided. Workshops, training modules, and online resources are"
+          }
+        ],
+        "packed_source_ids": {
+          "S1": "78eedcee337f6451ed069b8691e3097eb3e3ff969c5436f0869ac9b672fd9e21",
+          "S2": "ee0084aa263a0611e35c2e0dd94c83065540cf558ea4e18b4c25ea2240c0d0e2",
+          "S3": "7856376625ee0aab49c1a69a2db078ebd503b9a55f603f504e52459fc96f049c",
+          "S4": "5d2fb3e3107fd590eac33cc8b5cf932ad3b7b6ff4c922ca6a1310c1dc68dd9d7",
+          "S5": "813399598164ac7e9a86960dc56a8a5e80e7ba9b32e833cbb9665d57d21802b2",
+          "S6": "1ccbf5789f684650e1256bdc5e2582c750c5999a257c9514b63d99f7f9d7d8be"
+        },
+        "validation": "targeted_policy_and_citation_checks"
+      },
+      "client_request_id": "204effca-475e-4853-ae53-300ad2a13096",
+      "running": false,
+      "verification_retry_count": 0
+    }
+  ]
+}
