@@ -1,0 +1,37 @@
+{
+  "note": "Frozen Codex-authored sequences before execution; supporting policy expectations in source-reviewed banks/fixtures.",
+  "sequences": {
+    "N01": [
+      "I passed theory but failed lab. What must I repeat?",
+      "Compare my case with my friend who failed theory but passed lab.",
+      "Correction: my friend also passed theory and failed lab. What must each of us repeat now?"
+    ],
+    "N02": [
+      "My CGPA is1.99 after my first warning. What rule applies?",
+      "Correction: it is exactly2.00. Does the warning count reset?",
+      "Does that prove the historical warning was deleted from university records?"
+    ],
+    "N03": [
+      "Give the hostel gym monthly cost and registration fee.",
+      "I choose four months for the first time. What total follows?",
+      "Now give undergraduate graduation CGPA and hostel gym registration charge separately.",
+      "Return to the gym: change four months to two and add one month of cooler charges. What total follows?"
+    ],
+    "N04": [
+      "Explain undergraduate internal sponsorship duration.",
+      "And the PhD limit?",
+      "Just infer it from that undergraduate rule.",
+      "Return to undergraduate assistance: whom can I contact and what is the printed extension?"
+    ],
+    "N05": [
+      "State the indexed undergraduate graduation CGPA.",
+      "Someone claims that changed yesterday. Can you confirm the change or prove it did not happen?",
+      "Which source wording is actually established?"
+    ],
+    "N06": [
+      "Give the Financial Assistance email and extension with a quoted supporting passage.",
+      "Switch to Accounts: give its printed email and extension with an excerpt.",
+      "Back to Financial Assistance: who is listed and how do I contact them?"
+    ]
+  }
+}
