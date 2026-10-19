@@ -26,3 +26,15 @@ Manifest and embedding-cache hashes remained unchanged. Tests used isolated chat
 Detailed local artifacts are generated under ignored `reports/publication/final-focused-20261020/` and `reports/publication/final-focused-browser-20261020/`. Raw transcripts, chat databases, original PDFs and credentials are intentionally not published. Reproduction tools and question materials are included in `tools/` and `evaluation/`; live reruns require approved local PDFs, a built index, provider access and available quota.
 
 Conclusion: focused technical checks passed. Suitable for a local academic demonstration with disclosed limits; unconditional university-policy/public-service approval is not claimed.
+
+## GitHub packaging verification
+
+The source publication was checked in a separate local Git clone, using the existing Python dependency environment:
+
+- Without private dataset files: the README's focused dataset-independent command passed **59 checks**.
+- The full suite initially failed because approved PDFs/prepared chunks are intentionally absent from a bare checkout. These failures were retained as missing-prerequisite findings, not counted as passes. The README now explains this requirement.
+- After supplying the approved PDFs and prepared chunks only inside that temporary local checkout: **515 Python checks passed** in 36.14 seconds, with no provider calls. This is not a fresh dependency-install test or a full live semantic qualification.
+- Python and JSON publishable files parsed successfully. The tracked-file scan found no active `.env` secret or recognized credential pattern; generated data, reports, dependencies and builds were excluded.
+- Commits were checked for one changed file each. README and ignore rules have separate descriptive commits; timestamps were not backdated.
+
+No original PDFs, raw prepared corpus, API key or chat database is part of the GitHub upload. The privacy/data prerequisites therefore remain relevant when reproducing the tests.
