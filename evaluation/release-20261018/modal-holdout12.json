@@ -1,0 +1,311 @@
+{
+  "cases": [
+    {
+      "id": "M01",
+      "question": "For AI-enabled non-lab assignment grading, is exactly15percent always assigned to the submission?",
+      "difficulty": "confusing",
+      "expected_behavior": "answer",
+      "expected_answer": "Typically10-15percent, not fixed exact15; majority quizzes/demos. Source49.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                49
+              ],
+              "anchors": []
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex compared actual approved Academic26/27/49/50/52/53 wording before provider run; holdouts preserve source modal strength."
+    },
+    {
+      "id": "M02",
+      "question": "For an AI-enabled non-lab course, does the grading rule say the distribution MUST or SHOULD be stated in the course outline?",
+      "difficulty": "confusing",
+      "expected_behavior": "answer",
+      "expected_answer": "Actual SHOULD clearly stated, not strengthenedMUST; quote49.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                49
+              ],
+              "anchors": []
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex compared actual approved Academic26/27/49/50/52/53 wording before provider run; holdouts preserve source modal strength."
+    },
+    {
+      "id": "M03",
+      "question": "For graded AI-enabled non-lab assignments, does the timing statement for quizzes or demonstrations use SHOULD or MUST?",
+      "difficulty": "confusing",
+      "expected_behavior": "answer",
+      "expected_answer": "Actual should take place in week following submission deadline49.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                49
+              ],
+              "anchors": []
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex compared actual approved Academic26/27/49/50/52/53 wording before provider run; holdouts preserve source modal strength."
+    },
+    {
+      "id": "M04",
+      "question": "What does AI-enabled non-lab grading policy say about when assignment quizzes happen?",
+      "difficulty": "confusing",
+      "expected_behavior": "answer",
+      "expected_answer": "Week following deadline SHOULD, no invented date or mandatory wording stronger than source49.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                49
+              ],
+              "anchors": []
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex compared actual approved Academic26/27/49/50/52/53 wording before provider run; holdouts preserve source modal strength."
+    },
+    {
+      "id": "M05",
+      "question": "Quote the course-outline wording for AI-enabled non-lab assignment grading.",
+      "difficulty": "confusing",
+      "expected_behavior": "answer",
+      "expected_answer": "Grading distribution should be clearly stated in course outline49.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                49
+              ],
+              "anchors": []
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex compared actual approved Academic26/27/49/50/52/53 wording before provider run; holdouts preserve source modal strength."
+    },
+    {
+      "id": "M06",
+      "question": "In AI-enabled non-lab assignment grading, do all marks come from the submitted assignment?",
+      "difficulty": "confusing",
+      "expected_behavior": "answer",
+      "expected_answer": "No:typically10-15submissions majorityquizzes/demos49, not allsubmission.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                49
+              ],
+              "anchors": []
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex compared actual approved Academic26/27/49/50/52/53 wording before provider run; holdouts preserve source modal strength."
+    },
+    {
+      "id": "M07",
+      "question": "When grading AI-enabled non-lab assignments, are demonstrations an alternative named alongside quizzes?",
+      "difficulty": "confusing",
+      "expected_behavior": "answer",
+      "expected_answer": "Policy says quizzes or demonstrations; majority marks on those49, no guaranteed student choice inferred.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                49
+              ],
+              "anchors": []
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex compared actual approved Academic26/27/49/50/52/53 wording before provider run; holdouts preserve source modal strength."
+    },
+    {
+      "id": "M08",
+      "question": "Are prompt logs worth80percent of AI-enabled non-lab assignment marks?",
+      "difficulty": "confusing",
+      "expected_behavior": "answer",
+      "expected_answer": "No80percent established. Nonlab typically10-15submission majorityquizzes/demos49; prompt submission encouraged50, no invented log fraction.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                49
+              ],
+              "anchors": []
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                50
+              ],
+              "anchors": []
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex compared actual approved Academic26/27/49/50/52/53 wording before provider run; holdouts preserve source modal strength."
+    },
+    {
+      "id": "M09",
+      "question": "When AI is allowed, compare how non-lab assignments and lab assignments are graded. Do the documents assign a numeric lab percentage split?",
+      "difficulty": "confusing",
+      "expected_behavior": "answer",
+      "expected_answer": "Nonlab10-15submissions majorityquizzes/demos49; labquiz performance plus promptquality50, no numericlabweights;10percentlabsallowed is not a grading split.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                49
+              ],
+              "anchors": []
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                50
+              ],
+              "anchors": []
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex compared actual approved Academic26/27/49/50/52/53 wording before provider run; holdouts preserve source modal strength."
+    },
+    {
+      "id": "M10",
+      "question": "For an embedded AI-generated figure in submitted work, preserve the referencing policy word SHOULD or MUST and distinguish prompt-image wording.",
+      "difficulty": "confusing",
+      "expected_behavior": "answer",
+      "expected_answer": "Reference content/list SHOULD52-53, prompt images MUST53; do not soften mandatory prompt clause.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                52
+              ],
+              "anchors": []
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                53
+              ],
+              "anchors": []
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex compared actual approved Academic26/27/49/50/52/53 wording before provider run; holdouts preserve source modal strength."
+    },
+    {
+      "id": "M11",
+      "question": "Quote the source wording about referencing an AI-generated image and including images of prompts.",
+      "difficulty": "confusing",
+      "expected_behavior": "answer",
+      "expected_answer": "Actual should referenced52 continuing reference list53 and additionallymustincludeimages53, correctsource IDs.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                52
+              ],
+              "anchors": []
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                53
+              ],
+              "anchors": []
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex compared actual approved Academic26/27/49/50/52/53 wording before provider run; holdouts preserve source modal strength."
+    },
+    {
+      "id": "M12",
+      "question": "For final-exam rechecking, distinguish the prescribed form wording from the seven-day application-arrival wording.",
+      "difficulty": "confusing",
+      "expected_behavior": "answer",
+      "expected_answer": "Form/fee mustsubmitted26; application shouldreach7days27; preserve distinctions.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                26
+              ],
+              "anchors": []
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                27
+              ],
+              "anchors": []
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex compared actual approved Academic26/27/49/50/52/53 wording before provider run; holdouts preserve source modal strength."
+    }
+  ]
+}
