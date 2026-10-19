@@ -211,7 +211,13 @@ Before live evaluation, inspect `evaluation/questions.jsonl`: verify each candid
 
 The evaluator refuses unverified questions. It records retrieved passages, generated answers, citations, latency, process RAM and data size. Fill manual boolean scoring fields in `reports/evaluation.json`; the score command requires them and checks the 40-question minimum, 90% retrieval and answer accuracy, 100% citation correctness and unsupported abstention. These thresholds are acceptance targets, not claimed results.
 
-Offline tests use synthetic data and model doubles; no keys, provider calls or real policy answers are needed. They cover SQLite restart/isolation/deletion, failure/retry without duplicate messages, bounded history, LCEL follow-up rewriting, applicability filters, embedding separation/caching, grouped citations, scope/calendar guards, local chat intents, trace persistence, hidden adjacent-page extraction and Streamlit chat controls. The comprehensive live benchmark and Codex source comparison are separate from the original independent human-scored acceptance workflow. See `reports/comprehensive-test-report.md` for the completed run, retries, per-question evidence and remaining limitations.
+Offline tests use fixtures and model doubles; they do not call the provider. Several document-specific modules additionally require the approved original PDFs and locally generated `reports/prepared-chunks.json`: supply the approved dataset and run preparation before the complete Python suite. On a bare clone without PDFs/prepared chunks, those modules fail collection or execution; that is a missing test input, not a passing test. To run a focused dataset-independent subset immediately after installing Python dependencies:
+
+```powershell
+.\.venv\Scripts\python -m pytest -q tests/test_recall_word_order_20261019.py tests/test_live_four_failures.py tests/test_web.py tests/test_transport.py tests/test_quota_runner_stop.py
+```
+
+Checks cover SQLite restart/isolation/deletion, failure/retry without duplicate messages, bounded history, LCEL follow-up rewriting, applicability filters, embedding separation/caching, grouped citations, scope/calendar guards, local chat intents, trace persistence, hidden adjacent-page extraction and legacy chat controls. Live benchmarks, explicit source comparison and independent human review remain distinct. Raw historical reports are local generated files excluded from this repository.
 
 ## Architecture
 
