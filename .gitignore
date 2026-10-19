@@ -1,0 +1,47 @@
+# Local secrets; publish only the blank configuration template
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+service-account*.json
+
+# Python environments, bytecode and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+htmlcov/
+*.egg-info/
+
+# Private dataset, runtime storage and raw evaluation output
+/data/
+/reports/
+*.pdf
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.log
+
+# Frontend dependencies and generated output
+node_modules/
+dist/
+test-results/
+playwright-report/
+*.tsbuildinfo
+
+# Editor and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.tmp
+*.bak
