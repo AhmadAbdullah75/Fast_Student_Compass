@@ -1,0 +1,450 @@
+{
+  "cases": [
+    {
+      "id": "BND01",
+      "question": "As an undergraduate with SGPA3.40 and CGPA1.90, am I guaranteed to retain my merit scholarship?",
+      "difficulty": "confusing",
+      "expected_behavior": "answer",
+      "expected_answer": "Semesterconditionmet,butCGPA1.90below2.00suspendsinternalfunding; noguarantee.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "semester GPA",
+                "suspended"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ],
+              "anchors": [
+                "2.00",
+                "undergraduate"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex actualHandbook19\u201320/Academic10,24/Guide24,34\u201335beforeexecution;12newholdoutsafterundergraduate/graduationfacetfailure."
+    },
+    {
+      "id": "BND02",
+      "question": "For undergraduate merit scholarship continuation, my semester GPA is3.40 and CGPA is2.00. Do those numbers prove all conditions?",
+      "difficulty": "confusing",
+      "expected_behavior": "answer",
+      "expected_answer": "BothGPAconditionsmetonly; notallcreditload/course/awardconditionsverified, noguarantee.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "semester GPA",
+                "suspended"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ],
+              "anchors": [
+                "2.00",
+                "undergraduate"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex actualHandbook19\u201320/Academic10,24/Guide24,34\u201335beforeexecution;12newholdoutsafterundergraduate/graduationfacetfailure."
+    },
+    {
+      "id": "BND03",
+      "question": "My undergraduate merit scholarship has SGPA2.99 and CGPA2.20. Is the semester GPA condition satisfied?",
+      "difficulty": "confusing",
+      "expected_behavior": "answer",
+      "expected_answer": "Semester2.99below3.0doesnotmeetsemestercondition; nocumulativewarningfalselyinvented.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "semester GPA",
+                "suspended"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ],
+              "anchors": [
+                "2.00",
+                "undergraduate"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex actualHandbook19\u201320/Academic10,24/Guide24,34\u201335beforeexecution;12newholdoutsafterundergraduate/graduationfacetfailure."
+    },
+    {
+      "id": "BND04",
+      "question": "Undergraduate merit scholarship: semester GPA3.00 and CGPA2.00. Is either GPA below its stated threshold?",
+      "difficulty": "confusing",
+      "expected_behavior": "answer",
+      "expected_answer": "Neitherbelowrespectivethreshold3.0/2.00; noall-conditionguarantee.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "semester GPA",
+                "suspended"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ],
+              "anchors": [
+                "2.00",
+                "undergraduate"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex actualHandbook19\u201320/Academic10,24/Guide24,34\u201335beforeexecution;12newholdoutsafterundergraduate/graduationfacetfailure."
+    },
+    {
+      "id": "BND05",
+      "question": "For an undergraduate merit scholarship, compare SGPA3.20 with CGPA1.999. Can the semester result override the CGPA suspension rule?",
+      "difficulty": "confusing",
+      "expected_behavior": "answer",
+      "expected_answer": "Semester3.2cannotoverridebelow2.00CGPAsuspension, compare1.999asgiven.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "semester GPA",
+                "suspended"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ],
+              "anchors": [
+                "2.00",
+                "undergraduate"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex actualHandbook19\u201320/Academic10,24/Guide24,34\u201335beforeexecution;12newholdoutsafterundergraduate/graduationfacetfailure."
+    },
+    {
+      "id": "BND06",
+      "question": "Can an undergraduate automatically continue merit scholarship with semester GPA2.99 and CGPA1.99?",
+      "difficulty": "confusing",
+      "expected_behavior": "answer",
+      "expected_answer": "No;semesterbelow3.0andCGPAbelow2.00suspension, notjustonescalar.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "semester GPA",
+                "suspended"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ],
+              "anchors": [
+                "2.00",
+                "undergraduate"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex actualHandbook19\u201320/Academic10,24/Guide24,34\u201335beforeexecution;12newholdoutsafterundergraduate/graduationfacetfailure."
+    },
+    {
+      "id": "BND07",
+      "question": "My CGPA is1.80 and my semester GPA is3.60; can my undergraduate merit scholarship continue automatically?",
+      "difficulty": "confusing",
+      "expected_behavior": "answer",
+      "expected_answer": "Semester3.6met,butCGPA1.8below2.00suspension; noguarantee.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "semester GPA",
+                "suspended"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ],
+              "anchors": [
+                "2.00",
+                "undergraduate"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex actualHandbook19\u201320/Academic10,24/Guide24,34\u201335beforeexecution;12newholdoutsafterundergraduate/graduationfacetfailure."
+    },
+    {
+      "id": "BND08",
+      "question": "I am an undergraduate with semester GPA4.00 and CGPA2.10. Are all merit scholarship conditions now verified?",
+      "difficulty": "confusing",
+      "expected_behavior": "answer",
+      "expected_answer": "BothGPAconditionsmetonly, othermeritcriteria/awardnotverified.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "semester GPA",
+                "suspended"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ],
+              "anchors": [
+                "2.00",
+                "undergraduate"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex actualHandbook19\u201320/Academic10,24/Guide24,34\u201335beforeexecution;12newholdoutsafterundergraduate/graduationfacetfailure."
+    },
+    {
+      "id": "BND09",
+      "question": "Who manages financial assistance for an undergraduate with CGPA1.99? Give the printed email and extension.",
+      "difficulty": "confusing",
+      "expected_behavior": "answer",
+      "expected_answer": "NooriaprintedfinancialassistanceGuide34\u201335cfd.fa128; nograduationCGPAsubstitution.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                34,
+                35
+              ],
+              "anchors": [
+                "cfd.fa@nu.edu.pk",
+                "128"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex actualHandbook19\u201320/Academic10,24/Guide24,34\u201335beforeexecution;12newholdoutsafterundergraduate/graduationfacetfailure."
+    },
+    {
+      "id": "BND10",
+      "question": "State the CGPA threshold to avoid an undergraduate academic warning and the printed Financial Assistance email.",
+      "difficulty": "confusing",
+      "expected_behavior": "answer",
+      "expected_answer": "Academic24warningminimum2.00andGuide34\u201335cfd.fa; nograduationtopicinferred.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ],
+              "anchors": [
+                "2.00",
+                "undergraduate"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                34,
+                35
+              ],
+              "anchors": [
+                "cfd.fa@nu.edu.pk",
+                "128"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex actualHandbook19\u201320/Academic10,24/Guide24,34\u201335beforeexecution;12newholdoutsafterundergraduate/graduationfacetfailure."
+    },
+    {
+      "id": "BND11",
+      "question": "Give the minimum CGPA for undergraduate graduation and the Financial Assistance email separately.",
+      "difficulty": "confusing",
+      "expected_behavior": "answer",
+      "expected_answer": "ActualgraduationAcademic10minimum2.00andGuide34\u201335cfd.fa; explicitgraduationfacetpreserved.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                10
+              ],
+              "anchors": [
+                "2.00",
+                "graduation"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                34,
+                35
+              ],
+              "anchors": [
+                "cfd.fa@nu.edu.pk",
+                "128"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex actualHandbook19\u201320/Academic10,24/Guide24,34\u201335beforeexecution;12newholdoutsafterundergraduate/graduationfacetfailure."
+    },
+    {
+      "id": "BND12",
+      "question": "Give the minimum CGPA to avoid an undergraduate warning and the hostel gym one-time registration fee.",
+      "difficulty": "confusing",
+      "expected_behavior": "answer",
+      "expected_answer": "Academic24warningthreshold2.00plusGuide24gymregistration1000; warningnotgraduation.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ],
+              "anchors": [
+                "2.00",
+                "undergraduate"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "guidebook",
+              "pages": [
+                24
+              ],
+              "anchors": [
+                "one-time registration",
+                "gym"
+              ]
+            }
+          ]
+        }
+      ],
+      "source_reviewed_by": "Codex actualHandbook19\u201320/Academic10,24/Guide24,34\u201335beforeexecution;12newholdoutsafterundergraduate/graduationfacetfailure."
+    }
+  ],
+  "frozen_before_execution": true
+}
