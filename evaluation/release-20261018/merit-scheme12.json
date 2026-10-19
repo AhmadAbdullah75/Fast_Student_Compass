@@ -1,0 +1,928 @@
+{
+  "cases": [
+    {
+      "id": "MSC01",
+      "difficulty": "complex",
+      "question": "Does the merit-scholarship continuation sentence establish a semester-GPA3.0 requirement for every internal funding scheme?",
+      "expected_behavior": "answer",
+      "expected_answer": "SemesterGPA>=3 sentence explicitly names merit scholarship; do not impose it on every internal scheme or loan. Quote actual merit4years/exactload/noF-repeatW, actual internal8regular/tuition/CGPA-warning suspension-restoration and Academic24 minimum2 as requested. Summerban if asked; FAcontact cfd.fa/128 if asked. No personalaward verification.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                19
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Frozen after actualMCT11 broad-subject scope failure and before executing these new questions. Actualsource-based review, not independent policy approval.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "handbook PDF 20: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships",
+        "handbook PDF 19: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships"
+      ],
+      "original_case_id": "S01",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "MSC02",
+      "difficulty": "complex",
+      "question": "Compare the merit-scholarship semester-GPA continuation condition with the general internal-sponsorship CGPA warning rule.",
+      "expected_behavior": "answer",
+      "expected_answer": "SemesterGPA>=3 sentence explicitly names merit scholarship; do not impose it on every internal scheme or loan. Quote actual merit4years/exactload/noF-repeatW, actual internal8regular/tuition/CGPA-warning suspension-restoration and Academic24 minimum2 as requested. Summerban if asked; FAcontact cfd.fa/128 if asked. No personalaward verification.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                19
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Frozen after actualMCT11 broad-subject scope failure and before executing these new questions. Actualsource-based review, not independent policy approval.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "handbook PDF 20: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships",
+        "handbook PDF 19: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships"
+      ],
+      "original_case_id": "S01",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "MSC03",
+      "difficulty": "complex",
+      "question": "Is the merit-scholarship semester-GPA condition also stated as a rule for all internal sponsorships, including study loans?",
+      "expected_behavior": "answer",
+      "expected_answer": "SemesterGPA>=3 sentence explicitly names merit scholarship; do not impose it on every internal scheme or loan. Quote actual merit4years/exactload/noF-repeatW, actual internal8regular/tuition/CGPA-warning suspension-restoration and Academic24 minimum2 as requested. Summerban if asked; FAcontact cfd.fa/128 if asked. No personalaward verification.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                19
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Frozen after actualMCT11 broad-subject scope failure and before executing these new questions. Actualsource-based review, not independent policy approval.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "handbook PDF 20: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships",
+        "handbook PDF 19: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships"
+      ],
+      "original_case_id": "S01",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "MSC04",
+      "difficulty": "complex",
+      "question": "Explain all merit-scholarship continuation rules and the summer restriction without describing3.0 as a condition for every funding scheme.",
+      "expected_behavior": "answer",
+      "expected_answer": "SemesterGPA>=3 sentence explicitly names merit scholarship; do not impose it on every internal scheme or loan. Quote actual merit4years/exactload/noF-repeatW, actual internal8regular/tuition/CGPA-warning suspension-restoration and Academic24 minimum2 as requested. Summerban if asked; FAcontact cfd.fa/128 if asked. No personalaward verification.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                19
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Frozen after actualMCT11 broad-subject scope failure and before executing these new questions. Actualsource-based review, not independent policy approval.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "handbook PDF 20: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships",
+        "handbook PDF 19: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships"
+      ],
+      "original_case_id": "S01",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "MSC05",
+      "difficulty": "complex",
+      "question": "Does the merit-scholarship semester-GPA requirement also apply to study loans based on these passages?",
+      "expected_behavior": "answer",
+      "expected_answer": "SemesterGPA>=3 sentence explicitly names merit scholarship; do not impose it on every internal scheme or loan. Quote actual merit4years/exactload/noF-repeatW, actual internal8regular/tuition/CGPA-warning suspension-restoration and Academic24 minimum2 as requested. Summerban if asked; FAcontact cfd.fa/128 if asked. No personalaward verification.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                19
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Frozen after actualMCT11 broad-subject scope failure and before executing these new questions. Actualsource-based review, not independent policy approval.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "handbook PDF 20: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships",
+        "handbook PDF 19: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships"
+      ],
+      "original_case_id": "S01",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "MSC06",
+      "difficulty": "complex",
+      "question": "Give merit-scholarship retention rules; keep the specific semester-GPA clause separate from category-wide internal sponsorship conditions.",
+      "expected_behavior": "answer",
+      "expected_answer": "SemesterGPA>=3 sentence explicitly names merit scholarship; do not impose it on every internal scheme or loan. Quote actual merit4years/exactload/noF-repeatW, actual internal8regular/tuition/CGPA-warning suspension-restoration and Academic24 minimum2 as requested. Summerban if asked; FAcontact cfd.fa/128 if asked. No personalaward verification.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                19
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Frozen after actualMCT11 broad-subject scope failure and before executing these new questions. Actualsource-based review, not independent policy approval.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "handbook PDF 20: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships",
+        "handbook PDF 19: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships"
+      ],
+      "original_case_id": "S01",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "MSC07",
+      "difficulty": "complex",
+      "question": "Explain merit-scholarship continuation, suspension and recovery, then identify which GPA belongs to which rule.",
+      "expected_behavior": "answer",
+      "expected_answer": "SemesterGPA>=3 sentence explicitly names merit scholarship; do not impose it on every internal scheme or loan. Quote actual merit4years/exactload/noF-repeatW, actual internal8regular/tuition/CGPA-warning suspension-restoration and Academic24 minimum2 as requested. Summerban if asked; FAcontact cfd.fa/128 if asked. No personalaward verification.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                19
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Frozen after actualMCT11 broad-subject scope failure and before executing these new questions. Actualsource-based review, not independent policy approval.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "handbook PDF 20: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships",
+        "handbook PDF 19: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships"
+      ],
+      "original_case_id": "S01",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "MSC08",
+      "difficulty": "complex",
+      "question": "What conditions govern a merit scholarship through regular semesters, and what do the sources say about summer funding?",
+      "expected_behavior": "answer",
+      "expected_answer": "SemesterGPA>=3 sentence explicitly names merit scholarship; do not impose it on every internal scheme or loan. Quote actual merit4years/exactload/noF-repeatW, actual internal8regular/tuition/CGPA-warning suspension-restoration and Academic24 minimum2 as requested. Summerban if asked; FAcontact cfd.fa/128 if asked. No personalaward verification.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                19
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Frozen after actualMCT11 broad-subject scope failure and before executing these new questions. Actualsource-based review, not independent policy approval.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "handbook PDF 20: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships",
+        "handbook PDF 19: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships"
+      ],
+      "original_case_id": "S01",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "MSC09",
+      "difficulty": "complex",
+      "question": "Explain the documented merit-scholarship continuation conditions and quote the relevant internal-sponsorship conditions separately.",
+      "expected_behavior": "answer",
+      "expected_answer": "SemesterGPA>=3 sentence explicitly names merit scholarship; do not impose it on every internal scheme or loan. Quote actual merit4years/exactload/noF-repeatW, actual internal8regular/tuition/CGPA-warning suspension-restoration and Academic24 minimum2 as requested. Summerban if asked; FAcontact cfd.fa/128 if asked. No personalaward verification.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                19
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Frozen after actualMCT11 broad-subject scope failure and before executing these new questions. Actualsource-based review, not independent policy approval.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "handbook PDF 20: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships",
+        "handbook PDF 19: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships"
+      ],
+      "original_case_id": "S01",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "MSC10",
+      "difficulty": "complex",
+      "question": "For merit-scholarship renewal, give the semester-GPA clause and the CGPA-warning clause as separate supporting quotations.",
+      "expected_behavior": "answer",
+      "expected_answer": "SemesterGPA>=3 sentence explicitly names merit scholarship; do not impose it on every internal scheme or loan. Quote actual merit4years/exactload/noF-repeatW, actual internal8regular/tuition/CGPA-warning suspension-restoration and Academic24 minimum2 as requested. Summerban if asked; FAcontact cfd.fa/128 if asked. No personalaward verification.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                19
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Frozen after actualMCT11 broad-subject scope failure and before executing these new questions. Actualsource-based review, not independent policy approval.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "handbook PDF 20: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships",
+        "handbook PDF 19: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships"
+      ],
+      "original_case_id": "S01",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "MSC11",
+      "difficulty": "complex",
+      "question": "Which printed continuation requirements apply to an undergraduate merit scholarship, and can you confirm my award from them?",
+      "expected_behavior": "answer",
+      "expected_answer": "SemesterGPA>=3 sentence explicitly names merit scholarship; do not impose it on every internal scheme or loan. Quote actual merit4years/exactload/noF-repeatW, actual internal8regular/tuition/CGPA-warning suspension-restoration and Academic24 minimum2 as requested. Summerban if asked; FAcontact cfd.fa/128 if asked. No personalaward verification.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                19
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Frozen after actualMCT11 broad-subject scope failure and before executing these new questions. Actualsource-based review, not independent policy approval.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "handbook PDF 20: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships",
+        "handbook PDF 19: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships"
+      ],
+      "original_case_id": "S01",
+      "original_suite": "publication187"
+    },
+    {
+      "id": "MSC12",
+      "difficulty": "complex",
+      "question": "Give the merit-scholarship continuation conditions and the printed Financial Assistance email and extension, with each source.",
+      "expected_behavior": "answer",
+      "expected_answer": "SemesterGPA>=3 sentence explicitly names merit scholarship; do not impose it on every internal scheme or loan. Quote actual merit4years/exactload/noF-repeatW, actual internal8regular/tuition/CGPA-warning suspension-restoration and Academic24 minimum2 as requested. Summerban if asked; FAcontact cfd.fa/128 if asked. No personalaward verification.",
+      "retrieval_facets": [
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                20
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "3.0"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "handbook",
+              "pages": [
+                19
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            },
+            {
+              "source": "scholarships",
+              "pages": [
+                1
+              ],
+              "anchors": [
+                "less or more",
+                "failed"
+              ]
+            }
+          ]
+        },
+        {
+          "any_of": [
+            {
+              "source": "academic",
+              "pages": [
+                24
+              ]
+            }
+          ]
+        }
+      ],
+      "history": [],
+      "source_reviewed_by": "Codex: reviewed approved source text before generation; not an independent human reviewer",
+      "provenance": "Frozen after actualMCT11 broad-subject scope failure and before executing these new questions. Actualsource-based review, not independent policy approval.",
+      "release_status": "NOT_RUN",
+      "source_sections": [
+        "handbook PDF 20: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships",
+        "handbook PDF 19: Financial rules and undergraduate assistance",
+        "scholarships PDF 1: Undergraduate financial assistance and scholarships"
+      ],
+      "original_case_id": "S01",
+      "original_suite": "publication187"
+    }
+  ]
+}
