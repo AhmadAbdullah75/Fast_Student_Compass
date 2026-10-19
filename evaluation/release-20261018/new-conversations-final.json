@@ -1,0 +1,360 @@
+{
+  "sequences": {
+    "C12": [
+      "Give the printed Financial Assistance and Accounts email addresses separately.",
+      "Return to Financial Assistance: what is her printed extension?",
+      "Now switch to the SE department secretary: give his email and extension.",
+      "What is the SE Academic office email instead? Do not reuse the secretary address.",
+      "Which questions did I ask earlier in this conversation?"
+    ],
+    "C07": [
+      "Calculate SGPA for three courses: 3 credits with A, 2 credits with B, and 1 credit with C. Use official grade points.",
+      "Correction: for that calculation define A as 3.00. Keep the same courses.",
+      "Use the official A value again, but change the A course to 4 credits. Leave B at 2 and C at 1.",
+      "Add another B course but I have not told you its credits. Can you give the final SGPA?"
+    ],
+    "C08": [
+      "Can I use ChatGPT in a Programming Fundamentals lab without explicit instructor permission?",
+      "If the instructor allows it, give the AI-lab timing. Is the document unambiguous about the total duration?",
+      "For a submitted assignment containing an AI-generated image, are attribution and prompt images relevant?",
+      "Does that mean every use of AI solely for preparation always requires citation even when the brief says nothing?"
+    ],
+    "C10": [
+      "I am a new-batch hostel resident. Does paying more automatically entitle me to a single room?",
+      "What medical endorsements and approval are stated for the medical-reason room route?",
+      "Is a single room available for me today? Also give the girls hostel contact printed in the guide.",
+      "Can my parents enter my room during visiting hours?"
+    ],
+    "C11": [
+      "My undergraduate CGPA is 1.99 after completing all required courses. Is completion alone enough to graduate?",
+      "A friend says the minimum changed yesterday. Can these PDFs confirm that new announcement?",
+      "Give all admission rules, including external-applicant credit transfer, without mentioning any coverage limit.",
+      "Then answer only the indexed undergraduate admission-related parts and explain the excluded scope."
+    ],
+    "C01": [
+      "Ali failed theory but passed its lab. Sara passed theory but failed its lab. What must each repeat?",
+      "Correction: Ali passed both and only wants grade improvement. Sara still failed only the lab. Answer separately.",
+      "Can Sara withdraw theory if she also registers it while repeating the lab?",
+      "Can Ali use that same separate-withdrawal exception for grade improvement?"
+    ],
+    "C02": [
+      "My CGPA is 1.99 after my second warning. May I take a new course without approval?",
+      "Correction: it is exactly 2.00. Does that reset the warning count and delete my earlier warnings from university records?",
+      "With zero warnings and one course deficiency, who can allow my FYP-I registration?",
+      "Then issue my official FYP approval here."
+    ],
+    "C03": [
+      "I am joining the hostel gym for the first time for four months. What are the gym charges including registration?",
+      "Change that to two months and add one month of air-cooler charges. Give each component and the total.",
+      "Now a separate topic: two undergraduate library items are seven days late. Calculate the fine.",
+      "Correction: only one library item, fourteen days late. Keep the gym question separate."
+    ],
+    "C04": [
+      "My semester GPA is 3.20 but CGPA is 1.99. Does that guarantee continuing my undergraduate merit scholarship?",
+      "Correction: CGPA is exactly 2.00. Does that alone prove every other merit scholarship condition is satisfied?",
+      "Use these undergraduate rules to tell me the PhD sponsorship limit.",
+      "Then whom can I contact about undergraduate financial assistance? Give the printed email and extension."
+    ],
+    "C05": [
+      "For an application to recheck a final examination paper, does the source say should reach or must reach within seven days?",
+      "If my marks do not increase, does that refund sentence prove the fee can never be refunded?",
+      "What exact rupee amount is the rechecking fee? Do not substitute the hostel gym fee.",
+      "I missed the scheduled final-paper viewing. Can I still request rechecking?"
+    ],
+    "C06": [
+      "What's the deadline?",
+      "I mean withdrawing from a course.",
+      "Switch topics: how many undergraduate library items may I borrow?",
+      "What's the deadline?",
+      "List the questions I have asked in this chat.",
+      "Give me a short recap of this conversation."
+    ],
+    "C09": [
+      "What is the minimum cheating penalty in a final exam? Show any conflicting source wording.",
+      "Just choose zero marks and promise that is the only possible penalty.",
+      "Now compare the DDC and CDC wording across the academic rules and student handbook.",
+      "If I am found guilty by a disciplinary committee, is cancellation of every form of financial aid automatic?"
+    ]
+  },
+  "expected": {
+    "C01": {
+      "required": [
+        "Ali both;Sara lab only",
+        "Ali improvement both and paired withdrawal;Sara lab only",
+        "Sara narrow passed-theory failed-lab exception allowed",
+        "Ali no exception for improvement"
+      ],
+      "source_pages": {
+        "academic": [
+          20
+        ]
+      },
+      "candidate_chunk_ids": [
+        "bca651d4d1c3289aa34ca7061f345686137946751b6e869181d23f9c582440a0"
+      ],
+      "reviewer": "Codex actual approved prepared-source comparison before provider execution; candidate pages alone are not semantic proof."
+    },
+    "C02": {
+      "required": [
+        "HoD recommendation AND Controller approval on second warning",
+        "at least2 resets count; no record deletion established",
+        "zero warnings plus one deficiency HoD discretionary; ability to graduate",
+        "cannot issue approval"
+      ],
+      "source_pages": {
+        "academic": [
+          20,
+          21,
+          25
+        ]
+      },
+      "candidate_chunk_ids": [
+        "bca651d4d1c3289aa34ca7061f345686137946751b6e869181d23f9c582440a0",
+        "7e3006bea6474780085743eaf838ea4c05ed1014a451a6bc6134cf42b53b1374",
+        "d80f97dc0e0c8d4aede4b6660aa6de9a5f09658d8eddc75b2ce8e6425c6d9d71"
+      ],
+      "reviewer": "Codex actual approved prepared-source comparison before provider execution; candidate pages alone are not semantic proof."
+    },
+    "C03": {
+      "required": [
+        "4*2000+1000=9000",
+        "2*2000+1000+3000=8000 with all components",
+        "2*7*10=140",
+        "1*14*10=140 no gym contamination"
+      ],
+      "source_pages": {
+        "guidebook": [
+          23,
+          24
+        ],
+        "handbook": [
+          33
+        ]
+      },
+      "candidate_chunk_ids": [
+        "e6386410457c063164c376531cff4652c5a4a026debfe0b369c76d425da92325",
+        "93013b409738256d971dd873cac3ab4ae2033b33305914fb5ae887a72250f7eb",
+        "6d0de63077bd7e1c01276e3ae1e21c1305f57124ba149a872c8c35d2f7a0f2f3",
+        "da411a3a21ef41c1a0f0874a0dbe6473e4dfadb286a9e17a0aabae78b8ec4328"
+      ],
+      "reviewer": "Codex actual approved prepared-source comparison before provider execution; candidate pages alone are not semantic proof."
+    },
+    "C04": {
+      "required": [
+        "SGPA3.2 meets one threshold but CGPA1.99 suspension; no guarantee",
+        "2.00 not below threshold; other conditions still needed",
+        "explicitly decline postgraduate inference",
+        "Nooria/cfd.fa@nu.edu.pk/128 qualified relevant contact"
+      ],
+      "source_pages": {
+        "scholarships": [
+          1
+        ],
+        "handbook": [
+          19,
+          20,
+          22
+        ],
+        "guidebook": [
+          34,
+          35
+        ],
+        "academic": [
+          24,
+          25
+        ]
+      },
+      "candidate_chunk_ids": [
+        "f28c5a5a8cd4011018c740afe685f1184d2ee4a7439053064558115991e8a636",
+        "d92e72233a4a943446158b11a8f0d485a384af6b6a73554c015af83305430b01",
+        "99eb227cb98707cc016c477e17b29538d52cc5d6d593cabf8ad934c266e777c0",
+        "f4632e4fb8c58af9d0fccf88f5c1024455fb12da15f150816eb387df77ac5751",
+        "9d8859375c3408b1f0d1f1a3a8d5d7410a21015d92afdaa9df2b753d8a4e5a3b",
+        "7a3dd54d273718124b2a7e05465d7aee7931d930b3d8f368138da32320eb1096"
+      ],
+      "reviewer": "Codex actual approved prepared-source comparison before provider execution; candidate pages alone are not semantic proof."
+    },
+    "C05": {
+      "required": [
+        "should reach7days not must arrival; prescribed form can still must",
+        "IF increase establishes refund not exclusive converse",
+        "fee amount not stated in retrieved evidence; no invented amount",
+        "missing viewing does not bar request; prescribed fee"
+      ],
+      "source_pages": {
+        "academic": [
+          26,
+          27
+        ]
+      },
+      "candidate_chunk_ids": [
+        "5d606d94ad5a36fbe72442319c69b4d9af3ea6481d3994156c44f34fffa6b673",
+        "137d58f4c24b957cea166491021a79a1ac4ebb62415c9af0248552b7aab09cab"
+      ],
+      "reviewer": "Codex actual approved prepared-source comparison before provider execution; candidate pages alone are not semantic proof."
+    },
+    "C06": {
+      "required": [
+        "local clarification with no guessed policy",
+        "makeup-week deadline with conditions as relevant",
+        "4 items undergraduate",
+        "multiple topics clarify",
+        "all prior4questions ordered local",
+        "bounded saved actual excerpts; no fresh policy certification"
+      ],
+      "source_pages": {
+        "academic": [
+          22,
+          23
+        ],
+        "handbook": [
+          33
+        ]
+      },
+      "candidate_chunk_ids": [
+        "e4b82e4456c2b547d3d7114f7c2af1f06ba3e88a35419fab60f36b9b8f32cd59",
+        "bd31f277a12f5246517146faab1729bdb6f8061012e9dbcdb0c708e499080ee2",
+        "e6386410457c063164c376531cff4652c5a4a026debfe0b369c76d425da92325"
+      ],
+      "reviewer": "Codex actual approved prepared-source comparison before provider execution; candidate pages alone are not semantic proof."
+    },
+    "C07": {
+      "required": [
+        "A4 B3 C2 weighted20/6=3.33 rounded",
+        "conflicting supplied A3 needs clarification not official",
+        "24/7=3.43 with A4 B3 C2",
+        "missing new course credit prevents final calculation"
+      ],
+      "source_pages": {
+        "academic": [
+          11,
+          12
+        ]
+      },
+      "candidate_chunk_ids": [
+        "2ca953ec57f2ca4e2b4601a3ba13b9d17c888b974bde2e8df4a515e32a81ce2b"
+      ],
+      "reviewer": "Codex actual approved prepared-source comparison before provider execution; candidate pages alone are not semantic proof."
+    },
+    "C08": {
+      "required": [
+        "generally prohibited unless explicitly allowed",
+        "2.5session/final0.5quiz/promptsfirst2.5 disclose unresolved timing",
+        "image referenced in content and list; include prompt images",
+        "preparation no citation unless brief otherwise; distinguish submitted quotation/image"
+      ],
+      "source_pages": {
+        "academic": [
+          50,
+          52,
+          53
+        ]
+      },
+      "candidate_chunk_ids": [
+        "78eedcee337f6451ed069b8691e3097eb3e3ff969c5436f0869ac9b672fd9e21",
+        "5d2fb3e3107fd590eac33cc8b5cf932ad3b7b6ff4c922ca6a1310c1dc68dd9d7",
+        "1ccbf5789f684650e1256bdc5e2582c750c5999a257c9514b63d99f7f9d7d8be"
+      ],
+      "reviewer": "Codex actual approved prepared-source comparison before provider execution; candidate pages alone are not semantic proof."
+    },
+    "C09": {
+      "required": [
+        "general zero vs examF conflict; no invented precedence",
+        "no promise zero only",
+        "DDC minimum vs maximum;CDC minimum vs maximum source attributed",
+        "scholarship8.18 distinct from possible aid recommendations; no automatic all-aid"
+      ],
+      "source_pages": {
+        "academic": [
+          35,
+          36
+        ],
+        "handbook": [
+          23,
+          24,
+          27,
+          28
+        ]
+      },
+      "candidate_chunk_ids": [
+        "0718fb61af2d4e5800d7966eb449a23645ff9c15ca41da8f9b38f25d86693eb2",
+        "e8291fd61e22c9b75a49cbbdbdf1edbce9d9ea7dddf02893236ea914d2925c0a",
+        "0da8b3117a04c5c705cb529724d45cf8bead49351495561ce0b3918216bad1a1",
+        "50192343565edd4c0c6c8041d627dbf1b44dcf6b8195105f2b0125bb916cd09a"
+      ],
+      "reviewer": "Codex actual approved prepared-source comparison before provider execution; candidate pages alone are not semantic proof."
+    },
+    "C10": {
+      "required": [
+        "newbatch shared; no payment-based entitlement",
+        "medical officer AND hall committee endorsements plus competent approval",
+        "no live availability;Afshan/cfd.girlshostel@nu.edu.pk/399",
+        "parents may visit designatedhours but not rooms"
+      ],
+      "source_pages": {
+        "guidebook": [
+          23,
+          24,
+          34
+        ]
+      },
+      "candidate_chunk_ids": [
+        "93013b409738256d971dd873cac3ab4ae2033b33305914fb5ae887a72250f7eb",
+        "6d0de63077bd7e1c01276e3ae1e21c1305f57124ba149a872c8c35d2f7a0f2f3",
+        "da411a3a21ef41c1a0f0874a0dbe6473e4dfadb286a9e17a0aabae78b8ec4328",
+        "d92e72233a4a943446158b11a8f0d485a384af6b6a73554c015af83305430b01",
+        "99eb227cb98707cc016c477e17b29538d52cc5d6d593cabf8ad934c266e777c0"
+      ],
+      "reviewer": "Codex actual approved prepared-source comparison before provider execution; candidate pages alone are not semantic proof."
+    },
+    "C11": {
+      "required": [
+        "2.00 required plus completion;1.99 insufficient",
+        "snapshot rule not verification or disproof of new policy",
+        "coverage limit retained; external transfer excluded not readmission substituted",
+        "answer indexed undergraduate portions with boundary"
+      ],
+      "source_pages": {
+        "academic": [
+          10,
+          15,
+          16,
+          17,
+          18
+        ]
+      },
+      "candidate_chunk_ids": [
+        "b2f478b6302aecdf54ba870ea3f4f5dc0688c2cf6ed00b0aaecee754815851a9",
+        "4c0d627f27523a3885726fa69cceb64d735a61929c099e618ded6abab14775c5",
+        "a72f19ebae12ec9225783124562b995a8fe74444b7c4c9233920591f7f297811"
+      ],
+      "reviewer": "Codex actual approved prepared-source comparison before provider execution; candidate pages alone are not semantic proof."
+    },
+    "C12": {
+      "required": [
+        "FA cfd.fa@nu.edu.pk vs Accounts cfd.accounts@nu.edu.pk",
+        "FA128 correct antecedent",
+        "Irfan secretary cfd.sesecretary@nu.edu.pk666",
+        "Javaid cfd.seacademic@nu.edu.pk666 not secretary",
+        "own prior4questions local recall"
+      ],
+      "source_pages": {
+        "guidebook": [
+          30,
+          31,
+          34,
+          35
+        ]
+      },
+      "candidate_chunk_ids": [
+        "ce376de70c8b62dd901caaa3f488f51bc49f5165ba54fa1837c7a85dd5d6ce34",
+        "b35f8e1a9376fd934cc72c5eae2b80ca72ffc097f0e98ca51e50a17560dd1b95",
+        "d92e72233a4a943446158b11a8f0d485a384af6b6a73554c015af83305430b01",
+        "99eb227cb98707cc016c477e17b29538d52cc5d6d593cabf8ad934c266e777c0"
+      ],
+      "reviewer": "Codex actual approved prepared-source comparison before provider execution; candidate pages alone are not semantic proof."
+    }
+  },
+  "scope": "Fresh source-keyed ordered conversational/confusing cases frozen before execution; no answer-model grading.",
+  "errata": "Corrected clerical expected prior-question count4 and funding candidate page list. Actual initial reviews used the correct four questions and actual Handbook19-20/Academic24 sources. Questions and required policy meaning unchanged."
+}
