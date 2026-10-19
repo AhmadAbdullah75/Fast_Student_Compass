@@ -1,0 +1,15 @@
+{
+  "sequences": {
+    "E05": [
+      "Using A = 4.00 and B = 3.00, calculate SGPA for A in a 5-credit course and B in a 1-credit course.",
+      "Correction: use A = 3.00 instead. Can you calculate the same courses?",
+      "Return to the official A = 4.00 mapping, but the B course credits are unknown. Calculate my SGPA."
+    ],
+    "F01": [
+      "Using A = 4.00 and B = 3.00, calculate SGPA for A in a 2-credit course and B in a 4-credit course.",
+      "Correction: use B = 4.00 instead, keeping the same courses. Calculate the result.",
+      "Use the official A = 4.00 and B = 3.00 mapping again: A in a 2-credit course and B in a 4-credit course. Calculate SGPA."
+    ]
+  },
+  "expected": "E05 conflictA3 clarified, unknowncredits notinvented;F01 correct20/6=3.33, B4conflictclarified, returnofficial3.33."
+}
