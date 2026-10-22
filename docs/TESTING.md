@@ -53,4 +53,15 @@ Read each answer and its actual passages. Check answer meaning, conditions, retr
 
 ## Verification boundaries
 
+Cleanup verification on 23 October 2026:
+
+- A fresh Python environment installed the pinned runtime and optional test dependencies; `pip check` passed, and Streamlit was absent. PDF font-parsing support remains included.
+- A separate clean Git checkout, with no `.env`, old dataset folder, index or prepared reports supplied, passed **78 Python checks** using that fresh environment.
+- Its bundled-PDF preparation reproduced **108 chunks** and content fingerprint `b13c59ecc7ad2ccf99b339e99aeeb948cf46cb8d476dbe071bf6c6e01292d8d9` without API calls.
+- Fresh `npm ci` and the production React build passed. All **25 Chromium workflow checks** passed with controlled answers, none skipped or flaky.
+- The fresh built application served HTML/health and completed chat creation, rename and deletion in an isolated workspace.
+- The existing development index was reused unchanged with an embedding implementation that forbids API calls.
+
+These checks verify packaging and local behavior. They do not claim a fresh live Gemini answer evaluation or Google-account eligibility/quota validation.
+
 Repository cleanup preserved the chat models, reviewed source content, chunking, applicability rules and answer pipeline. The new dataset location reproduces the same 108 chunks and active content fingerprint. Automated workflow passes are not a universal semantic proof; the full historical live question bank was not rerun for this packaging change. Independent high-impact university-policy review remains pending. See `LIMITATIONS.md`.
