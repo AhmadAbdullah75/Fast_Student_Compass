@@ -23,6 +23,7 @@ htmlcov/
 /data/
 /reports/
 *.pdf
+!/dataset/*.pdf
 *.sqlite
 *.sqlite3
 *.sqlite3-*
