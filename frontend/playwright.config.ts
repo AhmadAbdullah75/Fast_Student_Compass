@@ -18,7 +18,7 @@ export default defineConfig({
     screenshot: "only-on-failure",
   },
   webServer: {
-    command: "..\\.venv\\Scripts\\python.exe ..\\tools\\web_test_server.py",
+    command: "..\\.venv\\Scripts\\python.exe ..\\tests\\web_test_server.py",
     url: "http://127.0.0.1:8502/api/health",
     reuseExistingServer: false,
     timeout: 60000,
