@@ -61,11 +61,14 @@ def extract_page(page):
     return ''.join(visible)
 
 def pdf_path(settings, source):
-    base = (settings.data / 'originals').resolve()
-    path = (base / source['filename']).resolve()
-    if path.parent != base or path.suffix.lower() != '.pdf':
-        raise ValueError('Source filename must be a PDF directly inside data/originals.')
-    return path
+    # A clone carries the reviewed PDFs; older local workspaces may still use
+    # data/originals. Neither location may be escaped by a source filename.
+    bases = [(settings.root / 'dataset').resolve(), (settings.data / 'originals').resolve()]
+    paths = [(base / source['filename']).resolve() for base in bases]
+    if any(path.parent != base or path.suffix.lower() != '.pdf'
+           for base, path in zip(bases, paths)):
+        raise ValueError('Source filename must be a PDF directly inside dataset/ or data/originals.')
+    return next((path for path in paths if path.is_file()), paths[0])
 
 def audit(settings):
     """Extract all pages locally, without API requests or indexing."""
